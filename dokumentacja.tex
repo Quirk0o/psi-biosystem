@@ -1,0 +1,148 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Example: Project Report
+%
+% Source: http://www.howtotex.com
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%% Preamble
+\documentclass[paper=a4, fontsize=11pt]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[pdftex]{graphicx}	
+\usepackage{url}
+
+
+%%% Custom sectioning
+\usepackage{sectsty}
+\allsectionsfont{\normalfont\scshape}
+
+
+%%% Custom headers/footers (fancyhdr package)
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}											% No page header
+\fancyfoot[L]{}											% Empty 
+\fancyfoot[C]{}											% Empty
+\fancyfoot[R]{\thepage}									% Pagenumbering
+\renewcommand{\headrulewidth}{0pt}			% Remove header underlines
+\renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
+\setlength{\headheight}{13.6pt}
+
+
+%%% Equation and float numbering
+\numberwithin{equation}{section}		% Equationnumbering: section.eq#
+\numberwithin{figure}{section}			% Figurenumbering: section.fig#
+\numberwithin{table}{section}				% Tablenumbering: section.tab#
+
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		%\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\normalfont \normalsize \textsc{School of random department names} \\ [25pt]
+		\horrule{0.5pt} \\[0.4cm]
+		\huge This is the title of the template report \\
+		\horrule{2pt} \\[0.5cm]
+}
+\author{
+		\normalfont 								\normalsize
+        Firstname Lastname\\[-3pt]		\normalsize
+        \today
+}
+\date{}
+
+
+%%% Begin document
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Sformułowanie zadania projektowego}
+
+	\subsection{Obszar i przedmiot modelowania}
+
+		\subsubsection{Dziedzina problemu}
+
+	\subsection{Obszar modelowania}
+
+		\subsubsection{Opis struktury organizacyjnej}
+
+		\subsubsection{Obszary aktywności}
+
+	\subsection{Opis obszarów aktywności}
+
+		\subsubsection{Opis stanowisk pracy}
+
+		\subsubsection{Opis procedur biznesowych}
+
+	\subsection{Zakres odpowiedzialności systemu}
+
+	\subsection{Nazwa problemu}
+
+	\subsection{Cele do osiągnięcia}
+
+		\subsubsection{Cele produktu}
+
+		\subsubsection{Cele przedsięwzięcia projektowego}
+
+% \section{Opis wymagań}
+
+% 	\subsection{Funkcje systemu}
+
+% 	\subsection{Dane przechowywane w systemie}
+
+% 	\subsection{Dokumenty wprowadzane i wyprowadzane z systemu}
+
+% 	\subsection{Wymagania specjalne i ograniczenia}
+
+% 	\subsection{Analiza wymagań funkcjonalnych}
+
+% 	\subsection{Wymagania funkcjonalne dla dodatkowych funkcji systemu}
+
+% 	\subsection{Wymagania niefunkcjonalne}
+
+% \section{Analiza funkcjonalna systemu}
+
+% 	\subsection{Diagram kontekstowy}
+
+% 	\subsection{Analiza top-down}
+
+% 	\subsection{Opis procesów}
+
+% \section{Roboczy słownik danych}
+
+% \section{Analiza struktur danych w przechowywanych magazynach}
+
+% \section{Obraz zachowania systemu w czasie}
+
+% \section{Równoważenie modeli}
+
+% \section{Architektura systemu}
+
+% 	\subsection{Architektura całego systemu}
+
+% 	\subsection{Architektura podsystemów}
+
+% 	\subsection{Wewnętrzna architektura podsystemów}
+
+% \section{Projekt interfejsu użytkownika}
+
+% \section{Podsumowanie}
+
+% 	\subsection{Założenia implementacyjne}
+
+% 	\subsection{Weryfikacja projektu systemu}
+
+% 	\subsection{Uwagi i wnioski końcowe}
+
+%%% End document
+\end{document}
