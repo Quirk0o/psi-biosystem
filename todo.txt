@@ -1,0 +1,30 @@
+obszary katywności(uwagi):
+uściślić
+
+
+5 - obszar katywnośći, związany z zarządzaniem całością firmy, poprzez analizę generowanych raportów i statystych !!!!
+usprawianie preacy kierownika!
+
+
+6 - minimalna księgowość - w obszarze zwiazanym ze sprzedażą.. kupnem itd wprowadzić księgowość
+byłby to obszar zarządzania rejestracją faktur 
+
+uszczegółowienie procedur biznesowych!
+albo przez odwłoanie się do punktu 2x, ale zalążek powinien pojawić się już w 1.3.2.
+do wszystkich obszarów aktywności będziemy operowac rejestrami
+brak kontynuacjie gdzie jest zapisywana np. informacja o zamówieniu. 
+odenisienie się od szeczegółów nazywająć je dokumentami i rejestrami
+
+
+2 !!!
+2.1 lista aktorów i przypadków użycia(np. rejestracja zamówienia, wpisanie zamówienia do rejestru...) - z tego będzie się robić Use Casy)
+	do każdego aktora funkcje jaką potrzebuje
+	najmniej koncentroawć się na podstawowych operacjach bazodanowych, chyba, że modyfikujemy rejestry zamówień(chyba chodzi o brak pierdół typu zmiana hasła)
+2.2/2.3 bardzo dokładnie potraktować prototypy rejestrów, tam ma być szczegółowy opis rejestru dokuemntu
+
+
+
+3.
+robimy conajmniej: diagram kontekstowy i diagram kotekstowy rozwinięty(podsystemy - wynikające z obszarów aktywności)
+do opisów strumieni przydają się punkty 2.3
+
