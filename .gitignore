@@ -29,3 +29,5 @@
 # Sublime
 *.sublime-workspace
 *.sublime-project
+
+!partials/2-wymagania/dokumenty/*.pdf
