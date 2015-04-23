@@ -163,3 +163,90 @@
 	\centering
 	\includegraphics[width=1.1\textwidth]{img/UC/deklaracje.eps}
 \end{figure}
+
+\textbf{Numer i Nazwa przypadku użycia:} UC08 - Dodaj deklarację \\
+\textbf{Autor:} Klient \\
+\textbf{Cel przypadku użycia:} dodanie deklaracji w celu jej realizacji \\
+\textbf{Kontekst użycia:} chęć dodania deklaracji \\
+\textbf{Zakres:} System obsługi klienta \\
+\textbf{Poziom:} biznesowy \\
+\textbf{Aktor główny:} Klient \\
+\textbf{Wyzwalacz:} wypełnienie formularza www, bądź telefoniczne zgłoszenie \\
+\textbf{Warunek początkowy:} otwarcie strony, wykonanie telefonu \\
+\textbf{Minimalna gwarancja:} w przypadku nieprzyjęcia deklaracji klient zostanie poinformowany o problemie \\
+\textbf{Główny scenariusz powodzenia:} \\
+	\begin{enumerate}
+		\item Klient na stronie www wybiera "dodanie deklaracji"
+		\item Po wypełnieniu formularza naciska "wyślij"
+		\item Dostaje informacje o pomyślnym dodaniu deklaracji i możliwość sprawdzania stanu
+	\end{enumerate}
+\textbf{Rozszerzenia:} \\
+	3.1 Z jakichś względów deklaracja nie została dodana, klient dostaje odpowiedni komunikat
+
+\textbf{Numer i Nazwa przypadku użycia:} UC09 - Modyfikuj deklarację \\
+\textbf{Autor:} Klient\\
+\textbf{Cel przypadku użycia:} Modyfikacja dodanego przez tego klienta deklaracji \\
+\textbf{Kontekst użycia:} chęć modyfikacji istniejącej deklaracji\\
+\textbf{Zakres:} System obsługi klienta \\
+\textbf{Poziom:} biznesowy \\
+\textbf{Aktor główny:} Klient\\
+\textbf{Wyzwalacz:} naciśnięcie odpowiedniego przycisku na stronie www \\
+\textbf{Warunek początkowy:} klient jest zalogowany\\
+\textbf{Minimalna gwarancja:} w przypadku, gdy deklaracja nie zostanie zmodyfikowana, klient dostanie odpowiedni komunikat \\
+\textbf{Główny scenariusz powodzenia:} \\
+	\begin{enumerate}
+		\item Klient klika w przycisk "modyfikuj"
+		\item Po dokonaniu zmian, klika "wyślij"
+		\item Dostaje komunikat o powodzeniu akcji
+	\end{enumerate}
+		3.1 Dostaje odpowiedni komunikat o niepowodzeniu
+		
+\textbf{Numer i Nazwa przypadku użycia:} UC10 - Wyświetl listę deklaracji \\
+\textbf{Autor:} Klient\\
+\textbf{Cel przypadku użycia:} Wylistowanie deklaracji złożonych przez klienta \\
+\textbf{Kontekst użycia:} chęć przejżenia deklaracji\\
+\textbf{Zakres:} System obsługi klienta \\
+\textbf{Poziom:} biznesowy \\
+\textbf{Aktor główny:} Klient\\
+\textbf{Wyzwalacz:} naciśnięcie odpowiedniego przycisku na stronie www \\
+\textbf{Warunek początkowy:} klient jest zalogowany\\
+\textbf{Minimalna gwarancja:} wyświetlenie ostatnich deklaracji\\
+\textbf{Główny scenariusz powodzenia:} \\
+	\begin{enumerate}
+		\item Klient klika w przycisk "lista deklaracji"
+		\item Klient dostaje listę
+	\end{enumerate}
+	
+\textbf{Numer i Nazwa przypadku użycia:} UC11 - Wyświetl szczegółowe informacje na temat deklaracji \\
+\textbf{Autor:} Klient\\
+\textbf{Cel przypadku użycia:} Wyświetlenie szczegółów wybranej deklaracji \\
+\textbf{Kontekst użycia:} chęć dostania szczegółowych informacji o deklaracji\\
+\textbf{Zakres:} System obsługi klienta \\
+\textbf{Poziom:} biznesowy \\
+\textbf{Aktor główny:} Klient\\
+\textbf{Wyzwalacz:} naciśnięcie odpowiedniego przycisku na stronie www \\
+\textbf{Warunek początkowy:} klient jest zalogowany i ma wyświetloną listę deklaracji\\
+\textbf{Minimalna gwarancja:} wyświetlenie szczegółów deklaracji \\
+\textbf{Główny scenariusz powodzenia:} \\
+	\begin{enumerate}
+		\item Klient klika w przycisk "szczegóły"
+		\item Dostaje szczegółowe informacje
+	\end{enumerate}
+	
+\textbf{Numer i Nazwa przypadku użycia:} UC12 - Generuj zamówienie na podstawie deklaracji \\
+\textbf{Autor:} Pracownik działu skupu\\
+\textbf{Cel przypadku użycia:} Wygenerowanie zamówienia \\
+\textbf{Kontekst użycia:} chęć wygenerowania zamówienia na podstawie danej deklaracji\\
+\textbf{Zakres:} System obsługi klienta \\
+\textbf{Poziom:} biznesowy \\
+\textbf{Aktor główny:} Pracownik działu skupu\\
+\textbf{Wyzwalacz:} wybór deklaracji i kliknięcia opcji generuj \\
+\textbf{Warunek początkowy:} wybrana deklaracja \\
+\textbf{Minimalna gwarancja:} w przypadku, gdy zamówienie nie zostanie wygenerowane, Pracownik dostanie odpowiedni komunikat \\
+\textbf{Główny scenariusz powodzenia:} \\
+	\begin{enumerate}
+		\item Pracownik klika w przycisk "generuj"
+		\item Dostaje komunikat o powodzeniu akcji
+	\end{enumerate}
+\textbf{Rozszerzenia:} \\
+		2.1 Dostaje odpowiedni komunikat o niepowodzeniu
