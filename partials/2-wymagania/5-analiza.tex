@@ -11,17 +11,32 @@
 	\textbf{Zakres:} System obsługi klienta \\
 	\textbf{Poziom:} biznesowy \\
 	\textbf{Aktor główny:} Klient \\
-	\textbf{Wyzwalacz:} wypełnienie formularza www, bądź telefoniczne zgłoszenie \\
-	\textbf{Warunek początkowy:} otwarcie strony, wykonanie telefonu \\
+	\textbf{Wyzwalacz:} wybranie zakładki dodawania deklaracji \\
+	\textbf{Warunek początkowy:} klient jest zalogowany i ma uprawnienia do dodawania deklaracji \\
 	\textbf{Minimalna gwarancja:} w przypadku nieprzyjęcia deklaracji klient zostanie poinformowany o problemie \\
 	\textbf{Główny scenariusz powodzenia:} \\
 		\begin{enumerate}
-			\item Klient na stronie www wybiera "dodanie deklaracji"
-			\item Po wypełnieniu formularza naciska "wyślij"
-			\item Dostaje informacje o pomyślnym dodaniu deklaracji i możliwość sprawdzania stanu
+			\item Klient wprowadza rok, na który chce deklarować
+			\item Klient poprawnie wybiera miesiące, na które chce deklarować
+			\item Klient wybiera kategorię odpadów z listy kategorii
+			\item System wyświetla listę odpadów z danej kategorii, które zostały zawarte w umowie z klientem
+			\item Klient wybiera odpady, które chce zadeklarować
+			\item Klient poprawnie wprowadza ilości i/lub wagi wybranych odpadów
+			\item Klient wybiera opcję wysłania deklaracji
+			\item System pozytywnie weryfikuje poprawność deklaracji
+			\item System zapisuje deklarację w systemie
+			\item System wyświetla informację o poprawnym zapisaniu deklaracji w systemie
 		\end{enumerate}
 	\textbf{Rozszerzenia:} \\
-		3.1 Z jakichś względów deklaracja nie została dodana, klient dostaje odpowiedni komunikat
+		2.1. Klient wybrał miesiące, na które istnieją już deklaracje \\
+			\indent 2.1.1. System wyświetla informację o niemożliwości dodanie deklaracji \\
+		4.1. Klient wybiera opcję wyświetlania wszystkich odpadów \\
+			\indent 4.1.1. System wyświetla listę wszystkich odpadów z danej kategorii \\
+			\indent 4.1.2. Klient wybiera odpady, które chce zadeklarować \\
+			\indent 4.1.3. System wysyła informację do opiekuna klienta o potrzebie podpisania aneksu do umowy -> pt 6 \\
+		6.1. Klient wprowadza błędną ilość odpadów -> System wyświetla informację o błędnych danych \\
+		8.1. System negatywnie weryfikuje poprawność deklaracji -> Wyświetla informację o błędnych danych \\
+		10.1. System wyświetla informację o błędzie zapisu do bazy danych \\
 \end{usecase}
 
 \begin{usecase}{Modyfikuj deklarację}
