@@ -33,7 +33,7 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="context.svg">
   <metadata
-     id="metadata254">
+     id="metadata257">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -54,7 +54,7 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview252"
+     id="namedview255"
      showgrid="false"
      inkscape:zoom="0.53819444"
      inkscape:cx="288"
@@ -143,7 +143,7 @@
          clipPathUnits="userSpaceOnUse">
         <path
            id="path39"
-           d="M-142 -14 L284 -14 L284 28 L-142 28 L-142 -14 Z" />
+           d="M-60 -14 L120 -14 L120 28 L-60 28 L-60 -14 Z" />
       </clipPath>
       <clipPath
          id="clipPath12"
@@ -166,14 +166,21 @@
            id="path48"
            d="M-118 -14 L236 -14 L236 28 L-118 28 L-118 -14 Z" />
       </clipPath>
+      <clipPath
+         id="clipPath15"
+         clipPathUnits="userSpaceOnUse">
+        <path
+           id="path51"
+           d="M-142 -14 L284 -14 L284 28 L-142 28 L-142 -14 Z" />
+      </clipPath>
     </defs>
   </defs>
   <g
      style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g50">
+     id="g53">
     <rect
        style="stroke:none"
-       id="rect52"
+       id="rect55"
        y="0"
        height="326"
        width="576"
@@ -181,12 +188,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f4ea9a;fill-opacity:1;stroke:#f4ea9a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g54"
+     id="g57"
      transform="translate(202,122)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect56"
+       id="rect59"
        height="80"
        ry="12.5"
        rx="12.5"
@@ -196,7 +203,7 @@
        x="0" />
     <rect
        style="fill:#ffffff;stroke:none"
-       id="rect58"
+       id="rect61"
        height="38"
        width="160"
        clip-path="url(#clipPath1)"
@@ -205,13 +212,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g60"
+     id="g63"
      stroke-miterlimit="0"
      transform="translate(202,122)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect62"
+       id="rect65"
        height="80"
        ry="12.5"
        rx="12.5"
@@ -221,7 +228,7 @@
        x="0" />
     <line
        style="fill:none"
-       id="line64"
+       id="line67"
        y1="0"
        x2="29"
        clip-path="url(#clipPath1)"
@@ -229,7 +236,7 @@
        y2="22" />
     <line
        style="fill:none"
-       id="line66"
+       id="line69"
        y1="22"
        x2="160"
        clip-path="url(#clipPath1)"
@@ -237,7 +244,7 @@
        y2="22" />
     <line
        style="fill:none"
-       id="line68"
+       id="line71"
        y1="60"
        x2="160"
        clip-path="url(#clipPath1)"
@@ -246,19 +253,19 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g70"
+     id="g73"
      transform="translate(202,144)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text72"
+       id="text75"
        clip-path="url(#clipPath2)"
        y="16"
        xml:space="preserve"
        x="26">Obsługa deklaracji i</text>
     <text
        style="stroke:none"
-       id="text74"
+       id="text77"
        clip-path="url(#clipPath2)"
        y="30"
        xml:space="preserve"
@@ -266,12 +273,12 @@
   </g>
   <g
      style="font-size:13px;font-family:'Lucida Grande';fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g76"
+     id="g79"
      transform="translate(202,122)"
      font-size="13">
     <text
        style="stroke:none"
-       id="text78"
+       id="text81"
        clip-path="url(#clipPath4)"
        y="16"
        xml:space="preserve"
@@ -279,12 +286,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f4ea9a;fill-opacity:1;stroke:#f4ea9a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g80"
+     id="g83"
      transform="translate(2,2)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect82"
+       id="rect85"
        clip-path="url(#clipPath5)"
        y="0"
        height="50"
@@ -293,13 +300,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g84"
+     id="g87"
      stroke-miterlimit="0"
      transform="translate(2,2)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect86"
+       id="rect89"
        clip-path="url(#clipPath5)"
        y="0"
        height="50"
@@ -308,12 +315,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g88"
+     id="g91"
      transform="translate(2,2)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text90"
+       id="text93"
        clip-path="url(#clipPath6)"
        y="29"
        xml:space="preserve"
@@ -321,12 +328,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f4ea9a;fill-opacity:1;stroke:#f4ea9a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g92"
+     id="g95"
      transform="translate(2,272)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect94"
+       id="rect97"
        clip-path="url(#clipPath5)"
        y="0"
        height="50"
@@ -335,13 +342,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g96"
+     id="g99"
      stroke-miterlimit="0"
      transform="translate(2,272)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect98"
+       id="rect101"
        clip-path="url(#clipPath5)"
        y="0"
        height="50"
@@ -350,12 +357,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g100"
+     id="g103"
      transform="translate(2,272)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text102"
+       id="text105"
        clip-path="url(#clipPath6)"
        y="29"
        xml:space="preserve"
@@ -363,12 +370,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f4ea9a;fill-opacity:1;stroke:#f4ea9a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g104"
+     id="g107"
      transform="translate(412,272)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect106"
+       id="rect109"
        clip-path="url(#clipPath5)"
        y="0"
        height="50"
@@ -377,13 +384,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g108"
+     id="g111"
      stroke-miterlimit="0"
      transform="translate(412,272)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect110"
+       id="rect113"
        clip-path="url(#clipPath5)"
        y="0"
        height="50"
@@ -392,19 +399,19 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g112"
+     id="g115"
      transform="translate(412,272)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text114"
+       id="text117"
        clip-path="url(#clipPath6)"
        y="22"
        xml:space="preserve"
        x="7">R. Zakłady przetwarzania</text>
     <text
        style="stroke:none"
-       id="text116"
+       id="text119"
        clip-path="url(#clipPath6)"
        y="36"
        xml:space="preserve"
@@ -412,12 +419,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f4ea9a;fill-opacity:1;stroke:#f4ea9a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g118"
+     id="g121"
      transform="translate(422,2)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect120"
+       id="rect123"
        clip-path="url(#clipPath5)"
        y="0"
        height="50"
@@ -426,13 +433,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g122"
+     id="g125"
      stroke-miterlimit="0"
      transform="translate(422,2)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect124"
+       id="rect127"
        clip-path="url(#clipPath5)"
        y="0"
        height="50"
@@ -441,12 +448,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g126"
+     id="g129"
      transform="translate(422,2)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text128"
+       id="text131"
        clip-path="url(#clipPath6)"
        y="29"
        xml:space="preserve"
@@ -454,12 +461,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g130"
+     id="g133"
      transform="translate(309,148)"
      font-size="11">
     <line
        style="fill:none"
-       id="line132"
+       id="line135"
        y1="123"
        x2="50"
        clip-path="url(#clipPath7)"
@@ -467,7 +474,7 @@
        y2="50" />
     <line
        style="fill:none"
-       id="line134"
+       id="line137"
        y1="50"
        x2="51"
        clip-path="url(#clipPath7)"
@@ -475,7 +482,7 @@
        y2="63" />
     <line
        style="fill:none"
-       id="line136"
+       id="line139"
        y1="50"
        x2="61"
        clip-path="url(#clipPath7)"
@@ -484,12 +491,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g138"
+     id="g141"
      transform="translate(309,3)"
      font-size="11">
     <line
        style="fill:none"
-       id="line140"
+       id="line143"
        y1="123"
        x2="112"
        clip-path="url(#clipPath8)"
@@ -497,7 +504,7 @@
        y2="50" />
     <line
        style="fill:none"
-       id="line142"
+       id="line145"
        y1="50"
        x2="99"
        clip-path="url(#clipPath8)"
@@ -505,7 +512,7 @@
        y2="55" />
     <line
        style="fill:none"
-       id="line144"
+       id="line147"
        y1="50"
        x2="109"
        clip-path="url(#clipPath8)"
@@ -514,12 +521,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g146"
+     id="g149"
      transform="translate(103,148)"
      font-size="11">
     <line
        style="fill:none"
-       id="line148"
+       id="line151"
        y1="50"
        x2="50"
        clip-path="url(#clipPath7)"
@@ -527,7 +534,7 @@
        y2="123" />
     <line
        style="fill:none"
-       id="line150"
+       id="line153"
        y1="123"
        x2="61"
        clip-path="url(#clipPath7)"
@@ -535,7 +542,7 @@
        y2="116" />
     <line
        style="fill:none"
-       id="line152"
+       id="line155"
        y1="123"
        x2="51"
        clip-path="url(#clipPath7)"
@@ -544,12 +551,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g154"
+     id="g157"
      transform="translate(72,2)"
      font-size="11">
     <line
        style="fill:none"
-       id="line156"
+       id="line159"
        y1="50"
        x2="130"
        clip-path="url(#clipPath9)"
@@ -557,7 +564,7 @@
        y2="143" />
     <line
        style="fill:none"
-       id="line158"
+       id="line161"
        y1="143"
        x2="127"
        clip-path="url(#clipPath9)"
@@ -565,7 +572,7 @@
        y2="130" />
     <line
        style="fill:none"
-       id="line160"
+       id="line163"
        y1="143"
        x2="117"
        clip-path="url(#clipPath9)"
@@ -574,12 +581,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g162"
+     id="g165"
      transform="translate(102,-23)"
      font-size="11">
     <line
        style="fill:none"
-       id="line164"
+       id="line167"
        y1="145"
        x2="50"
        clip-path="url(#clipPath10)"
@@ -587,7 +594,7 @@
        y2="50" />
     <line
        style="fill:none"
-       id="line166"
+       id="line169"
        y1="50"
        x2="52"
        clip-path="url(#clipPath10)"
@@ -595,7 +602,7 @@
        y2="62" />
     <line
        style="fill:none"
-       id="line168"
+       id="line171"
        y1="50"
        x2="62"
        clip-path="url(#clipPath10)"
@@ -604,25 +611,25 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g170"
-     transform="translate(182,52)"
+     id="g173"
+     transform="translate(192,62)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text172"
+       id="text175"
        clip-path="url(#clipPath11)"
        y="11"
        xml:space="preserve"
-       x="9">Oświadczenia odzysku</text>
+       x="10">Faktury</text>
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g174"
+     id="g177"
      transform="translate(82,92)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text176"
+       id="text179"
        clip-path="url(#clipPath12)"
        y="11"
        xml:space="preserve"
@@ -630,12 +637,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g178"
+     id="g181"
      transform="translate(72,222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text180"
+       id="text183"
        clip-path="url(#clipPath13)"
        y="11"
        xml:space="preserve"
@@ -643,12 +650,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g182"
+     id="g185"
      transform="translate(392,92)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text184"
+       id="text187"
        clip-path="url(#clipPath14)"
        y="11"
        xml:space="preserve"
@@ -656,13 +663,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g186"
+     id="g189"
      transform="translate(382,222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text188"
-       clip-path="url(#clipPath11)"
+       id="text191"
+       clip-path="url(#clipPath15)"
        y="11"
        xml:space="preserve"
        x="9">Oświadczenia odzysku</text>
