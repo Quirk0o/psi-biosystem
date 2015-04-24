@@ -5,7 +5,7 @@
 \end{figure}
 
 \begin{usecase}{Dodaj deklarację}
-	\textbf{Autor:} Klient \\
+	\textbf{Autor:} Dawid Suder \\
 	\textbf{Cel przypadku użycia:} dodanie deklaracji w celu jej realizacji \\
 	\textbf{Kontekst użycia:} chęć dodania deklaracji \\
 	\textbf{Zakres:} System obsługi klienta \\
@@ -40,7 +40,7 @@
 \end{usecase}
 
 \begin{usecase}{Wyświetl listę deklaracji}
-	\textbf{Autor:} Klient\\
+	\textbf{Autor:} Dawid Suder \\
 	\textbf{Cel przypadku użycia:} Wylistowanie deklaracji złożonych przez klienta \\
 	\textbf{Kontekst użycia:} chęć przejżenia deklaracji\\
 	\textbf{Zakres:} System obsługi klienta \\
@@ -55,7 +55,7 @@
 \end{usecase}
 
 \begin{usecase}{Modyfikuj deklarację}
-	\textbf{Autor:} Klient\\
+	\textbf{Autor:} Dawid Suder \\
 	\textbf{Cel przypadku użycia:} Modyfikacja dodanego przez tego klienta deklaracji \\
 	\textbf{Kontekst użycia:} chęć modyfikacji istniejącej deklaracji\\
 	\textbf{Zakres:} System obsługi klienta \\
@@ -87,7 +87,7 @@
 \end{usecase}
 
 \begin{usecase}{Wyświetl szczegółowe informacje na temat deklaracji}
-	\textbf{Autor:} Klient\\
+	\textbf{Autor:} Dawid Suder \\
 	\textbf{Cel przypadku użycia:} Wyświetlenie szczegółów wybranej deklaracji \\
 	\textbf{Kontekst użycia:} chęć dostania szczegółowych informacji o deklaracji\\
 	\textbf{Zakres:} System obsługi klienta \\
@@ -101,23 +101,25 @@
 		\end{enumerate}
 \end{usecase}
 
-\begin{usecase}{Generuj zamówienie na podstawie deklaracji}
-	\textbf{Autor:} Pracownik działu skupu\\
+\begin{usecase}{Generuj zlecenie odbioru na podstawie zamówienia}
+	\textbf{Autor:} Dawid Suder \\
 	\textbf{Cel przypadku użycia:} Wygenerowanie zamówienia \\
 	\textbf{Kontekst użycia:} chęć wygenerowania zamówienia na podstawie danej deklaracji\\
 	\textbf{Zakres:} System obsługi klienta \\
 	\textbf{Poziom:} biznesowy \\
 	\textbf{Aktor główny:} Pracownik działu skupu\\
-	\textbf{Wyzwalacz:} wybór deklaracji i kliknięcia opcji generuj \\
-	\textbf{Warunek początkowy:} wybrana deklaracja \\
+	\textbf{Wyzwalacz:} wybór zamówienia i wybranie opcji generowania zlecenia \\
+	\textbf{Warunek początkowy:} pracownik ma uprawnienia do dodawania zleceń \\
 	\textbf{Minimalna gwarancja:} w przypadku, gdy zamówienie nie zostanie wygenerowane, Pracownik dostanie odpowiedni komunikat \\
 	\textbf{Główny scenariusz powodzenia:} \\
 		\begin{enumerate}
-			\item Pracownik klika w przycisk "generuj"
-			\item Dostaje komunikat o powodzeniu akcji
+			\item Pracownik pozytywnie weryfikuje możliwość wykonania zlecenia
+			\item Pracownik zapisuje dane zamawiającego w systemie
+			\item Pracownik przydziela kierowcę do zlecenia
+			\item Pracownik zapisuje zlecenie w systemie
 		\end{enumerate}
 	\textbf{Rozszerzenia:} \\
-			2.1 Dostaje odpowiedni komunikat o niepowodzeniu
+			1.1. Pracownik negatywnie weryfikuje możliwość wykonania zlecenia -> wysyła informację do klienta
 \end{usecase}
 
 \begin{figure}[H]
@@ -126,7 +128,7 @@
 \end{figure}
 
 \begin{usecase}{Generuj fakturę sprzedaży produktów recyklingu}
-	\textbf{Autor:} Księgowy\\
+	\textbf{Autor:} Arkadiusz Socha\\
 	\textbf{Cel przypadku użycia:} Wygnerowanie faktury \\
 	\textbf{Kontekst użycia:} otrzymanie dokumentu dowodu sprzedaży produktów  \\
 	\textbf{Zakres:} system księgujący \\
