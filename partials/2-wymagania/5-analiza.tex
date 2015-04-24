@@ -125,6 +125,84 @@
 	\includegraphics[width=.8\textwidth]{img/UC/ksiegowosc.eps}
 \end{figure}
 
+<<<<<<< HEAD
+\textbf{Numer i Nazwa przypadku użycia:} UC05 - Generuj fakturę sprzedaży produktów recyklingu \\
+\textbf{Autor:} Księgowy\\
+\textbf{Cel przypadku użycia:} Wygnerowanie faktury \\
+\textbf{Kontekst użycia:} otrzymanie dokumentu dowodu sprzedaży produktów  \\
+\textbf{Zakres:} system księgujący \\
+\textbf{Poziom:} biznesowy \\
+\textbf{Aktor główny:} Księgowy \\
+\textbf{Wyzwalacz:} sprzedaż produktów recyklingu \\
+\textbf{Warunek początkowy:} księgowy posiada identyfikator zamówienia \\
+\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wygenerować faktury, system poinformuje o tym aktora, nie generując błędnego dokumentu \\
+\textbf{Główny scenariusz powodzenia:} 
+	\begin{enumerate}
+		\item Księgowy wpisuje identyfikator zamówienia
+		\item System sprawdza czy w systemie jest zamówienie, o danym identyfikatorze
+		\item System generuje fakturę 
+	\end{enumerate}
+\textbf{Rozszerzenia:} \\
+2.1 Jeżeli identyfikator jest niepoprawny, system informuje o tym księgowego i prosi go o ponowne podanie tego parametru
+
+\textbf{Numer i Nazwa przypadku użycia:} UC06 - Generuj fakturę dotyczącą usłiugi przejęcia obowiązku recyklingu \\
+\textbf{Autor:} Księgowy\\
+\textbf{Cel przypadku użycia:} Wygnerowanie faktury \\
+\textbf{Kontekst użycia:} otrzymanie dokumentu dowodu zakupu oświadczenia  \\
+\textbf{Zakres:} system księgujący \\
+\textbf{Poziom:} biznesowy \\
+\textbf{Aktor główny:} Księgowy \\
+\textbf{Wyzwalacz:} kupno oświadczenia oddzysku \\
+\textbf{Warunek początkowy:} księgowy posiada identyfikator danych dotyczących odpowiedniej oferty sprzedaży \\
+\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wygenerować faktury, system poinformuje o tym aktora, nie generując błędnego dokumentu \\
+\textbf{Główny scenariusz powodzenia:} 
+	\begin{enumerate}
+		\item Księgowy wpisuje identyfikator do oferty sprzedaży
+		\item System sprawdza czy w systemie jest oferta, o danym identyfikatorze
+		\item System generuje fakturę 
+	\end{enumerate}
+\textbf{Rozszerzenia:} \\
+2.1 Jeżeli identyfikator jest niepoprawny, system informuje o tym księgowego i prosi go o ponowne podanie tego parametru
+
+\textbf{Numer i Nazwa przypadku użycia:} UC07 - Wprowadź dane faktury kupna oświadzczenia o przetworzeniu odpadów \\
+\textbf{Autor:} Księgowy\\
+\textbf{Cel przypadku użycia:} Wpisanie do systemu danych o fakturze \\
+\textbf{Kontekst użycia:} posiadanie w bazie wszystkich informacji o operacjach firmy\\
+\textbf{Zakres:} system księgujący \\
+\textbf{Poziom:} biznesowy \\
+\textbf{Aktor główny:} Księgowy \\
+\textbf{Wyzwalacz:} kupno oświadczenia oddzysku \\
+\textbf{Warunek początkowy:} księgowy posiada dane o fakturze kupna oświadczenia o przetworzeniu odpadów \\
+\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wproawdzić danych do bazy, nie zostanie ona zmodyfikowana \\
+\textbf{Główny scenariusz powodzenia:} 
+	\begin{enumerate}
+		\item Księgowy wpisuje dane z faktury do systemu
+		\item System sprawdza czy format poszczególnych danych jest prawidłowy
+		\item System wprowadza dane do systemu
+	\end{enumerate}
+\textbf{Rozszerzenia:} \\
+2.1 Jeżeli jakieś dane są niepoprawne, księgowy zostaje o tym poinformowany i musi wprowadzić je ponownie
+
+\textbf{Numer i Nazwa przypadku użycia:} UC08 - Generuj raport przychodów i rozchodów \\
+\textbf{Autor:} Księgowy\\
+\textbf{Cel przypadku użycia:} Wygnerowanie raportu o zyskach i stratach firmy \\
+\textbf{Kontekst użycia:} otrzymanie raportu dla właściciela  \\
+\textbf{Zakres:} system księgujący \\
+\textbf{Poziom:} biznesowy \\
+\textbf{Aktor główny:} Właściciel \\
+\textbf{Aktor uczestniczący:} Księgowy \\
+\textbf{Wyzwalacz:} właściciel chce mieć informację o przychodach i rozchodach firmy w danym okresie czasowym \\
+\textbf{Warunek początkowy:} podanie ram czasowych  \\
+\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wygenerować raportu, system poinformuje o tym właściciela, nie generując błędnych informacji \\
+\textbf{Główny scenariusz powodzenia:} 
+	\begin{enumerate}
+		\item Właściciel podaje ramy czasowe okresu, ktory go interesuje
+		\item System wybiera tylko te faktury, które zawierają się w podanym przedziale czasowym
+		\item System generuje raport
+	\end{enumerate}
+\textbf{Rozszerzenia:} \\
+1.1 Ramy czasowe są błędne - conajmniej jedna z wartości jest w przyszłości, system wygeneruje błąd i poprosi o ich ponowne wpisanie
+
 \begin{usecase}{Generuj fakturę sprzedaży produktów recyklingu}
 	\textbf{Autor:} Księgowy\\
 	\textbf{Cel przypadku użycia:} Wygnerowanie faktury \\
@@ -164,6 +242,7 @@
 	\textbf{Rozszerzenia:} \\
 	2.1 Jeżeli identyfikator jest niepoprawny, system informuje o tym księgowego i prosi go o ponowne podanie tego parametru
 \end{usecase}
+>>>>>>> 16f3d6beadc2a4ba4bd347295c604e10693154a3
 
 \begin{usecase}{Wprowadź dane faktury kupna oświadzczenia o przetworzeniu odpadów}
 	\textbf{Autor:} Księgowy\\
