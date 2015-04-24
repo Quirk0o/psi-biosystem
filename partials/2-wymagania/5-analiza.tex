@@ -39,6 +39,21 @@
 		10.1. System wyświetla informację o błędzie zapisu do bazy danych \\
 \end{usecase}
 
+\begin{usecase}{Wyświetl listę deklaracji}
+	\textbf{Autor:} Klient\\
+	\textbf{Cel przypadku użycia:} Wylistowanie deklaracji złożonych przez klienta \\
+	\textbf{Kontekst użycia:} chęć przejżenia deklaracji\\
+	\textbf{Zakres:} System obsługi klienta \\
+	\textbf{Poziom:} biznesowy \\
+	\textbf{Aktor główny:} Klient\\
+	\textbf{Wyzwalacz:} wybranie zakładki z listą deklaracji \\
+	\textbf{Warunek początkowy:} klient jest zalogowany \\
+	\textbf{Główny scenariusz powodzenia:} \\
+		\begin{enumerate}
+			\item System wyświetla deklaracje przypisane do nazwy użytkownika klienta
+		\end{enumerate}
+\end{usecase}
+
 \begin{usecase}{Modyfikuj deklarację}
 	\textbf{Autor:} Klient\\
 	\textbf{Cel przypadku użycia:} Modyfikacja dodanego przez tego klienta deklaracji \\
@@ -46,33 +61,29 @@
 	\textbf{Zakres:} System obsługi klienta \\
 	\textbf{Poziom:} biznesowy \\
 	\textbf{Aktor główny:} Klient\\
-	\textbf{Wyzwalacz:} naciśnięcie odpowiedniego przycisku na stronie www \\
+	\textbf{Wyzwalacz:} wybranie przycisku modyfikacji wybranej deklaracji \\
 	\textbf{Warunek początkowy:} klient jest zalogowany\\
-	\textbf{Minimalna gwarancja:} w przypadku, gdy deklaracja nie zostanie zmodyfikowana, klient dostanie odpowiedni komunikat \\
+	\textbf{Minimalna gwarancja:} w przypadku błędu deklaracja pozostanie w stanie oryginalnym \\
 	\textbf{Główny scenariusz powodzenia:} \\
 		\begin{enumerate}
-			\item Klient klika w przycisk "modyfikuj"
-			\item Po dokonaniu zmian, klika "wyślij"
-			\item Dostaje komunikat o powodzeniu akcji
+			\item System wyświetla stronę modyfikacji deklaracji
+			\item System wyświetla listę odpadów z kategorii dotyczącej danej deklaracji
+			\item Klient wybiera odpady, które chce zadeklarować
+			\item Klient poprawnie modyfikuje ilości i/lub wagi wybranych odpadów
+			\item Klient wybiera opcję wysłania deklaracji
+			\item System pozytywnie weryfikuje poprawność deklaracji
+			\item System zapisuje deklarację w systemie
+			\item System wyświetla informację o poprawnym zapisaniu deklaracji w systemie
 		\end{enumerate}
-			3.1 Dostaje odpowiedni komunikat o niepowodzeniu
-\end{usecase}
-
-\begin{usecase}{yświetl listę deklaracji}
-	\textbf{Autor:} Klient\\
-	\textbf{Cel przypadku użycia:} Wylistowanie deklaracji złożonych przez klienta \\
-	\textbf{Kontekst użycia:} chęć przejżenia deklaracji\\
-	\textbf{Zakres:} System obsługi klienta \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Klient\\
-	\textbf{Wyzwalacz:} naciśnięcie odpowiedniego przycisku na stronie www \\
-	\textbf{Warunek początkowy:} klient jest zalogowany\\
-	\textbf{Minimalna gwarancja:} wyświetlenie ostatnich deklaracji\\
-	\textbf{Główny scenariusz powodzenia:} \\
-		\begin{enumerate}
-			\item Klient klika w przycisk "lista deklaracji"
-			\item Klient dostaje listę
-		\end{enumerate}
+			3.1. Klient dodaje nowe odpady do deklaracji
+				\indent 4.1.1. Klient wpisuje ilości i/lub wagi wybranych odpadów -> pt 5
+			3.2. Klient wybiera opcję wyświetlania wszystkich odpadów \\
+				\indent 4.1.1. System wyświetla listę wszystkich odpadów z danej kategorii \\
+				\indent 4.1.2. Klient wybiera odpady, które chce zadeklarować \\
+				\indent 4.1.3. System wysyła informację do opiekuna klienta o potrzebie podpisania aneksu do umowy -> pt 5 \\
+			4.1. Klient wprowadza błędną ilość odpadów -> System wyświetla informację o błędnych danych \\
+			6.1. System negatywnie weryfikuje poprawność deklaracji -> Wyświetla informację o błędnych danych \\
+			8.1. System wyświetla informację o błędzie zapisu do bazy danych \\
 \end{usecase}
 
 \begin{usecase}{Wyświetl szczegółowe informacje na temat deklaracji}
@@ -82,13 +93,11 @@
 	\textbf{Zakres:} System obsługi klienta \\
 	\textbf{Poziom:} biznesowy \\
 	\textbf{Aktor główny:} Klient\\
-	\textbf{Wyzwalacz:} naciśnięcie odpowiedniego przycisku na stronie www \\
+	\textbf{Wyzwalacz:} wybranie deklaracji z listy deklaracji użytkownika \\
 	\textbf{Warunek początkowy:} klient jest zalogowany i ma wyświetloną listę deklaracji\\
-	\textbf{Minimalna gwarancja:} wyświetlenie szczegółów deklaracji \\
 	\textbf{Główny scenariusz powodzenia:} \\
 		\begin{enumerate}
-			\item Klient klika w przycisk "szczegóły"
-			\item Dostaje szczegółowe informacje
+			\item System wyświetla szczegółowe informacjie dotyczące danej deklaracji
 		\end{enumerate}
 \end{usecase}
 
