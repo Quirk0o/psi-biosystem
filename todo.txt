@@ -1,30 +1,37 @@
-obszary katywności(uwagi):
-uściślić
+księgowy => księgowość
+
+lista aktorów i przypadków użycia: 
+aktorzy - są OK
+przypadki - OK
+
+musimy: dodać dokumenty, wszystkie które wypisaliśmy, musimy zapropnować ew. formą graficzną
+musi być wzór formularzu jako dokumentu wejściowego
+kierowca - ma trasy i się z tego rozlicza(z paliwa)
+
+USECASE:
+OBSŁUGA KLIENTA => jest  w miarę ok, ale nie ma "klienta bez konta" w aktorach
+SCENARIUSZ - OK
+brakuje numerów tytułów rysunków
 
 
-5 - obszar katywnośći, związany z zarządzaniem całością firmy, poprzez analizę generowanych raportów i statystych !!!!
-usprawianie preacy kierownika!
+OBSŁUGA KSIĘGOWOŚCI:
+sprawdzić możliwość "include" i "extend" opcje porobić
 
+MAGAZYN:
+można dodać kierowce, który pobiera skompletowane zamówienie
 
-6 - minimalna księgowość - w obszarze zwiazanym ze sprzedażą.. kupnem itd wprowadzić księgowość
-byłby to obszar zarządzania rejestracją faktur 
+!!!BRAK OBSŁUGI KIEROWCÓW!!!
+!!!BRAK SKUPU!!!
 
-uszczegółowienie procedur biznesowych!
-albo przez odwłoanie się do punktu 2x, ale zalążek powinien pojawić się już w 1.3.2.
-do wszystkich obszarów aktywności będziemy operowac rejestrami
-brak kontynuacjie gdzie jest zapisywana np. informacja o zamówieniu. 
-odenisienie się od szeczegółów nazywająć je dokumentami i rejestrami
+dopisać te które nie ma, trzeba wytworzyć diagram aktywności(pokazujący upływa czasu)
 
+DFD:
+pracownik musi być
 
-2 !!!
-2.1 lista aktorów i przypadków użycia(np. rejestracja zamówienia, wpisanie zamówienia do rejestru...) - z tego będzie się robić Use Casy)
-	do każdego aktora funkcje jaką potrzebuje
-	najmniej koncentroawć się na podstawowych operacjach bazodanowych, chyba, że modyfikujemy rejestry zamówień(chyba chodzi o brak pierdół typu zmiana hasła)
-2.2/2.3 bardzo dokładnie potraktować prototypy rejestrów, tam ma być szczegółowy opis rejestru dokuemntu
+3 do końca
+zamodelować każdy podsystem
+2 skorygować
 
+słownik roboczy strumienie połączyć z punktem 2
 
-
-3.
-robimy conajmniej: diagram kontekstowy i diagram kotekstowy rozwinięty(podsystemy - wynikające z obszarów aktywności)
-do opisów strumieni przydają się punkty 2.3
-
+ERD zrobić do danych
