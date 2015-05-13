@@ -139,16 +139,14 @@
 	\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wygenerować faktury, system poinformuje o tym aktora, nie generując błędnego dokumentu \\
 	\textbf{Główny scenariusz powodzenia:} 
 		\begin{enumerate}
-			\item Księgowy wpisuje identyfikator zamówienia
-			\item System sprawdza czy w systemie jest zamówienie, o danym identyfikatorze
+			\item Księgowy wybiera z listy zamówienie
+			\item System upewnie się, czy o to zamówienie chodzi
 			\item System generuje fakturę 
 		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-	2.1 Jeżeli identyfikator jest niepoprawny, system informuje o tym księgowego i prosi go o ponowne podanie tego parametru
 \end{usecase}
 
 \begin{usecase}{Generuj fakturę dotyczącą usługi przejęcia obowiązku recyklingu}
-	\textbf{Autor:} Księgowy\\
+	\textbf{Autor:} Arkadiusz Socha\\
 	\textbf{Cel przypadku użycia:} Wygnerowanie faktury \\
 	\textbf{Kontekst użycia:} otrzymanie dokumentu dowodu zakupu oświadczenia  \\
 	\textbf{Zakres:} system księgujący \\
@@ -159,16 +157,14 @@
 	\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wygenerować faktury, system poinformuje o tym aktora, nie generując błędnego dokumentu \\
 	\textbf{Główny scenariusz powodzenia:} 
 		\begin{enumerate}
-			\item Księgowy wpisuje identyfikator do oferty sprzedaży
-			\item System sprawdza czy w systemie jest oferta, o danym identyfikatorze
+			\item Księgowy wybiera z listy ofertę sprzedaży
+			\item System upewnie się, czy o tą ofertę chodziło
 			\item System generuje fakturę 
 		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-	2.1 Jeżeli identyfikator jest niepoprawny, system informuje o tym księgowego i prosi go o ponowne podanie tego parametru
 \end{usecase}
 
 \begin{usecase}{Wprowadź dane faktury kupna oświadzczenia odzysku}
-	\textbf{Autor:} Księgowy\\
+	\textbf{Autor:} Arkadiusz Socha\\
 	\textbf{Cel przypadku użycia:} Wpisanie do systemu danych o fakturze \\
 	\textbf{Kontekst użycia:} posiadanie w bazie wszystkich informacji o operacjach firmy\\
 	\textbf{Zakres:} system księgujący \\
@@ -179,7 +175,7 @@
 	\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wproawdzić danych do bazy, nie zostanie ona zmodyfikowana \\
 	\textbf{Główny scenariusz powodzenia:} 
 		\begin{enumerate}
-			\item Księgowy wpisuje dane z faktury do systemu
+			\item Księgowy wpisuje dane z faktury do wygenerowanego formularza
 			\item System sprawdza czy format poszczególnych danych jest prawidłowy
 			\item System wprowadza dane do systemu
 		\end{enumerate}
@@ -188,7 +184,7 @@
 \end{usecase}
 
 \begin{usecase}{Generuj raport przychodów i rozchodów}
-	\textbf{Autor:} Księgowy\\
+	\textbf{Autor:} Arkadiusz Socha\\
 	\textbf{Cel przypadku użycia:} Wygnerowanie raportu o zyskach i stratach firmy \\
 	\textbf{Kontekst użycia:} otrzymanie raportu dla właściciela  \\
 	\textbf{Zakres:} system księgujący \\
@@ -214,7 +210,7 @@
 \end{figure}
 
 \begin{usecase}{Przyjmij produkty do magazynu}
-	\textbf{Autor:} Magazynier\\
+	\textbf{Autor:} Arkadiusz Socha\\
 	\textbf{Cel przypadku użycia:} Dodanie produktów recyklingu do magazynu i aktualizacja stanu magazynu \\
 	\textbf{Kontekst użycia:} przechowanie produktów recyklingu w magazynie\\
 	\textbf{Zakres:} system magazynowy \\
@@ -233,7 +229,7 @@
 \end{usecase}
 
 \begin{usecase}{Wydaj zamówienie}
-	\textbf{Autor:} Magazynier\\
+	\textbf{Autor:} Arkadiusz Socha\\
 	\textbf{Cel przypadku użycia:} Wydanie kierowcy produktów, ujętych w zamówieniu \\
 	\textbf{Kontekst użycia:} potrzeba przetransporotowania produktów do kupca\\
 	\textbf{Zakres:} system magazynowy \\
@@ -254,7 +250,7 @@
 \end{usecase}
 
 \begin{usecase}{Aktualizuj stan magazynu}
-	\textbf{Autor:} Magazynier\\
+	\textbf{Autor:} Arkadiusz Socha\\
 	\textbf{Cel przypadku użycia:} Aktualizacja danych o stanie magayznu \\
 	\textbf{Kontekst użycia:} utrzymywanie aktualnej informacji o ilości produktów w magazynie \\
 	\textbf{Zakres:} system magazynowy \\
@@ -265,12 +261,16 @@
 	\textbf{Minimalna gwarancja:} w przypadku, gdy nie można zaktualizować stanu magazynu, jego stan pozostanie niezmieniony \\
 	\textbf{Główny scenariusz powodzenia:} 
 		\begin{enumerate}
-			\item Magazynier wpisuje informację o wydanych/przyjętych produktach
+			\item Magazynier wpisuje informację o wydanych/przyjętych produktach do wygenerowanego formularza
+			\item System sprawdza poprawność danych(np. czy magazynier nie wydał więcej niż było w magazynie)
+			\item System aktualizje dane
 		\end{enumerate}
+	\textbf{Rozszerzenia:} \\
+	2.1 W przypadku błędnych danych, system informuje o tym magazyniera i prosi o ich ponowne wpisanie\\
 \end{usecase}
 
 \begin{usecase}{Kompletuj zamówienie}
-	\textbf{Autor:} Magazynier\\
+	\textbf{Autor:} Arkadiusz Socha\\
 	\textbf{Cel przypadku użycia:} Skompletowanie zamówienie w celu wydania go kierowcy \\
 	\textbf{Kontekst użycia:} chęć uporządkowania produktów do zamówienia w celu szybkiego ich przekazania kierowcy \\
 	\textbf{Zakres:} system magazynowy \\
@@ -286,6 +286,6 @@
 			\item Magazynier przygotowuje zamówienie
 		\end{enumerate}
 	\textbf{Rozszerzenia:} \\
-	2.1. Nie można skompletować zamówienia, zostaje wysłana informacja zwrotna o nieposiadanych towarach\\
+	2.2. Nie można skompletować zamówienia, zostaje wysłana informacja zwrotna o nieposiadanych towarach\\
 \end{usecase}
 
