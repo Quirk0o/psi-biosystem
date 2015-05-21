@@ -1,11 +1,11 @@
 \subsubsection{Poziom 1}
-
 \clearpage
 \begin{figure}[H]
 	\centering
-	\includepdf[pages={1}, angle=90]{img/DFD/1_level-eps-converted-to.pdf}
+	\vspace{-2cm}
+	\centerline{\includegraphics[angle=90, height=29cm]{img/DFD/1-level.eps}}
+	%\includepdf[pages={1}, angle=90]{img/DFD/1-level-eps-converted-to.pdf}
 \end{figure}
-\clearpage
 
 \linespread{1.6}
 
@@ -17,7 +17,7 @@ Digram pokazuje wyodrębnienie podsystemów, które są przedstawione bardziej s
 %DFD3 - Obsługa magazynu
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{img/DFD3.eps}
+	\includegraphics[width=\textwidth]{img/DFD/2-level-magazyn.eps}
 \end{figure}
 
 \textbf{Opis} \\
@@ -25,6 +25,7 @@ Digram pokazuje wyodrębnienie podsystemów, które są przedstawione bardziej s
 Kierowca odczytuje stan magazynu.
 \textbf{Strumień wejściowy} zapytanie o stan magazynu\\
 \textbf{Strumień wyjściowy} aktualny stan magazynu\\
+
 \underline{3.2 Aktualizuj stan magazynu}\\ 
 Stan magazynu jest aktualizowany na podstawie ilości produktów dostarczanych lub odbieranych.\\	
 \textbf{Strumień wejściowy} Produkty przyjmawane do magazynu, produkty wydawane przez magazyn.
