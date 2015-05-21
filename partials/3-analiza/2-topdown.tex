@@ -1,24 +1,29 @@
 \subsubsection{Poziom 1}
-\clearpage
-\begin{figure}[H]
-	\centering
-	\vspace{-2cm}
-	\centerline{\includegraphics[angle=90, height=29cm]{img/DFD/1-level.eps}}
-	%\includepdf[pages={1}, angle=90]{img/DFD/1-level-eps-converted-to.pdf}
-\end{figure}
+	\begin{figure}
+		\centering
+		\vspace{-2cm}
+		\centerline{\includegraphics[angle=90, height=29cm]{img/DFD/1-level.eps}}
+		%\includepdf[pages={1}, angle=90]{img/DFD/1-level-eps-converted-to.pdf}
+	\end{figure}
 
-\linespread{1.6}
+	\linespread{1.6}
 
-%DFD1
-\textbf{Opis}\\
-Digram pokazuje wyodrębnienie podsystemów, które są przedstawione bardziej szczegółowo na kolejnych diagramach.
+	%DFD1
+	\textbf{Opis}\\
+	Digram pokazuje wyodrębnienie podsystemów, które są przedstawione bardziej szczegółowo na kolejnych diagramach.
 
+\subsubsection{Poziom 2}
+	%DFD2 - Obsługa magazynu
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{img/DFD/2-level-magazyn.eps}
+	\end{figure}
 
-%DFD3 - Obsługa magazynu
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{img/DFD/2-level-magazyn.eps}
-\end{figure}
+	\textbf{Opis} \\
+	\underline{3.1 Odczytaj stan magazynu}\\
+	Kierowca odczytuje stan magazynu.
+	\textbf{Strumień wejściowy} zapytanie o stan magazynu\\
+	\textbf{Strumień wyjściowy} aktualny stan magazynu\\
 
 \textbf{Opis} \\
 \underline{3.1 Kompletuj zamówienie}\\
@@ -35,7 +40,9 @@ Towar zostaje przywieziony przez kierowcę z Zakładu Przetwarzania Zużytego Sp
 \textbf{Strumień wejściowy} Dane o przywiezionych towarach\\
 \textbf{Strumień wyjściowy} Dane o przywiezionych towarach
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{img/DFD/2-level-skup.eps}
-\end{figure}
+
+
+	\begin{figure}[H]
+		\centering
+		\centerline{\includegraphics[width=1.1\textwidth]{img/DFD/2-level-kierowcy.eps}}
+	\end{figure}
