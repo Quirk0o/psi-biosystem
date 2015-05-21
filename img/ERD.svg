@@ -34,7 +34,7 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="ERD.svg">
   <metadata
-     id="metadata1427">
+     id="metadata1450">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -55,7 +55,7 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview1425"
+     id="namedview1448"
      showgrid="false"
      inkscape:zoom="0.24939662"
      inkscape:cx="621.5"
@@ -888,14 +888,35 @@
            id="path357"
            d="M112 212 L-3 212 L-3 47 L112 47 L112 212 Z" />
       </clipPath>
+      <clipPath
+         id="clipPath118"
+         clipPathUnits="userSpaceOnUse">
+        <path
+           id="path360"
+           d="M0 0 L181 0 L181 156 L0 156 L0 0 Z" />
+      </clipPath>
+      <clipPath
+         id="clipPath119"
+         clipPathUnits="userSpaceOnUse">
+        <path
+           id="path363"
+           d="M167.9186 101.3851 L71.3545 254.4745 L-60.59 171.248 L35.9741 18.1586 L167.9186 101.3851 Z" />
+      </clipPath>
+      <clipPath
+         id="clipPath120"
+         clipPathUnits="userSpaceOnUse">
+        <path
+           id="path366"
+           d="M9.0814 128.4654 L105.6455 -24.624 L237.59 58.6025 L141.0259 211.6919 L9.0814 128.4654 Z" />
+      </clipPath>
     </defs>
   </defs>
   <g
      style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g359">
+     id="g368">
     <rect
        style="stroke:none"
-       id="rect361"
+       id="rect370"
        y="0"
        height="553"
        width="1243"
@@ -903,12 +924,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g363"
+     id="g372"
      transform="translate(2.3333,270.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect365"
+       id="rect374"
        height="103"
        ry="10"
        rx="10"
@@ -919,13 +940,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g367"
+     id="g376"
      stroke-miterlimit="0"
      transform="translate(2.3333,270.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect369"
+       id="rect378"
        height="103"
        ry="10"
        rx="10"
@@ -936,13 +957,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g371"
+     id="g380"
      stroke-miterlimit="0"
      transform="translate(2.3333,284.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line373"
+       id="line382"
        y1="0"
        x2="270"
        clip-path="url(#clipPath2)"
@@ -950,7 +971,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image375"
+       id="image384"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -962,7 +983,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text377"
+       id="text386"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath3)"
@@ -971,7 +992,7 @@
        x="24">ID Klienta</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text379"
+       id="text388"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath3)"
@@ -979,7 +1000,7 @@
        y="11"
        x="121">integer(10)</text>
     <image
-       id="image381"
+       id="image390"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -990,7 +1011,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text383"
+       id="text392"
        transform="translate(0,20)"
        clip-path="url(#clipPath4)"
        y="11"
@@ -998,7 +1019,7 @@
        x="24">Nazwa firmy</text>
     <text
        style="stroke:none"
-       id="text385"
+       id="text394"
        transform="translate(0,20)"
        clip-path="url(#clipPath4)"
        y="11"
@@ -1006,7 +1027,7 @@
        x="121">varchar(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line387"
+       id="line396"
        y2="0"
        y1="0"
        x2="270"
@@ -1015,7 +1036,7 @@
        transform="translate(0,20)" />
     <image
        style="font-style:italic"
-       id="image389"
+       id="image398"
        preserveAspectRatio="none"
        height="18"
        font-style="italic"
@@ -1027,7 +1048,7 @@
        x="4" />
     <text
        style="font-style:italic;stroke:none"
-       id="text391"
+       id="text400"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath5)"
@@ -1036,7 +1057,7 @@
        x="24">AdresID</text>
     <text
        style="font-style:italic;stroke:none"
-       id="text393"
+       id="text402"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath5)"
@@ -1045,7 +1066,7 @@
        x="121">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line395"
+       id="line404"
        y2="0"
        y1="0"
        x2="270"
@@ -1053,7 +1074,7 @@
        clip-path="url(#clipPath5)"
        transform="translate(0,38)" />
     <image
-       id="image397"
+       id="image406"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -1064,7 +1085,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text399"
+       id="text408"
        transform="translate(0,56)"
        clip-path="url(#clipPath6)"
        y="11"
@@ -1072,7 +1093,7 @@
        x="24">Numer telefonu</text>
     <text
        style="stroke:none"
-       id="text401"
+       id="text410"
        transform="translate(0,56)"
        clip-path="url(#clipPath6)"
        y="11"
@@ -1080,7 +1101,7 @@
        x="121">varchar(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line403"
+       id="line412"
        y2="0"
        y1="0"
        x2="270"
@@ -1090,12 +1111,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g405"
+     id="g414"
      transform="translate(2.3333,270.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text407"
+       id="text416"
        clip-path="url(#clipPath7)"
        y="11"
        xml:space="preserve"
@@ -1103,12 +1124,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g409"
+     id="g418"
      transform="translate(5.3333,424.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect411"
+       id="rect420"
        height="124"
        ry="10"
        rx="10"
@@ -1119,13 +1140,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g413"
+     id="g422"
      stroke-miterlimit="0"
      transform="translate(5.3333,424.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect415"
+       id="rect424"
        height="124"
        ry="10"
        rx="10"
@@ -1136,13 +1157,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g417"
+     id="g426"
      stroke-miterlimit="0"
      transform="translate(5.3333,438.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line419"
+       id="line428"
        y1="0"
        x2="270"
        clip-path="url(#clipPath9)"
@@ -1150,7 +1171,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image421"
+       id="image430"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -1162,7 +1183,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text423"
+       id="text432"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath10)"
@@ -1171,7 +1192,7 @@
        x="24">ID Adres</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text425"
+       id="text434"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath10)"
@@ -1179,7 +1200,7 @@
        y="11"
        x="113">integer(10)</text>
     <image
-       id="image427"
+       id="image436"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -1190,7 +1211,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text429"
+       id="text438"
        transform="translate(0,20)"
        clip-path="url(#clipPath11)"
        y="11"
@@ -1198,7 +1219,7 @@
        x="24">Miasto</text>
     <text
        style="stroke:none"
-       id="text431"
+       id="text440"
        transform="translate(0,20)"
        clip-path="url(#clipPath11)"
        y="11"
@@ -1206,7 +1227,7 @@
        x="113">varchar(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line433"
+       id="line442"
        y2="0"
        y1="0"
        x2="270"
@@ -1214,7 +1235,7 @@
        clip-path="url(#clipPath11)"
        transform="translate(0,20)" />
     <image
-       id="image435"
+       id="image444"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -1225,7 +1246,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text437"
+       id="text446"
        transform="translate(0,38)"
        clip-path="url(#clipPath12)"
        y="11"
@@ -1233,7 +1254,7 @@
        x="24">Ulica</text>
     <text
        style="stroke:none"
-       id="text439"
+       id="text448"
        transform="translate(0,38)"
        clip-path="url(#clipPath12)"
        y="11"
@@ -1241,7 +1262,7 @@
        x="113">varchar(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line441"
+       id="line450"
        y2="0"
        y1="0"
        x2="270"
@@ -1249,7 +1270,7 @@
        clip-path="url(#clipPath12)"
        transform="translate(0,38)" />
     <image
-       id="image443"
+       id="image452"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -1260,7 +1281,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text445"
+       id="text454"
        transform="translate(0,56)"
        clip-path="url(#clipPath13)"
        y="11"
@@ -1268,7 +1289,7 @@
        x="24">Nr budynki</text>
     <text
        style="stroke:none"
-       id="text447"
+       id="text456"
        transform="translate(0,56)"
        clip-path="url(#clipPath13)"
        y="11"
@@ -1276,7 +1297,7 @@
        x="113">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line449"
+       id="line458"
        y2="0"
        y1="0"
        x2="270"
@@ -1284,7 +1305,7 @@
        clip-path="url(#clipPath13)"
        transform="translate(0,56)" />
     <image
-       id="image451"
+       id="image460"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -1295,7 +1316,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text453"
+       id="text462"
        transform="translate(0,74)"
        clip-path="url(#clipPath14)"
        y="11"
@@ -1303,7 +1324,7 @@
        x="24">Kod pocztowy</text>
     <text
        style="stroke:none"
-       id="text455"
+       id="text464"
        transform="translate(0,74)"
        clip-path="url(#clipPath14)"
        y="11"
@@ -1311,7 +1332,7 @@
        x="113">varchar(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line457"
+       id="line466"
        y2="0"
        y1="0"
        x2="270"
@@ -1321,12 +1342,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g459"
+     id="g468"
      transform="translate(5.3333,424.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text461"
+       id="text470"
        clip-path="url(#clipPath7)"
        y="11"
        xml:space="preserve"
@@ -1334,12 +1355,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g463"
+     id="g472"
      transform="translate(5.3333,2.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect465"
+       id="rect474"
        height="76"
        ry="10"
        rx="10"
@@ -1350,13 +1371,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g467"
+     id="g476"
      stroke-miterlimit="0"
      transform="translate(5.3333,2.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect469"
+       id="rect478"
        height="76"
        ry="10"
        rx="10"
@@ -1367,13 +1388,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g471"
+     id="g480"
      stroke-miterlimit="0"
      transform="translate(5.3333,16.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line473"
+       id="line482"
        y1="0"
        x2="262"
        clip-path="url(#clipPath16)"
@@ -1381,7 +1402,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image475"
+       id="image484"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -1393,7 +1414,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text477"
+       id="text486"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath17)"
@@ -1402,7 +1423,7 @@
        x="24">ID Historia transakcji</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text479"
+       id="text488"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath17)"
@@ -1411,7 +1432,7 @@
        x="165">integer(10)</text>
     <image
        style="font-style:italic"
-       id="image481"
+       id="image490"
        preserveAspectRatio="none"
        height="18"
        font-style="italic"
@@ -1423,7 +1444,7 @@
        x="4" />
     <text
        style="font-style:italic;stroke:none"
-       id="text483"
+       id="text492"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath18)"
@@ -1432,7 +1453,7 @@
        x="24">ID Klienta</text>
     <text
        style="font-style:italic;stroke:none"
-       id="text485"
+       id="text494"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath18)"
@@ -1441,7 +1462,7 @@
        x="165">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line487"
+       id="line496"
        y2="0"
        y1="0"
        x2="262"
@@ -1450,7 +1471,7 @@
        transform="translate(0,20)" />
     <image
        style="font-style:italic;font-weight:bold"
-       id="image489"
+       id="image498"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -1463,7 +1484,7 @@
        x="4" />
     <text
        style="font-style:italic;font-weight:bold;stroke:none"
-       id="text491"
+       id="text500"
        xml:space="preserve"
        font-weight="bold"
        font-style="italic"
@@ -1473,7 +1494,7 @@
        x="24">Zakonczone transakcje</text>
     <text
        style="font-style:italic;font-weight:bold;stroke:none"
-       id="text493"
+       id="text502"
        xml:space="preserve"
        font-weight="bold"
        font-style="italic"
@@ -1484,7 +1505,7 @@
   </g>
   <g
      style="font-style:italic;font-weight:bold;font-size:11px;font-family:sans-serif;fill:#ffffae;fill-opacity:1;stroke:#ffffae;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g495"
+     id="g504"
      font-size="11"
      font-style="italic"
      font-weight="bold"
@@ -1492,7 +1513,7 @@
      transform="translate(5.3333,54.2222)">
     <line
        style="fill:none"
-       id="line497"
+       id="line506"
        y1="0"
        x2="262"
        clip-path="url(#clipPath19)"
@@ -1501,12 +1522,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g499"
+     id="g508"
      transform="translate(5.3333,2.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text501"
+       id="text510"
        clip-path="url(#clipPath20)"
        y="11"
        xml:space="preserve"
@@ -1514,12 +1535,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g503"
+     id="g512"
      transform="translate(2.3333,126.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect505"
+       id="rect514"
        height="94"
        ry="10"
        rx="10"
@@ -1530,13 +1551,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g507"
+     id="g516"
      stroke-miterlimit="0"
      transform="translate(2.3333,126.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect509"
+       id="rect518"
        height="94"
        ry="10"
        rx="10"
@@ -1547,13 +1568,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g511"
+     id="g520"
      stroke-miterlimit="0"
      transform="translate(2.3333,140.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line513"
+       id="line522"
        y1="0"
        x2="270"
        clip-path="url(#clipPath22)"
@@ -1561,7 +1582,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image515"
+       id="image524"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -1573,7 +1594,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text517"
+       id="text526"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath23)"
@@ -1582,7 +1603,7 @@
        x="24">ID Klienta z umowa</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text519"
+       id="text528"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath23)"
@@ -1591,7 +1612,7 @@
        x="148">integer(10)</text>
     <image
        style="font-style:italic"
-       id="image521"
+       id="image530"
        preserveAspectRatio="none"
        height="18"
        font-style="italic"
@@ -1603,7 +1624,7 @@
        x="4" />
     <text
        style="font-style:italic;stroke:none"
-       id="text523"
+       id="text532"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath24)"
@@ -1612,7 +1633,7 @@
        x="24">ID Klienta</text>
     <text
        style="font-style:italic;stroke:none"
-       id="text525"
+       id="text534"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath24)"
@@ -1621,7 +1642,7 @@
        x="148">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line527"
+       id="line536"
        y2="0"
        y1="0"
        x2="270"
@@ -1629,7 +1650,7 @@
        clip-path="url(#clipPath24)"
        transform="translate(0,20)" />
     <image
-       id="image529"
+       id="image538"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -1640,7 +1661,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text531"
+       id="text540"
        transform="translate(0,38)"
        clip-path="url(#clipPath25)"
        y="11"
@@ -1648,7 +1669,7 @@
        x="24">NIP</text>
     <text
        style="stroke:none"
-       id="text533"
+       id="text542"
        transform="translate(0,38)"
        clip-path="url(#clipPath25)"
        y="11"
@@ -1656,7 +1677,7 @@
        x="148">varchar(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line535"
+       id="line544"
        y2="0"
        y1="0"
        x2="270"
@@ -1666,12 +1687,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g537"
+     id="g546"
      transform="translate(2.3333,126.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text539"
+       id="text548"
        clip-path="url(#clipPath7)"
        y="11"
        xml:space="preserve"
@@ -1679,12 +1700,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g541"
+     id="g550"
      transform="translate(334.3333,188.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect543"
+       id="rect552"
        height="94"
        ry="10"
        rx="10"
@@ -1695,13 +1716,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g545"
+     id="g554"
      stroke-miterlimit="0"
      transform="translate(334.3333,188.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect547"
+       id="rect556"
        height="94"
        ry="10"
        rx="10"
@@ -1712,13 +1733,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g549"
+     id="g558"
      stroke-miterlimit="0"
      transform="translate(334.3333,202.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line551"
+       id="line560"
        y1="0"
        x2="262"
        clip-path="url(#clipPath27)"
@@ -1726,7 +1747,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image553"
+       id="image562"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -1738,7 +1759,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text555"
+       id="text564"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath28)"
@@ -1747,7 +1768,7 @@
        x="24">ID</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text557"
+       id="text566"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath28)"
@@ -1755,34 +1776,38 @@
        y="11"
        x="112">integer(10)</text>
     <image
-       id="image559"
+       style="font-style:italic"
+       id="image568"
        preserveAspectRatio="none"
        height="18"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
+       font-style="italic"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAB2ElEQVR42mNgwAJ0 90dqMJAImNAF9E7ERnx/93U9qQYxInMMLyS1f33yseLr0w/Pvj37eOs/A8MfoIIb DIz/dr5n4NvB0HDgD16DHN4XCHx+/n3xt6cffICGMAANefH35x8JVKX/H/xnZGr8 wMC9BJuBYK99ff/H5+fbLy4/3n5lAOF/P7FZzKjA+P//fKH/n2czNDiwoMsyg4hn E09d4vFVOfjj5SevX++/8QCd+QXogjeMDIwLgNJLGRj/HwYaBBRjUAHSRhyMP3// OPD8EM4wEm0wlfjz//9qoCFy7xl5ldG9wFdvpMLEwDQdqMkFaLjt+4azR7AaBAZA ZwsxfC1413C6B8RVbb99QZibReXXn/8Mv4H415+/DB9/r2T78+8FI8PvnJ9ff/27 871H24AF06ADf94xMPTAuCzMjKxtfmLcrz/9YXgDxK8//wbSiQwnn65g4Pz/leXM c05WsDpC6ePP3/+/qza9+orsop9g2geIvzH+Z2T4RZRBTr+vzpqR65+FS94/b0nP JmIMunTzuQWQ0gaxlx2/w7DsxB2GKAsVhihLFbD8zQevrUAxy8RAJcBCimKQK2Au ocggbF7DmfvJBfQLI24uti1A6hSuMGJnY3kIogHBR9xLL+DmegAAAABJRU5ErkJg gg=="
        width="18"
        clip-path="url(#clipPath29)"
        transform="translate(0,20)"
        y="0"
        x="4" />
     <text
-       style="stroke:none"
-       id="text561"
-       transform="translate(0,20)"
-       clip-path="url(#clipPath29)"
-       y="11"
+       style="font-style:italic;stroke:none"
+       id="text570"
        xml:space="preserve"
+       font-style="italic"
+       clip-path="url(#clipPath29)"
+       transform="translate(0,20)"
+       y="11"
        x="24">ID Klienta</text>
     <text
-       style="stroke:none"
-       id="text563"
-       transform="translate(0,20)"
-       clip-path="url(#clipPath29)"
-       y="11"
+       style="font-style:italic;stroke:none"
+       id="text572"
        xml:space="preserve"
+       font-style="italic"
+       clip-path="url(#clipPath29)"
+       transform="translate(0,20)"
+       y="11"
        x="112">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line565"
+       id="line574"
        y2="0"
        y1="0"
        x2="262"
@@ -1791,7 +1816,7 @@
        transform="translate(0,20)" />
     <image
        style="font-style:italic"
-       id="image567"
+       id="image576"
        preserveAspectRatio="none"
        height="18"
        font-style="italic"
@@ -1803,7 +1828,7 @@
        x="4" />
     <text
        style="font-style:italic;stroke:none"
-       id="text569"
+       id="text578"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath30)"
@@ -1812,7 +1837,7 @@
        x="24">ID Transakcji</text>
     <text
        style="font-style:italic;stroke:none"
-       id="text571"
+       id="text580"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath30)"
@@ -1821,7 +1846,7 @@
        x="112">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line573"
+       id="line582"
        y2="0"
        y1="0"
        x2="262"
@@ -1830,7 +1855,7 @@
        transform="translate(0,38)" />
     <image
        style="font-style:italic"
-       id="image575"
+       id="image584"
        preserveAspectRatio="none"
        height="18"
        font-style="italic"
@@ -1842,7 +1867,7 @@
        x="4" />
     <text
        style="font-style:italic;stroke:none"
-       id="text577"
+       id="text586"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath31)"
@@ -1851,7 +1876,7 @@
        x="24">ID Pracownika</text>
     <text
        style="font-style:italic;stroke:none"
-       id="text579"
+       id="text588"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath31)"
@@ -1860,7 +1885,7 @@
        x="112">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line581"
+       id="line590"
        y2="0"
        y1="0"
        x2="262"
@@ -1870,12 +1895,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g583"
+     id="g592"
      transform="translate(334.3333,188.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text585"
+       id="text594"
        clip-path="url(#clipPath32)"
        y="11"
        xml:space="preserve"
@@ -1883,12 +1908,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g587"
+     id="g596"
      transform="translate(672.3333,183.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect589"
+       id="rect598"
        height="148"
        ry="10"
        rx="10"
@@ -1899,13 +1924,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g591"
+     id="g600"
      stroke-miterlimit="0"
      transform="translate(672.3333,183.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect593"
+       id="rect602"
        height="148"
        ry="10"
        rx="10"
@@ -1916,13 +1941,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g595"
+     id="g604"
      stroke-miterlimit="0"
      transform="translate(672.3333,197.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line597"
+       id="line606"
        y1="0"
        x2="262"
        clip-path="url(#clipPath34)"
@@ -1930,7 +1955,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image599"
+       id="image608"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -1942,7 +1967,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text601"
+       id="text610"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath35)"
@@ -1951,7 +1976,7 @@
        x="24">ID Zamówienia</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text603"
+       id="text612"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath35)"
@@ -1960,7 +1985,7 @@
        x="122">integer(10)</text>
     <image
        style="font-style:italic"
-       id="image605"
+       id="image614"
        preserveAspectRatio="none"
        height="18"
        font-style="italic"
@@ -1972,7 +1997,7 @@
        x="4" />
     <text
        style="font-style:italic;stroke:none"
-       id="text607"
+       id="text616"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath36)"
@@ -1981,7 +2006,7 @@
        x="24">Lista odpadów</text>
     <text
        style="font-style:italic;stroke:none"
-       id="text609"
+       id="text618"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath36)"
@@ -1990,7 +2015,7 @@
        x="122">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line611"
+       id="line620"
        y2="0"
        y1="0"
        x2="262"
@@ -1998,7 +2023,7 @@
        clip-path="url(#clipPath36)"
        transform="translate(0,20)" />
     <image
-       id="image613"
+       id="image622"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2009,7 +2034,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text615"
+       id="text624"
        transform="translate(0,38)"
        clip-path="url(#clipPath37)"
        y="11"
@@ -2017,7 +2042,7 @@
        x="24">Data</text>
     <text
        style="stroke:none"
-       id="text617"
+       id="text626"
        transform="translate(0,38)"
        clip-path="url(#clipPath37)"
        y="11"
@@ -2025,7 +2050,7 @@
        x="122">date</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line619"
+       id="line628"
        y2="0"
        y1="0"
        x2="262"
@@ -2033,7 +2058,7 @@
        clip-path="url(#clipPath37)"
        transform="translate(0,38)" />
     <image
-       id="image621"
+       id="image630"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2044,7 +2069,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text623"
+       id="text632"
        transform="translate(0,56)"
        clip-path="url(#clipPath38)"
        y="11"
@@ -2052,7 +2077,7 @@
        x="24">Status</text>
     <text
        style="stroke:none"
-       id="text625"
+       id="text634"
        transform="translate(0,56)"
        clip-path="url(#clipPath38)"
        y="11"
@@ -2060,7 +2085,7 @@
        x="122">varchar(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line627"
+       id="line636"
        y2="0"
        y1="0"
        x2="262"
@@ -2068,7 +2093,7 @@
        clip-path="url(#clipPath38)"
        transform="translate(0,56)" />
     <image
-       id="image629"
+       id="image638"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2079,7 +2104,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text631"
+       id="text640"
        transform="translate(0,74)"
        clip-path="url(#clipPath39)"
        y="11"
@@ -2087,7 +2112,7 @@
        x="24">Wartosc</text>
     <text
        style="stroke:none"
-       id="text633"
+       id="text642"
        transform="translate(0,74)"
        clip-path="url(#clipPath39)"
        y="11"
@@ -2095,7 +2120,7 @@
        x="122">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line635"
+       id="line644"
        y2="0"
        y1="0"
        x2="262"
@@ -2103,7 +2128,7 @@
        clip-path="url(#clipPath39)"
        transform="translate(0,74)" />
     <image
-       id="image637"
+       id="image646"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2114,7 +2139,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text639"
+       id="text648"
        transform="translate(0,92)"
        clip-path="url(#clipPath40)"
        y="11"
@@ -2122,7 +2147,7 @@
        x="24">TransakcjeID</text>
     <text
        style="stroke:none"
-       id="text641"
+       id="text650"
        transform="translate(0,92)"
        clip-path="url(#clipPath40)"
        y="11"
@@ -2130,7 +2155,7 @@
        x="122">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line643"
+       id="line652"
        y2="0"
        y1="0"
        x2="262"
@@ -2138,7 +2163,7 @@
        clip-path="url(#clipPath40)"
        transform="translate(0,92)" />
     <image
-       id="image645"
+       id="image654"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2149,7 +2174,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text647"
+       id="text656"
        transform="translate(0,110)"
        clip-path="url(#clipPath41)"
        y="11"
@@ -2157,7 +2182,7 @@
        x="24">TransakcjeID2</text>
     <text
        style="stroke:none"
-       id="text649"
+       id="text658"
        transform="translate(0,110)"
        clip-path="url(#clipPath41)"
        y="11"
@@ -2165,7 +2190,7 @@
        x="122">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line651"
+       id="line660"
        y2="0"
        y1="0"
        x2="262"
@@ -2175,12 +2200,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g653"
+     id="g662"
      transform="translate(672.3333,183.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text655"
+       id="text664"
        clip-path="url(#clipPath32)"
        y="11"
        xml:space="preserve"
@@ -2188,12 +2213,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g657"
+     id="g666"
      transform="translate(672.3333,2.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect659"
+       id="rect668"
        height="130"
        ry="10"
        rx="10"
@@ -2204,13 +2229,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g661"
+     id="g670"
      stroke-miterlimit="0"
      transform="translate(672.3333,2.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect663"
+       id="rect672"
        height="130"
        ry="10"
        rx="10"
@@ -2221,13 +2246,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g665"
+     id="g674"
      stroke-miterlimit="0"
      transform="translate(672.3333,16.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line667"
+       id="line676"
        y1="0"
        x2="262"
        clip-path="url(#clipPath43)"
@@ -2235,7 +2260,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image669"
+       id="image678"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -2247,7 +2272,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text671"
+       id="text680"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath44)"
@@ -2256,7 +2281,7 @@
        x="24">ID Oferty</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text673"
+       id="text682"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath44)"
@@ -2265,7 +2290,7 @@
        x="183">integer(10)</text>
     <image
        style="font-style:italic"
-       id="image675"
+       id="image684"
        preserveAspectRatio="none"
        height="18"
        font-style="italic"
@@ -2277,7 +2302,7 @@
        x="4" />
     <text
        style="font-style:italic;stroke:none"
-       id="text677"
+       id="text686"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath45)"
@@ -2286,7 +2311,7 @@
        x="24">Lista produktów recyklingu</text>
     <text
        style="font-style:italic;stroke:none"
-       id="text679"
+       id="text688"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath45)"
@@ -2295,7 +2320,7 @@
        x="183">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line681"
+       id="line690"
        y2="0"
        y1="0"
        x2="262"
@@ -2303,7 +2328,7 @@
        clip-path="url(#clipPath45)"
        transform="translate(0,20)" />
     <image
-       id="image683"
+       id="image692"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2314,7 +2339,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text685"
+       id="text694"
        transform="translate(0,38)"
        clip-path="url(#clipPath46)"
        y="11"
@@ -2322,7 +2347,7 @@
        x="24">Data zamowienia</text>
     <text
        style="stroke:none"
-       id="text687"
+       id="text696"
        transform="translate(0,38)"
        clip-path="url(#clipPath46)"
        y="11"
@@ -2330,7 +2355,7 @@
        x="183">date</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line689"
+       id="line698"
        y2="0"
        y1="0"
        x2="262"
@@ -2338,7 +2363,7 @@
        clip-path="url(#clipPath46)"
        transform="translate(0,38)" />
     <image
-       id="image691"
+       id="image700"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2349,7 +2374,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text693"
+       id="text702"
        transform="translate(0,56)"
        clip-path="url(#clipPath47)"
        y="11"
@@ -2357,7 +2382,7 @@
        x="24">Data odbioru</text>
     <text
        style="stroke:none"
-       id="text695"
+       id="text704"
        transform="translate(0,56)"
        clip-path="url(#clipPath47)"
        y="11"
@@ -2365,7 +2390,7 @@
        x="183">date</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line697"
+       id="line706"
        y2="0"
        y1="0"
        x2="262"
@@ -2373,7 +2398,7 @@
        clip-path="url(#clipPath47)"
        transform="translate(0,56)" />
     <image
-       id="image699"
+       id="image708"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2384,7 +2409,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text701"
+       id="text710"
        transform="translate(0,74)"
        clip-path="url(#clipPath48)"
        y="11"
@@ -2392,7 +2417,7 @@
        x="24">Wartosc</text>
     <text
        style="stroke:none"
-       id="text703"
+       id="text712"
        transform="translate(0,74)"
        clip-path="url(#clipPath48)"
        y="11"
@@ -2400,7 +2425,7 @@
        x="183">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line705"
+       id="line714"
        y2="0"
        y1="0"
        x2="262"
@@ -2408,7 +2433,7 @@
        clip-path="url(#clipPath48)"
        transform="translate(0,74)" />
     <image
-       id="image707"
+       id="image716"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2419,7 +2444,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text709"
+       id="text718"
        transform="translate(0,92)"
        clip-path="url(#clipPath49)"
        y="11"
@@ -2427,7 +2452,7 @@
        x="24">TransakcjeID</text>
     <text
        style="stroke:none"
-       id="text711"
+       id="text720"
        transform="translate(0,92)"
        clip-path="url(#clipPath49)"
        y="11"
@@ -2435,7 +2460,7 @@
        x="183">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line713"
+       id="line722"
        y2="0"
        y1="0"
        x2="262"
@@ -2445,12 +2470,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g715"
+     id="g724"
      transform="translate(672.3333,2.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text717"
+       id="text726"
        clip-path="url(#clipPath50)"
        y="11"
        xml:space="preserve"
@@ -2458,12 +2483,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g719"
+     id="g728"
      transform="translate(672.3333,383.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect721"
+       id="rect730"
        height="76"
        ry="10"
        rx="10"
@@ -2474,13 +2499,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g723"
+     id="g732"
      stroke-miterlimit="0"
      transform="translate(672.3333,383.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect725"
+       id="rect734"
        height="76"
        ry="10"
        rx="10"
@@ -2491,13 +2516,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g727"
+     id="g736"
      stroke-miterlimit="0"
      transform="translate(672.3333,397.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line729"
+       id="line738"
        y1="0"
        x2="262"
        clip-path="url(#clipPath51)"
@@ -2505,7 +2530,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image731"
+       id="image740"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -2517,7 +2542,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text733"
+       id="text742"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath52)"
@@ -2526,7 +2551,7 @@
        x="24">ID Deklaracji</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text735"
+       id="text744"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath52)"
@@ -2535,7 +2560,7 @@
        x="115">integer(10)</text>
     <image
        style="font-style:italic"
-       id="image737"
+       id="image746"
        preserveAspectRatio="none"
        height="18"
        font-style="italic"
@@ -2547,7 +2572,7 @@
        x="4" />
     <text
        style="font-style:italic;stroke:none"
-       id="text739"
+       id="text748"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath53)"
@@ -2556,7 +2581,7 @@
        x="24">Lista odpadów</text>
     <text
        style="font-style:italic;stroke:none"
-       id="text741"
+       id="text750"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath53)"
@@ -2565,7 +2590,7 @@
        x="115">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line743"
+       id="line752"
        y2="0"
        y1="0"
        x2="262"
@@ -2573,7 +2598,7 @@
        clip-path="url(#clipPath53)"
        transform="translate(0,20)" />
     <image
-       id="image745"
+       id="image754"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2584,7 +2609,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text747"
+       id="text756"
        transform="translate(0,38)"
        clip-path="url(#clipPath54)"
        y="11"
@@ -2592,7 +2617,7 @@
        x="24">Data</text>
     <text
        style="stroke:none"
-       id="text749"
+       id="text758"
        transform="translate(0,38)"
        clip-path="url(#clipPath54)"
        y="11"
@@ -2600,7 +2625,7 @@
        x="115">date</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line751"
+       id="line760"
        y2="0"
        y1="0"
        x2="262"
@@ -2610,12 +2635,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g753"
+     id="g762"
      transform="translate(672.3333,383.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text755"
+       id="text764"
        clip-path="url(#clipPath32)"
        y="11"
        xml:space="preserve"
@@ -2623,12 +2648,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g757"
+     id="g766"
      transform="translate(338.3333,2.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect759"
+       id="rect768"
        height="58"
        ry="10"
        rx="10"
@@ -2639,13 +2664,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g761"
+     id="g770"
      stroke-miterlimit="0"
      transform="translate(338.3333,2.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect763"
+       id="rect772"
        height="58"
        ry="10"
        rx="10"
@@ -2656,13 +2681,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g765"
+     id="g774"
      stroke-miterlimit="0"
      transform="translate(338.3333,16.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line767"
+       id="line776"
        y1="0"
        x2="263"
        clip-path="url(#clipPath56)"
@@ -2670,7 +2695,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image769"
+       id="image778"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -2682,7 +2707,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text771"
+       id="text780"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath57)"
@@ -2691,7 +2716,7 @@
        x="24">ID zakończonej</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text773"
+       id="text782"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath57)"
@@ -2700,7 +2725,7 @@
        x="124">integer(10)</text>
     <image
        style="font-style:italic"
-       id="image775"
+       id="image784"
        preserveAspectRatio="none"
        height="18"
        font-style="italic"
@@ -2712,7 +2737,7 @@
        x="4" />
     <text
        style="font-style:italic;stroke:none"
-       id="text777"
+       id="text786"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath58)"
@@ -2721,7 +2746,7 @@
        x="24">ID Transakcji</text>
     <text
        style="font-style:italic;stroke:none"
-       id="text779"
+       id="text788"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath58)"
@@ -2730,7 +2755,7 @@
        x="124">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line781"
+       id="line790"
        y2="0"
        y1="0"
        x2="263"
@@ -2740,12 +2765,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g783"
+     id="g792"
      transform="translate(338.3333,2.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text785"
+       id="text794"
        clip-path="url(#clipPath59)"
        y="11"
        xml:space="preserve"
@@ -2753,12 +2778,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g787"
+     id="g796"
      transform="translate(334.3333,383.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect789"
+       id="rect798"
        height="166"
        ry="10"
        rx="10"
@@ -2769,13 +2794,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g791"
+     id="g800"
      stroke-miterlimit="0"
      transform="translate(334.3333,383.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect793"
+       id="rect802"
        height="166"
        ry="10"
        rx="10"
@@ -2786,13 +2811,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g795"
+     id="g804"
      stroke-miterlimit="0"
      transform="translate(334.3333,397.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line797"
+       id="line806"
        y1="0"
        x2="262"
        clip-path="url(#clipPath61)"
@@ -2800,7 +2825,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image799"
+       id="image808"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -2812,7 +2837,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text801"
+       id="text810"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath62)"
@@ -2821,7 +2846,7 @@
        x="24">ID Pracownika</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text803"
+       id="text812"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath62)"
@@ -2829,7 +2854,7 @@
        y="11"
        x="170">integer(10)</text>
     <image
-       id="image805"
+       id="image814"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2840,7 +2865,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text807"
+       id="text816"
        transform="translate(0,20)"
        clip-path="url(#clipPath63)"
        y="11"
@@ -2848,7 +2873,7 @@
        x="24">Imie</text>
     <text
        style="stroke:none"
-       id="text809"
+       id="text818"
        transform="translate(0,20)"
        clip-path="url(#clipPath63)"
        y="11"
@@ -2856,7 +2881,7 @@
        x="170">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line811"
+       id="line820"
        y2="0"
        y1="0"
        x2="262"
@@ -2864,7 +2889,7 @@
        clip-path="url(#clipPath63)"
        transform="translate(0,20)" />
     <image
-       id="image813"
+       id="image822"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2875,7 +2900,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text815"
+       id="text824"
        transform="translate(0,38)"
        clip-path="url(#clipPath64)"
        y="11"
@@ -2883,7 +2908,7 @@
        x="24">Nazwisko</text>
     <text
        style="stroke:none"
-       id="text817"
+       id="text826"
        transform="translate(0,38)"
        clip-path="url(#clipPath64)"
        y="11"
@@ -2891,7 +2916,7 @@
        x="170">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line819"
+       id="line828"
        y2="0"
        y1="0"
        x2="262"
@@ -2899,7 +2924,7 @@
        clip-path="url(#clipPath64)"
        transform="translate(0,38)" />
     <image
-       id="image821"
+       id="image830"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2910,7 +2935,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text823"
+       id="text832"
        transform="translate(0,56)"
        clip-path="url(#clipPath65)"
        y="11"
@@ -2918,7 +2943,7 @@
        x="24">PESEL</text>
     <text
        style="stroke:none"
-       id="text825"
+       id="text834"
        transform="translate(0,56)"
        clip-path="url(#clipPath65)"
        y="11"
@@ -2926,7 +2951,7 @@
        x="170">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line827"
+       id="line836"
        y2="0"
        y1="0"
        x2="262"
@@ -2934,7 +2959,7 @@
        clip-path="url(#clipPath65)"
        transform="translate(0,56)" />
     <image
-       id="image829"
+       id="image838"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2945,7 +2970,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text831"
+       id="text840"
        transform="translate(0,74)"
        clip-path="url(#clipPath66)"
        y="11"
@@ -2953,7 +2978,7 @@
        x="24">Data urodzenia</text>
     <text
        style="stroke:none"
-       id="text833"
+       id="text842"
        transform="translate(0,74)"
        clip-path="url(#clipPath66)"
        y="11"
@@ -2961,7 +2986,7 @@
        x="170">date</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line835"
+       id="line844"
        y2="0"
        y1="0"
        x2="262"
@@ -2969,7 +2994,7 @@
        clip-path="url(#clipPath66)"
        transform="translate(0,74)" />
     <image
-       id="image837"
+       id="image846"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -2980,7 +3005,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text839"
+       id="text848"
        transform="translate(0,92)"
        clip-path="url(#clipPath67)"
        y="11"
@@ -2988,7 +3013,7 @@
        x="24">Data zatrudnienia</text>
     <text
        style="stroke:none"
-       id="text841"
+       id="text850"
        transform="translate(0,92)"
        clip-path="url(#clipPath67)"
        y="11"
@@ -2996,7 +3021,7 @@
        x="170">date</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line843"
+       id="line852"
        y2="0"
        y1="0"
        x2="262"
@@ -3004,7 +3029,7 @@
        clip-path="url(#clipPath67)"
        transform="translate(0,92)" />
     <image
-       id="image845"
+       id="image854"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -3015,7 +3040,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text847"
+       id="text856"
        transform="translate(0,110)"
        clip-path="url(#clipPath68)"
        y="11"
@@ -3023,7 +3048,7 @@
        x="24">Stanowisko</text>
     <text
        style="stroke:none"
-       id="text849"
+       id="text858"
        transform="translate(0,110)"
        clip-path="url(#clipPath68)"
        y="11"
@@ -3031,7 +3056,7 @@
        x="170">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line851"
+       id="line860"
        y2="0"
        y1="0"
        x2="262"
@@ -3039,7 +3064,7 @@
        clip-path="url(#clipPath68)"
        transform="translate(0,110)" />
     <image
-       id="image853"
+       id="image862"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -3050,7 +3075,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text855"
+       id="text864"
        transform="translate(0,128)"
        clip-path="url(#clipPath69)"
        y="11"
@@ -3058,14 +3083,14 @@
        x="24">Bezpośredni zwierzchnik</text>
     <text
        style="stroke:none"
-       id="text857"
+       id="text866"
        transform="translate(0,128)"
        clip-path="url(#clipPath69)"
        y="11"
        xml:space="preserve"
        x="170">integer(10)</text>
     <image
-       id="image859"
+       id="image868"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAA+UlEQVR42s1TrQ6D QAzufjyYZZLZOcw0Q03uFbBMITYNEgkKi8XxBgQxD4654w3ATa5Hegu5bIjD8CXN pW36pf16BVgaVpK/R/PRXPITtNuPXEm5TBRuJKJHEAT3oigAX6jr+tQ0zRvjz3HO tu1DmqY7jKWicD3VbhRFoOt6SN1MYpLIMAzwPA9oJHWigcH3wTRNdzaRGBFxViaK 43h4LcsCx3EsZSK+ubZtx8KrEXVdJ8QGTdN4V+oa5XleIr5kc8ROeCd938/eWsYY C2lzf7GVfKxhIEahmxq0RuGP+J+uXPCqqnismjpaDocMpMO80MHqRMJzL1gsPvk5 U/cqUJjDAAAAAElFTkSuQmCC"
@@ -3076,7 +3101,7 @@
        x="243" />
     <line
        style="fill:none;stroke:#ffffae"
-       id="line861"
+       id="line870"
        y2="0"
        y1="0"
        x2="262"
@@ -3086,12 +3111,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g863"
+     id="g872"
      transform="translate(334.3333,383.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text865"
+       id="text874"
        clip-path="url(#clipPath32)"
        y="11"
        xml:space="preserve"
@@ -3099,12 +3124,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g867"
+     id="g876"
      transform="translate(995.3333,2.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect869"
+       id="rect878"
        height="93"
        ry="10"
        rx="10"
@@ -3115,13 +3140,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g871"
+     id="g880"
      stroke-miterlimit="0"
      transform="translate(995.3333,2.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect873"
+       id="rect882"
        height="93"
        ry="10"
        rx="10"
@@ -3132,13 +3157,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g875"
+     id="g884"
      stroke-miterlimit="0"
      transform="translate(995.3333,16.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line877"
+       id="line886"
        y1="0"
        x2="244"
        clip-path="url(#clipPath71)"
@@ -3146,7 +3171,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image879"
+       id="image888"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -3158,7 +3183,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text881"
+       id="text890"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath72)"
@@ -3167,7 +3192,7 @@
        x="24">ID Listy</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text883"
+       id="text892"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath72)"
@@ -3176,7 +3201,7 @@
        x="101">integer(10)</text>
     <image
        style="font-style:italic"
-       id="image885"
+       id="image894"
        preserveAspectRatio="none"
        height="18"
        font-style="italic"
@@ -3188,7 +3213,7 @@
        x="4" />
     <text
        style="font-style:italic;stroke:none"
-       id="text887"
+       id="text896"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath73)"
@@ -3197,7 +3222,7 @@
        x="24">ID Produktu</text>
     <text
        style="font-style:italic;stroke:none"
-       id="text889"
+       id="text898"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath73)"
@@ -3206,7 +3231,7 @@
        x="101">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line891"
+       id="line900"
        y2="0"
        y1="0"
        x2="244"
@@ -3214,7 +3239,7 @@
        clip-path="url(#clipPath73)"
        transform="translate(0,20)" />
     <image
-       id="image893"
+       id="image902"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -3225,7 +3250,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text895"
+       id="text904"
        transform="translate(0,38)"
        clip-path="url(#clipPath74)"
        y="11"
@@ -3233,7 +3258,7 @@
        x="24">Waga</text>
     <text
        style="stroke:none"
-       id="text897"
+       id="text906"
        transform="translate(0,38)"
        clip-path="url(#clipPath74)"
        y="11"
@@ -3241,7 +3266,7 @@
        x="101">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line899"
+       id="line908"
        y2="0"
        y1="0"
        x2="244"
@@ -3251,12 +3276,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g901"
+     id="g910"
      transform="translate(995.3333,2.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text903"
+       id="text912"
        clip-path="url(#clipPath75)"
        y="11"
        xml:space="preserve"
@@ -3264,12 +3289,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g905"
+     id="g914"
      transform="translate(995.3333,145.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect907"
+       id="rect916"
        height="57"
        ry="10"
        rx="10"
@@ -3280,13 +3305,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g909"
+     id="g918"
      stroke-miterlimit="0"
      transform="translate(995.3333,145.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect911"
+       id="rect920"
        height="57"
        ry="10"
        rx="10"
@@ -3297,13 +3322,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g913"
+     id="g922"
      stroke-miterlimit="0"
      transform="translate(995.3333,159.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line915"
+       id="line924"
        y1="0"
        x2="244"
        clip-path="url(#clipPath77)"
@@ -3311,7 +3336,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image917"
+       id="image926"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -3323,7 +3348,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text919"
+       id="text928"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath78)"
@@ -3332,7 +3357,7 @@
        x="24">ID Produktu</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text921"
+       id="text930"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath78)"
@@ -3340,7 +3365,7 @@
        y="11"
        x="106">integer(10)</text>
     <image
-       id="image923"
+       id="image932"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -3351,7 +3376,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text925"
+       id="text934"
        transform="translate(0,20)"
        clip-path="url(#clipPath79)"
        y="11"
@@ -3359,7 +3384,7 @@
        x="24">Nazwa</text>
     <text
        style="stroke:none"
-       id="text927"
+       id="text936"
        transform="translate(0,20)"
        clip-path="url(#clipPath79)"
        y="11"
@@ -3367,7 +3392,7 @@
        x="106">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line929"
+       id="line938"
        y2="0"
        y1="0"
        x2="244"
@@ -3377,12 +3402,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g931"
+     id="g940"
      transform="translate(995.3333,145.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text933"
+       id="text942"
        clip-path="url(#clipPath80)"
        y="11"
        xml:space="preserve"
@@ -3390,12 +3415,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g935"
+     id="g944"
      transform="translate(995.3333,237.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect937"
+       id="rect946"
        height="94"
        ry="10"
        rx="10"
@@ -3406,13 +3431,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g939"
+     id="g948"
      stroke-miterlimit="0"
      transform="translate(995.3333,237.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect941"
+       id="rect950"
        height="94"
        ry="10"
        rx="10"
@@ -3423,13 +3448,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g943"
+     id="g952"
      stroke-miterlimit="0"
      transform="translate(995.3333,251.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line945"
+       id="line954"
        y1="0"
        x2="244"
        clip-path="url(#clipPath82)"
@@ -3437,7 +3462,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image947"
+       id="image956"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -3449,7 +3474,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text949"
+       id="text958"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath83)"
@@ -3458,7 +3483,7 @@
        x="24">ID Listy</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text951"
+       id="text960"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath83)"
@@ -3467,7 +3492,7 @@
        x="95">integer(10)</text>
     <image
        style="font-style:italic"
-       id="image953"
+       id="image962"
        preserveAspectRatio="none"
        height="18"
        font-style="italic"
@@ -3479,7 +3504,7 @@
        x="4" />
     <text
        style="font-style:italic;stroke:none"
-       id="text955"
+       id="text964"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath84)"
@@ -3488,7 +3513,7 @@
        x="24">ID Odpadu</text>
     <text
        style="font-style:italic;stroke:none"
-       id="text957"
+       id="text966"
        xml:space="preserve"
        font-style="italic"
        clip-path="url(#clipPath84)"
@@ -3497,7 +3522,7 @@
        x="95">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line959"
+       id="line968"
        y2="0"
        y1="0"
        x2="244"
@@ -3505,7 +3530,7 @@
        clip-path="url(#clipPath84)"
        transform="translate(0,20)" />
     <image
-       id="image961"
+       id="image970"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -3516,7 +3541,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text963"
+       id="text972"
        transform="translate(0,38)"
        clip-path="url(#clipPath85)"
        y="11"
@@ -3524,7 +3549,7 @@
        x="24">Waga</text>
     <text
        style="stroke:none"
-       id="text965"
+       id="text974"
        transform="translate(0,38)"
        clip-path="url(#clipPath85)"
        y="11"
@@ -3532,7 +3557,7 @@
        x="95">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line967"
+       id="line976"
        y2="0"
        y1="0"
        x2="244"
@@ -3542,12 +3567,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g969"
+     id="g978"
      transform="translate(995.3333,237.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text971"
+       id="text980"
        clip-path="url(#clipPath80)"
        y="11"
        xml:space="preserve"
@@ -3555,12 +3580,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#f5b67a;fill-opacity:1;stroke:#f5b67a;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g973"
+     id="g982"
      transform="translate(995.3333,382.2222)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect975"
+       id="rect984"
        height="58"
        ry="10"
        rx="10"
@@ -3571,13 +3596,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g977"
+     id="g986"
      stroke-miterlimit="0"
      transform="translate(995.3333,382.2222)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect979"
+       id="rect988"
        height="58"
        ry="10"
        rx="10"
@@ -3588,13 +3613,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g981"
+     id="g990"
      stroke-miterlimit="0"
      transform="translate(995.3333,396.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line983"
+       id="line992"
        y1="0"
        x2="244"
        clip-path="url(#clipPath87)"
@@ -3602,7 +3627,7 @@
        y2="0" />
     <image
        style="font-weight:bold"
-       id="image985"
+       id="image994"
        font-weight="bold"
        preserveAspectRatio="none"
        height="18"
@@ -3614,7 +3639,7 @@
        x="4" />
     <text
        style="font-weight:bold;stroke:none"
-       id="text987"
+       id="text996"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath88)"
@@ -3623,7 +3648,7 @@
        x="24">ID Odpadu</text>
     <text
        style="font-weight:bold;stroke:none"
-       id="text989"
+       id="text998"
        xml:space="preserve"
        font-weight="bold"
        clip-path="url(#clipPath88)"
@@ -3631,7 +3656,7 @@
        y="11"
        x="98">integer(10)</text>
     <image
-       id="image991"
+       id="image1000"
        preserveAspectRatio="none"
        height="18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAsklEQVR42mNgoBJg ROawllz+z8zIxPAfyAZhhv//ITSEiUb/Y/jXrwfXz4JsEBMjI8P2bAWGT9//Mnz8 BsRA+hOI/vYPLgbh/2U49uIHiouYqOU1qhmE4rVfv/4w+M18RJTG///+4jZI4src P8/2TGIhxiApl7w/z3EZhA46tlxg6Nh6Acyu8DZgqPAxIM5r6ACkEZ9mhlEXDYyL aJOyqea1/0Ag45b/j6gs8h9WoFAZAABfVWa2ViRvoQAAAABJRU5ErkJggg=="
@@ -3642,7 +3667,7 @@
        x="4" />
     <text
        style="stroke:none"
-       id="text993"
+       id="text1002"
        transform="translate(0,20)"
        clip-path="url(#clipPath89)"
        y="11"
@@ -3650,7 +3675,7 @@
        x="24">Nazwa</text>
     <text
        style="stroke:none"
-       id="text995"
+       id="text1004"
        transform="translate(0,20)"
        clip-path="url(#clipPath89)"
        y="11"
@@ -3658,7 +3683,7 @@
        x="98">integer(10)</text>
     <line
        style="fill:none;stroke:#ffffae"
-       id="line997"
+       id="line1006"
        y2="0"
        y1="0"
        x2="244"
@@ -3668,12 +3693,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g999"
+     id="g1008"
      transform="translate(995.3333,382.2222)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text1001"
+       id="text1010"
        clip-path="url(#clipPath80)"
        y="11"
        xml:space="preserve"
@@ -3681,13 +3706,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1003"
+     id="g1012"
      stroke-miterlimit="0"
      transform="translate(81.3333,165.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1005"
+       id="line1014"
        y1="104"
        x2="56"
        clip-path="url(#clipPath90)"
@@ -3696,12 +3721,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1007"
+     id="g1016"
      transform="matrix(-1,0,0,-1,193.3333,373.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1009"
+       id="line1018"
        y1="112.25"
        x2="60.125"
        clip-path="url(#clipPath91)"
@@ -3709,7 +3734,7 @@
        y2="112.25" />
     <line
        style="fill:none"
-       id="line1011"
+       id="line1020"
        y2="64.25"
        y1="64.25"
        x2="60.125"
@@ -3719,13 +3744,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1013"
+     id="g1022"
      stroke-miterlimit="0"
      transform="translate(81.3333,22.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1015"
+       id="line1024"
        y1="104"
        x2="56"
        clip-path="url(#clipPath90)"
@@ -3734,12 +3759,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1017"
+     id="g1026"
      transform="matrix(-1,0,0,-1,193.3333,230.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1019"
+       id="line1028"
        y1="112.25"
        x2="60.125"
        clip-path="url(#clipPath91)"
@@ -3748,13 +3773,13 @@
     <path
        style="fill:none;stroke-linecap:butt;stroke-linejoin:bevel"
        inkscape:connector-curvature="0"
-       id="path1021"
+       id="path1030"
        transform="matrix(-1,0,0,-1,112,208)"
        clip-path="url(#clipPath90)"
        d="M 56,63.1429 51.875,56 56,63.1429 56,56 56,63.1429 60.125,56 Z" />
     <circle
        style="fill:#ffffff;stroke:none"
-       id="circle1023"
+       id="circle1032"
        cy="67.267899"
        cx="56"
        r="4.125"
@@ -3762,7 +3787,7 @@
        transform="matrix(-1,0,0,-1,112,208)" />
     <circle
        style="fill:none"
-       id="circle1025"
+       id="circle1034"
        cy="67.267899"
        transform="matrix(-1,0,0,-1,112,208)"
        cx="56"
@@ -3771,13 +3796,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1027"
+     id="g1036"
      stroke-miterlimit="0"
      transform="translate(541.3333,178.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1029"
+       id="line1038"
        y1="56"
        x2="56"
        clip-path="url(#clipPath92)"
@@ -3786,12 +3811,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1031"
+     id="g1040"
      transform="matrix(0,1,-1,0,728.3333,103.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1033"
+       id="line1042"
        y1="64.25"
        x2="135.125"
        clip-path="url(#clipPath93)"
@@ -3800,13 +3825,13 @@
     <path
        style="fill:none;stroke-linecap:butt;stroke-linejoin:bevel"
        inkscape:connector-curvature="0"
-       id="path1035"
+       id="path1044"
        transform="matrix(-1,0,0,-1,187,187)"
        clip-path="url(#clipPath94)"
        d="M 56,63.1429 51.875,56 56,63.1429 56,56 56,63.1429 60.125,56 Z" />
     <circle
        style="fill:#ffffff;stroke:none"
-       id="circle1037"
+       id="circle1046"
        cy="67.267899"
        cx="56"
        r="4.125"
@@ -3814,7 +3839,7 @@
        transform="matrix(-1,0,0,-1,187,187)" />
     <circle
        style="fill:none"
-       id="circle1039"
+       id="circle1048"
        cy="67.267899"
        transform="matrix(-1,0,0,-1,187,187)"
        cx="56"
@@ -3823,13 +3848,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1041"
+     id="g1050"
      stroke-miterlimit="0"
      transform="translate(537.3333,74.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1043"
+       id="line1052"
        y1="56"
        x2="56"
        clip-path="url(#clipPath95)"
@@ -3838,12 +3863,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1045"
+     id="g1054"
      transform="matrix(0.59686362,0.8023427,-0.8023427,0.59686362,637.89731,-13.925456)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1047"
+       id="line1056"
        y1="64.25"
        x2="142.125"
        clip-path="url(#clipPath96)"
@@ -3852,13 +3877,13 @@
     <path
        style="fill:none;stroke-linecap:butt;stroke-linejoin:bevel"
        inkscape:connector-curvature="0"
-       id="path1049"
+       id="path1058"
        transform="matrix(-1,0,0,-1,194.00009,275.20078)"
        clip-path="url(#clipPath97)"
        d="M 56,124.1429 51.875,117 56,124.1429 56,117 56,124.1429 60.125,117 Z" />
     <circle
        style="fill:#ffffff;stroke:none"
-       id="circle1051"
+       id="circle1060"
        cy="128.2679"
        cx="56"
        r="4.125"
@@ -3866,7 +3891,7 @@
        transform="matrix(-1,0,0,-1,194.00009,275.20078)" />
     <circle
        style="fill:none"
-       id="circle1053"
+       id="circle1062"
        cy="128.2679"
        transform="matrix(-1,0,0,-1,194.00009,275.20078)"
        cx="56"
@@ -3875,13 +3900,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1055"
+     id="g1064"
      stroke-miterlimit="0"
      transform="translate(538.3333,223.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1057"
+       id="line1066"
        y1="163"
        x2="56"
        clip-path="url(#clipPath98)"
@@ -3890,12 +3915,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1059"
+     id="g1068"
      transform="matrix(-0.80089757,0.59880137,-0.59880137,-0.80089757,880.85999,435.33152)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1061"
+       id="line1070"
        y1="171.25"
        x2="140.125"
        clip-path="url(#clipPath99)"
@@ -3904,13 +3929,13 @@
     <path
        style="fill:none;stroke-linecap:butt;stroke-linejoin:bevel"
        inkscape:connector-curvature="0"
-       id="path1063"
+       id="path1072"
        transform="matrix(-1,0,0,-1,192.00006,352.60015)"
        clip-path="url(#clipPath100)"
        d="M 56,63.1429 51.875,56 56,63.1429 56,56 56,63.1429 60.125,56 Z" />
     <circle
        style="fill:#ffffff;stroke:none"
-       id="circle1065"
+       id="circle1074"
        cy="67.267899"
        cx="56"
        r="4.125"
@@ -3918,7 +3943,7 @@
        transform="matrix(-1,0,0,-1,192.00006,352.60015)" />
     <circle
        style="fill:none"
-       id="circle1067"
+       id="circle1076"
        cy="67.267899"
        transform="matrix(-1,0,0,-1,192.00006,352.60015)"
        cx="56"
@@ -3927,13 +3952,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1069"
+     id="g1078"
      stroke-miterlimit="0"
      transform="translate(212.3333,-24.7778)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1071"
+       id="line1080"
        y1="56"
        x2="56"
        clip-path="url(#clipPath101)"
@@ -3942,12 +3967,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1073"
+     id="g1082"
      transform="matrix(0,1,-1,0,395.3333,-95.7778)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1075"
+       id="line1084"
        y1="64.25"
        x2="131.125"
        clip-path="url(#clipPath102)"
@@ -3956,13 +3981,13 @@
     <path
        style="fill:none;stroke-linecap:butt;stroke-linejoin:bevel"
        inkscape:connector-curvature="0"
-       id="path1077"
+       id="path1086"
        transform="matrix(-1,0,0,-1,183,183)"
        clip-path="url(#clipPath103)"
        d="M 56,63.1429 51.875,56 56,63.1429 56,56 56,63.1429 60.125,56 Z" />
     <circle
        style="fill:#ffffff;stroke:none"
-       id="circle1079"
+       id="circle1088"
        cy="67.267899"
        cx="56"
        r="4.125"
@@ -3970,7 +3995,7 @@
        transform="matrix(-1,0,0,-1,183,183)" />
     <circle
        style="fill:none"
-       id="circle1081"
+       id="circle1090"
        cy="67.267899"
        transform="matrix(-1,0,0,-1,183,183)"
        cx="56"
@@ -3979,13 +4004,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1083"
+     id="g1092"
      stroke-miterlimit="0"
      transform="translate(409.3333,4.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1085"
+       id="line1094"
        y1="184"
        x2="56"
        clip-path="url(#clipPath104)"
@@ -3994,12 +4019,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1087"
+     id="g1096"
      transform="matrix(-1,0,0,-1,521.3333,372.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1089"
+       id="line1098"
        y1="192.25"
        x2="60.125"
        clip-path="url(#clipPath105)"
@@ -4008,13 +4033,13 @@
     <path
        style="fill:none;stroke-linecap:butt;stroke-linejoin:bevel"
        inkscape:connector-curvature="0"
-       id="path1091"
+       id="path1100"
        transform="matrix(-1,0,0,-1,112,368)"
        clip-path="url(#clipPath104)"
        d="M 56,63.1429 51.875,56 56,63.1429 56,56 56,63.1429 60.125,56 Z" />
     <circle
        style="fill:#ffffff;stroke:none"
-       id="circle1093"
+       id="circle1102"
        cy="67.267899"
        cx="56"
        r="4.125"
@@ -4022,7 +4047,7 @@
        transform="matrix(-1,0,0,-1,112,368)" />
     <circle
        style="fill:none"
-       id="circle1095"
+       id="circle1104"
        cy="67.267899"
        transform="matrix(-1,0,0,-1,112,368)"
        cx="56"
@@ -4031,13 +4056,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1097"
+     id="g1106"
      stroke-miterlimit="0"
      transform="translate(409.3333,227.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1099"
+       id="line1108"
        y1="156"
        x2="56"
        clip-path="url(#clipPath106)"
@@ -4046,12 +4071,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1101"
+     id="g1110"
      transform="matrix(-1,0,0,-1,521.3333,539.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1103"
+       id="line1112"
        y1="164.25"
        x2="60.125"
        clip-path="url(#clipPath107)"
@@ -4060,13 +4085,13 @@
     <path
        style="fill:none;stroke-linecap:butt;stroke-linejoin:bevel"
        inkscape:connector-curvature="0"
-       id="path1105"
+       id="path1114"
        transform="matrix(-1,0,0,-1,112,312)"
        clip-path="url(#clipPath106)"
        d="M 56,61.1429 51.875,54 56,61.1429 56,54 56,61.1429 60.125,54 Z" />
     <circle
        style="fill:#ffffff;stroke:none"
-       id="circle1107"
+       id="circle1116"
        cy="65.267899"
        cx="56"
        r="4.125"
@@ -4074,7 +4099,7 @@
        transform="matrix(-1,0,0,-1,112,312)" />
     <circle
        style="fill:none"
-       id="circle1109"
+       id="circle1118"
        cy="65.267899"
        transform="matrix(-1,0,0,-1,112,312)"
        cx="56"
@@ -4083,13 +4108,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1111"
+     id="g1120"
      stroke-miterlimit="0"
      transform="translate(81.3333,317.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1113"
+       id="line1122"
        y1="107"
        x2="56"
        clip-path="url(#clipPath108)"
@@ -4098,12 +4123,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1115"
+     id="g1124"
      transform="matrix(-1,0,0,-1,193.3333,531.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1117"
+       id="line1126"
        y1="115.25"
        x2="60.125"
        clip-path="url(#clipPath109)"
@@ -4112,13 +4137,13 @@
     <path
        style="fill:none;stroke-linecap:butt;stroke-linejoin:bevel"
        inkscape:connector-curvature="0"
-       id="path1119"
+       id="path1128"
        transform="matrix(-1,0,0,-1,112,214)"
        clip-path="url(#clipPath108)"
        d="M 56,63.1429 51.875,56 56,63.1429 56,56 56,63.1429 60.125,56 Z" />
     <circle
        style="fill:#ffffff;stroke:none"
-       id="circle1121"
+       id="circle1130"
        cy="67.267899"
        cx="56"
        r="4.125"
@@ -4126,7 +4151,7 @@
        transform="matrix(-1,0,0,-1,112,214)" />
     <circle
        style="fill:none"
-       id="circle1123"
+       id="circle1132"
        cy="67.267899"
        transform="matrix(-1,0,0,-1,112,214)"
        cx="56"
@@ -4135,13 +4160,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1125"
+     id="g1134"
      stroke-miterlimit="0"
      transform="translate(878.3333,233.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1127"
+       id="line1136"
        y1="56"
        x2="56"
        clip-path="url(#clipPath110)"
@@ -4150,12 +4175,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1129"
+     id="g1138"
      transform="matrix(0,1,-1,0,1051.3333,172.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1131"
+       id="line1140"
        y1="64.25"
        x2="121.125"
        clip-path="url(#clipPath111)"
@@ -4163,7 +4188,7 @@
        y2="64.25" />
     <line
        style="fill:none"
-       id="line1133"
+       id="line1142"
        y2="64.25"
        y1="64.25"
        x2="60.125"
@@ -4173,13 +4198,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1135"
+     id="g1144"
      stroke-miterlimit="0"
      transform="translate(875.3333,273.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1137"
+       id="line1146"
        y1="56"
        x2="56"
        clip-path="url(#clipPath113)"
@@ -4188,12 +4213,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1139"
+     id="g1148"
      transform="matrix(0.64131037,0.76728157,-0.76728157,0.64131037,962.41989,198.93319)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1141"
+       id="line1150"
        y1="64.25"
        x2="127.125"
        clip-path="url(#clipPath114)"
@@ -4201,7 +4226,7 @@
        y2="64.25" />
     <line
        style="fill:none"
-       id="line1143"
+       id="line1152"
        y2="120.25"
        y1="120.25"
        x2="60.125"
@@ -4211,13 +4236,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1145"
+     id="g1154"
      stroke-miterlimit="0"
      transform="translate(878.3333,-5.7778)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1147"
+       id="line1156"
        y1="56"
        x2="56"
        clip-path="url(#clipPath110)"
@@ -4226,12 +4251,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1149"
+     id="g1158"
      transform="matrix(0,1,-1,0,1051.3333,-66.7778)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1151"
+       id="line1160"
        y1="64.25"
        x2="121.125"
        clip-path="url(#clipPath111)"
@@ -4239,7 +4264,7 @@
        y2="64.25" />
     <line
        style="fill:none"
-       id="line1153"
+       id="line1162"
        y2="64.25"
        y1="64.25"
        x2="60.125"
@@ -4249,13 +4274,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1155"
+     id="g1164"
      stroke-miterlimit="0"
      transform="translate(1062.3333,275.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1157"
+       id="line1166"
        y1="107"
        x2="56"
        clip-path="url(#clipPath108)"
@@ -4264,12 +4289,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1159"
+     id="g1168"
      transform="matrix(-1,0,0,-1,1174.3333,489.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1161"
+       id="line1170"
        y1="115.25"
        x2="60.125"
        clip-path="url(#clipPath109)"
@@ -4278,13 +4303,13 @@
     <path
        style="fill:none;stroke-linecap:butt;stroke-linejoin:bevel"
        inkscape:connector-curvature="0"
-       id="path1163"
+       id="path1172"
        transform="matrix(-1,0,0,-1,112,214)"
        clip-path="url(#clipPath108)"
        d="M 56,63.1429 51.875,56 56,63.1429 56,56 56,63.1429 60.125,56 Z" />
     <circle
        style="fill:#ffffff;stroke:none"
-       id="circle1165"
+       id="circle1174"
        cy="67.267899"
        cx="56"
        r="4.125"
@@ -4292,7 +4317,7 @@
        transform="matrix(-1,0,0,-1,112,214)" />
     <circle
        style="fill:none"
-       id="circle1167"
+       id="circle1176"
        cy="67.267899"
        transform="matrix(-1,0,0,-1,112,214)"
        cx="56"
@@ -4301,13 +4326,13 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1169"
+     id="g1178"
      stroke-miterlimit="0"
      transform="translate(1062.3333,40.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1171"
+       id="line1180"
        y1="106"
        x2="56"
        clip-path="url(#clipPath116)"
@@ -4316,12 +4341,12 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g1173"
+     id="g1182"
      transform="matrix(-1,0,0,-1,1174.3333,252.2222)"
      font-size="11">
     <line
        style="fill:none"
-       id="line1175"
+       id="line1184"
        y1="114.25"
        x2="60.125"
        clip-path="url(#clipPath117)"
@@ -4330,13 +4355,13 @@
     <path
        style="fill:none;stroke-linecap:butt;stroke-linejoin:bevel"
        inkscape:connector-curvature="0"
-       id="path1177"
+       id="path1186"
        transform="matrix(-1,0,0,-1,112,212)"
        clip-path="url(#clipPath116)"
        d="M 56,63.1429 51.875,56 56,63.1429 56,56 56,63.1429 60.125,56 Z" />
     <circle
        style="fill:#ffffff;stroke:none"
-       id="circle1179"
+       id="circle1188"
        cy="67.267899"
        cx="56"
        r="4.125"
@@ -4344,11 +4369,63 @@
        transform="matrix(-1,0,0,-1,112,212)" />
     <circle
        style="fill:none"
-       id="circle1181"
+       id="circle1190"
        cy="67.267899"
        transform="matrix(-1,0,0,-1,112,212)"
        cx="56"
        clip-path="url(#clipPath116)"
+       r="4.125" />
+  </g>
+  <g
+     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:5, 5;stroke-opacity:1;text-rendering:geometricPrecision"
+     id="g1192"
+     stroke-miterlimit="0"
+     transform="translate(216.3333,224.2222)"
+     font-size="11">
+    <line
+       style="fill:none"
+       id="line1194"
+       y1="97"
+       x2="121"
+       clip-path="url(#clipPath118)"
+       x1="56"
+       y2="56" />
+  </g>
+  <g
+     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
+     id="g1196"
+     transform="matrix(-0.53350381,-0.84579766,0.84579766,-0.53350381,220.16714,420.33674)"
+     font-size="11">
+    <line
+       style="fill:none"
+       id="line1198"
+       y1="105.25"
+       x2="60.125"
+       clip-path="url(#clipPath119)"
+       x1="51.875"
+       y2="105.25" />
+    <path
+       style="fill:none;stroke-linecap:butt;stroke-linejoin:bevel"
+       inkscape:connector-curvature="0"
+       id="path1200"
+       transform="matrix(-1,0,0,-1,176.99996,229.8505)"
+       clip-path="url(#clipPath120)"
+       d="M 121,63.1429 116.875,56 121,63.1429 121,56 121,63.1429 125.125,56 Z" />
+    <circle
+       style="fill:#ffffff;stroke:none"
+       id="circle1202"
+       cy="67.267899"
+       cx="121"
+       r="4.125"
+       clip-path="url(#clipPath120)"
+       transform="matrix(-1,0,0,-1,176.99996,229.8505)" />
+    <circle
+       style="fill:none"
+       id="circle1204"
+       cy="67.267899"
+       transform="matrix(-1,0,0,-1,176.99996,229.8505)"
+       cx="121"
+       clip-path="url(#clipPath120)"
        r="4.125" />
   </g>
 </svg>
