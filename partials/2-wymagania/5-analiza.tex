@@ -127,6 +127,45 @@
 			1.1. Pracownik negatywnie weryfikuje możliwość wykonania zlecenia -> wysyła informację do klienta
 \end{usecase}
 
+\begin{usecase}{Wprowadź dane oświadczenia odzysku}
+	\textbf{Autor:} Dawid Suder \\
+	\textbf{Cel przypadku użycia:} Wprowadzenie oświadczenia odzysku od Zakładu przetwarzania odpadów \\
+	\textbf{Kontekst użycia:} konieczność gromadzenia oświadczeń odzysku związane z Ustawą o Odzysku \\
+	\textbf{Zakres:} System obsługi skupu \\
+	\textbf{Poziom:} biznesowy \\
+	\textbf{Aktor główny:} Pracownik działu skupu\\
+	\textbf{Wyzwalacz:} Otrzymanie oświadczenia odzysku \\
+	\textbf{Warunek początkowy:} pracownik wysłał zlecenie przetworzenia odpadów \\
+	\textbf{Minimalna gwarancja:} w przypadku niepoprawności danych oświadczenia nie zostanie dodane do bazy \\
+	\textbf{Główny scenariusz powodzenia:} \\
+		\begin{enumerate}
+			\item Pracownik pozytywnie weryfikuje oświadczenie na podstawie deklaracji i zlecenia
+			\item Pracownik zapisuje dane oświadczenia odzysku
+		\end{enumerate}
+	\textbf{Rozszerzenia:} \\
+			1.1. Pracownik negatywnie weryfikuje dane w oświadczeniu -> wysyła informację do Zakładu
+\end{usecase}
+
+\begin{usecase}{Zleć wykonanie odzysku}
+	\textbf{Autor:} Dawid Suder \\
+	\textbf{Cel przypadku użycia:} Zlecenie wykonania odzysku Zakładom przetwarzania odpadów \\
+	\textbf{Kontekst użycia:} konieczność zlecania wykonania odzysku w celu uzyskania oświadczeń \\
+	\textbf{Zakres:} System obsługi skupu \\
+	\textbf{Poziom:} biznesowy \\
+	\textbf{Aktor główny:} Pracownik działu skupu\\
+	\textbf{Wyzwalacz:} Otrzymanie deklaracji \\
+	\textbf{Warunek początkowy:} pracownik otrzymał deklarację dla której potrzebne jest oświadczenie \\
+	\textbf{Minimalna gwarancja:} w przypadku przeoczenia deklaracji istnieje możliwość utworzenia zlecenia grupowego \\
+	\textbf{Główny scenariusz powodzenia:} \\
+		\begin{enumerate}
+			\item Pracownik otrzymuje powiadomienie o nowej deklaracji
+			\item Pracownik wybiera Zakład przetwarzania odpadów
+			\item Pracownik tworzy dla tego zakładu zlecenie przetworzenia odpadów
+		\end{enumerate}
+	\textbf{Rozszerzenia:} \\
+			1.1. Pracownik dostaje wiele deklaracji i grupuje je w jedno zlecenie
+\end{usecase}
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.8\textwidth]{img/UC/ksiegowosc.eps}
