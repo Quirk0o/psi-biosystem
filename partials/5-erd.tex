@@ -1,30 +1,30 @@
 
-\begin{figure}
-	\centering
-	\vspace{-2cm}
-	\centerline{\includegraphics[angle=90, height=29cm]{img/ERD.eps}}
-\end{figure}
-
-\subsection{Opis relacji w tabeli krzyżowej}
+\begin{landscape}
+	\begin{figure}
+		\centering
+		\centerline{\includegraphics[width=28cm]{img/ERD.eps}}
+	\end{figure}
+\end{landscape}
 
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 
-\begin{table}[H] 
-	\centering
-	\scriptsize
-	\noindent
-	\centerline{\begin{tabularx}{1.2\linewidth}{@{}|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|@{}}
-		\hline
-		                    & Klienci & Klienci z umową & Adres & Historia transakcji & Pracownik & Oferty sprzedaży & Zamówienia & Deklaracje & Odpady & Produkty \\ \hline
-		Klienci             &         & X               & X     &                     &           & X                & X          & X          &        &          \\ \hline
-		Klienci z umową     & X       &                 &       & X                   &           & X                & X          & X          &        &          \\ \hline
-		Adres               & X       &                 &       &                     &           &                  &            &            &        &          \\ \hline
-		Historia transakcji &         & X               &       &                     &           & X                & X          & X          &        &          \\ \hline
-		Pracownik           &         &                 &       &                     &           & X                & X          & X          &        &          \\ \hline
-		Oferty sprzedaży    & X       & X               &       & X                   & X         &                  &            &            &        & X        \\ \hline
-		Zamówienia          & X       & X               &       & X                   & X         &                  &            &            & X      &          \\ \hline
-		Deklaracje          & X       & X               &       & X                   & X         &                  &            &            & X      &          \\ \hline
-		Odpady              &         &                 &       &                     &           &                  &            &            &        &          \\ \hline
-		Produkty            &         &                 &       &                     &           &                  &            &            &        &          \\ \hline
-	\end{tabularx}}
-\end{table}
+\begin{landscape}
+	\subsection{Opis relacji w tabeli krzyżowej}
+	\begin{table}[H] 
+		\centering
+		\centerline{\begin{tabularx}{1.1\hsize}{@{}|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|@{}}
+			\hline
+			                    & Klienci & Klienci z umową & Adres & Historia transakcji & Pracownik & Oferty sprzedaży & Zamówienia & Deklaracje & Odpady & Produkty \\ \hline
+			Klienci             &         & X               & X     &                     &           & X                & X          & X          &        &          \\ \hline
+			Klienci z umową     & X       &                 &       & X                   &           & X                & X          & X          &        &          \\ \hline
+			Adres               & X       &                 &       &                     &           &                  &            &            &        &          \\ \hline
+			Historia transakcji &         & X               &       &                     &           & X                & X          & X          &        &          \\ \hline
+			Pracownik           &         &                 &       &                     &           & X                & X          & X          &        &          \\ \hline
+			Oferty sprzedaży    & X       & X               &       & X                   & X         &                  &            &            &        & X        \\ \hline
+			Zamówienia          & X       & X               &       & X                   & X         &                  &            &            & X      &          \\ \hline
+			Deklaracje          & X       & X               &       & X                   & X         &                  &            &            & X      &          \\ \hline
+			Odpady              &         &                 &       &                     &           &                  &            &            &        &          \\ \hline
+			Produkty            &         &                 &       &                     &           &                  &            &            &        &          \\ \hline
+		\end{tabularx}}
+	\end{table}
+\end{landscape}
