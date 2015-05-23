@@ -1,37 +1,24 @@
-księgowy => księgowość
-
-lista aktorów i przypadków użycia: 
-aktorzy - są OK
-przypadki - OK
-
-musimy: dodać dokumenty, wszystkie które wypisaliśmy, musimy zapropnować ew. formą graficzną
-musi być wzór formularzu jako dokumentu wejściowego
-kierowca - ma trasy i się z tego rozlicza(z paliwa)
-
-USECASE:
-OBSŁUGA KLIENTA => jest  w miarę ok, ale nie ma "klienta bez konta" w aktorach
-SCENARIUSZ - OK
-brakuje numerów tytułów rysunków
+1. podpisać USE CASE i dodać nazwę(identyfikator też)
+w punkcie: obraz dynamiki systemu - trzeba dołożyć "acivity diagrams" według partycji porobić.
+USE CASE Diagram => Acitivity Diagrams
 
 
-OBSŁUGA KSIĘGOWOŚCI:
-sprawdzić możliwość "include" i "extend" opcje porobić
+Dodać pare dokumentów 2.2 i 2.3
 
-MAGAZYN:
-można dodać kierowce, który pobiera skompletowane zamówienie
 
-!!!BRAK OBSŁUGI KIEROWCÓW!!!
-!!!BRAK SKUPU!!!
 
-dopisać te które nie ma, trzeba wytworzyć diagram aktywności(pokazujący upływa czasu)
+Diagram kontekstowy
+Magazyn => Magazynier
+DFD0 - OK, ale numery mają odpowiadać jak w obszarach aktywności
+2 - obsługa skupu
 
-DFD:
-pracownik musi być
+do poprawy tylko numeracja
 
-3 do końca
-zamodelować każdy podsystem
-2 skorygować
+Słownik do poprawy
+powstawiać numer rysunku/numer diagramu lub w tabelce i porobić dla każdego strumienia 
+posortować alfabetycznie 
 
-słownik roboczy strumienie połączyć z punktem 2
 
-ERD zrobić do danych
+na raz następny - CAŁOŚĆ
+Ogólny model traktując obiekt jako cały system
+
