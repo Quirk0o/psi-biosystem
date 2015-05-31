@@ -11,19 +11,27 @@
 \usepackage[T1]{fontenc}
 \usepackage{fourier}
 
+% For encoding
 \usepackage[utf8]{inputenc}
 \usepackage{polski}
+
 \usepackage[protrusion=true,expansion=true]{microtype}	
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
+
+% Images and figures
 \usepackage[pdftex]{graphicx}
 \usepackage{epstopdf}
 \usepackage{float}
+\usepackage{pdfpages} % For including PDFs
+\usepackage{pdflscape} % For displaying pages horizontally
+
 \usepackage{url}
 \usepackage[margin=2.5cm]{geometry}
-\usepackage{pdfpages}
-\usepackage{tabularx}
-\usepackage{pdflscape}
 
+% For better tables
+\usepackage{tabularx}
+
+\usepackage{enumitem}
 
 %%% Custom sectioning
 %\usepackage{sectsty}
@@ -44,17 +52,72 @@
 \setlength{\parskip}{10pt}
 
 
-%%% Equation and float numbering
+%%% Equation and float numberingb
 \numberwithin{equation}{section}		% Equationnumbering: section.eq#
 \numberwithin{figure}{section}			% Figurenumbering: section.fig#
 \numberwithin{table}{section}				% Tablenumbering: section.tab#
 
-
-\newcounter{UCCounter}
-\newenvironment{usecase}[1]{\paragraph{UC\ifnum\value{UCCounter}<10 0\fi\arabic{UCCounter} #1} \stepcounter{UCCounter} \ \\}
-
 %%% Maketitle metadata
 \newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\newenvironment{scenario}[1]{\textbf{Główny scenariusz powodzenia:} #1}
+
+\newenvironment{extensions}[1]{\textbf{Rozszerzenia:} #1}
+
+\newenvironment{extlist}[2]{
+	\begin{enumerate}[label=\ref{#1}.\arabic*.]
+		\item #2
+		\begin{ext}
+} {
+		\end{ext}
+	\end{enumerate}
+}
+
+\newenvironment{ext}{
+	\begin{enumerate}[label*=\arabic*.]
+} {
+	\end{enumerate}
+}
+
+\newcommand{\extitem}[1]{\item \label{#1}}
+\newcommand{\refitem}[2][1]{\item[\ref{#2}.#1]}
+
+\newcounter{UCCounter}
+\newenvironment{usecase}[1]{
+	\def\ucauthor{ }
+	\def\ucgoal{ }
+	\def\uccontext{ }
+	\def\ucscope{ }
+	\def\uclevel{biznesowy}
+	\def\ucactor{ }
+	\def\ucprecondition{ }
+	\def\uctrigger{ }
+	\def\ucguarantee{ }
+	\renewcommand{\author}[1]{ \def\ucauthor{##1} }
+	\newcommand{\goal}[1]{ \def\ucgoal{##1} }
+	\newcommand{\context}[1]{ \def\uccontext{##1} }
+	\newcommand{\scope}[1]{ \def\ucscope{##1} }
+	\newcommand{\level}[1]{ \def\uclevel{##1} }
+	\newcommand{\actor}[1]{ \def\ucactor{##1} }
+	\newcommand{\precondition}[1]{ \def\ucprecondition{##1} }
+	\newcommand{\trigger}[1]{ \def\uctrigger{##1} }
+	\newcommand{\guarantee}[1]{ \def\ucguarantee{##1} }
+	\renewcommand{\maketitle}{
+		\smallskip \ \\
+		\textbf{Autor:} \ucauthor \\
+		\textbf{Cel przypadku użycia:} \ucgoal \\
+		\textbf{Kontekst użycia:} \uccontext \\
+		\textbf{Zakres:} \ucscope \\
+		\textbf{Poziom:} \uclevel \\
+		\textbf{Aktor główny:} \ucactor \\
+		\textbf{Warunek początkowy:} \ucprecondition \\
+		\textbf{Wyzwalacz:} \uctrigger \\
+		\textbf{Minimalna gwarancja:} \ucguarantee \\
+	}
+	\stepcounter{UCCounter}
+	\paragraph{UC\ifnum\value{UCCounter}<10 0\fi
+				\arabic{UCCounter} #1} \ \\
+}
 
 \title{
 		%\vspace{-1in} 	

@@ -1,418 +1,434 @@
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1.1\textwidth]{img/UC/deklaracje.eps}
-\end{figure}
 
-\begin{usecase}{Dodaj deklarację}
-	\textbf{Autor:} Beata Obrok \\
-	\textbf{Cel przypadku użycia:} dodanie deklaracji w celu jej realizacji \\
-	\textbf{Kontekst użycia:} chęć dodania deklaracji \\
-	\textbf{Zakres:} System obsługi klienta \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Klient \\
-	\textbf{Wyzwalacz:} wybranie zakładki dodawania deklaracji \\
-	\textbf{Warunek początkowy:} klient jest zalogowany i ma uprawnienia do dodawania deklaracji \\
-	\textbf{Minimalna gwarancja:} w przypadku nieprzyjęcia deklaracji klient zostanie poinformowany o problemie \\
-	\textbf{Główny scenariusz powodzenia:} \\
-		\begin{enumerate}
-			\item Klient wprowadza rok, na który chce deklarować
-			\item Klient poprawnie wybiera miesiące, na które chce deklarować
-			\item Klient wybiera kategorię odpadów z listy kategorii
-			\item System wyświetla listę odpadów z danej kategorii, które zostały zawarte w umowie z klientem
-			\item Klient wybiera odpady, które chce zadeklarować
-			\item Klient poprawnie wprowadza ilości i/lub wagi wybranych odpadów
-			\item Klient wybiera opcję wysłania deklaracji
-			\item System pozytywnie weryfikuje poprawność deklaracji
-			\item System zapisuje deklarację w systemie
-			\item System wyświetla informację o poprawnym zapisaniu deklaracji w systemie
-		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-		2.1. Klient wybrał miesiące, na które istnieją już deklaracje \\
-			\indent 2.1.1. System wyświetla informację o niemożliwości dodanie deklaracji \\
-		4.1. Klient wybiera opcję wyświetlania wszystkich odpadów \\
-			\indent 4.1.1. System wyświetla listę wszystkich odpadów z danej kategorii \\
-			\indent 4.1.2. Klient wybiera odpady, które chce zadeklarować \\
-			\indent 4.1.3. System wysyła informację do opiekuna klienta o potrzebie podpisania aneksu do umowy -> pt 6 \\
-		6.1. Klient wprowadza błędną ilość odpadów -> System wyświetla informację o błędnych danych \\
-		8.1. System negatywnie weryfikuje poprawność deklaracji -> Wyświetla informację o błędnych danych \\
-		10.1. System wyświetla informację o błędzie zapisu do bazy danych \\
-\end{usecase}
+\subsubsection{Obsługa klienta}
 
-\begin{usecase}{Wyświetl listę deklaracji}
-	\textbf{Autor:} Beata Obrok \\
-	\textbf{Cel przypadku użycia:} Wylistowanie deklaracji złożonych przez klienta \\
-	\textbf{Kontekst użycia:} chęć przejżenia deklaracji\\
-	\textbf{Zakres:} System obsługi klienta \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Klient\\
-	\textbf{Wyzwalacz:} wybranie zakładki z listą deklaracji \\
-	\textbf{Warunek początkowy:} klient jest zalogowany \\
-	\textbf{Główny scenariusz powodzenia:} \\
-		\begin{enumerate}
-			\item System wyświetla deklaracje przypisane do nazwy użytkownika klienta
-		\end{enumerate}
-\end{usecase}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.1\textwidth]{img/UC/deklaracje.eps}
+	\end{figure}
 
-\begin{usecase}{Modyfikuj deklarację}
-	\textbf{Autor:} Beata Obrok \\
-	\textbf{Cel przypadku użycia:} Modyfikacja dodanego przez tego klienta deklaracji \\
-	\textbf{Kontekst użycia:} chęć modyfikacji istniejącej deklaracji\\
-	\textbf{Zakres:} System obsługi klienta \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Klient\\
-	\textbf{Wyzwalacz:} wybranie przycisku modyfikacji wybranej deklaracji \\
-	\textbf{Warunek początkowy:} klient jest zalogowany\\
-	\textbf{Minimalna gwarancja:} w przypadku błędu deklaracja pozostanie w stanie oryginalnym \\
-	\textbf{Główny scenariusz powodzenia:} \\
-		\begin{enumerate}
-			\item System wyświetla stronę modyfikacji deklaracji
-			\item System wyświetla listę odpadów z kategorii dotyczącej danej deklaracji
-			\item Klient wybiera odpady, które chce zadeklarować
-			\item Klient poprawnie modyfikuje ilości i/lub wagi wybranych odpadów
-			\item Klient wybiera opcję wysłania deklaracji
-			\item System pozytywnie weryfikuje poprawność deklaracji
-			\item System zapisuje deklarację w systemie
-			\item System wyświetla informację o poprawnym zapisaniu deklaracji w systemie
-		\end{enumerate}
-			3.1. Klient dodaje nowe odpady do deklaracji
-				\indent 4.1.1. Klient wpisuje ilości i/lub wagi wybranych odpadów -> pt 5
-			3.2. Klient wybiera opcję wyświetlania wszystkich odpadów \\
-				\indent 4.1.1. System wyświetla listę wszystkich odpadów z danej kategorii \\
-				\indent 4.1.2. Klient wybiera odpady, które chce zadeklarować \\
-				\indent 4.1.3. System wysyła informację do opiekuna klienta o potrzebie podpisania aneksu do umowy -> pt 5 \\
-			4.1. Klient wprowadza błędną ilość odpadów -> System wyświetla informację o błędnych danych \\
-			6.1. System negatywnie weryfikuje poprawność deklaracji -> Wyświetla informację o błędnych danych \\
-			8.1. System wyświetla informację o błędzie zapisu do bazy danych \\
-\end{usecase}
+	\begin{usecase}{Dodaj deklarację} 
+		\author{Beata Obrok}
+		\goal{dodanie deklaracji}
+		\context{przejęcie obowiązku odzyskania odpadów}
+		\scope{System obsługi klienta}
+		\actor{Klient}
+		\trigger{wybranie opcji 'Dodaj deklarację'}
+		\precondition{klient jest zalogowany w systemie}
+		\guarantee{błędna deklaracja nie zostanie zapisana w systemie}
+		\maketitle
+		\begin{scenario}
+			\begin{enumerate}
+				\item Klient wprowadza rok, na który chce deklarować
+				\extitem{it:months} Klient poprawnie wybiera miesiące, na które chce deklarować
+				\item Klient wybiera kategorię odpadów z listy kategorii
+				\extitem{it:list} System wyświetla listę odpadów z danej kategorii, które zostały zawarte w umowie z klientem
+				\item Klient wybiera odpady, które chce zadeklarować
+				\extitem{it:num} Klient poprawnie wprowadza ilości i/lub wagi wybranych odpadów
+				\item Klient wybiera opcję wysłania deklaracji
+				\extitem{it:verified} System pozytywnie weryfikuje poprawność deklaracji
+				\item System zapisuje deklarację w systemie
+				\extitem{it:saved} System wyświetla informację o poprawnym zapisaniu deklaracji w systemie
+			\end{enumerate}
+		\end{scenario}
+		\begin{extensions}
+			\begin{extlist}{it:months}{Klient wybrał miesiące, na które istnieją już deklaracje}
+				\item System wyświetla informację o niemożliwości dodanie deklaracji
+			\end{extlist}
+			\begin{extlist}{it:list}{Klient wybiera opcję wyświetlania wszystkich odpadów}
+				\item System wyświetla listę wszystkich odpadów z danej kategorii 
+				\item Klient wybiera odpady, które chce zadeklarować 
+				\item System wysyła informację do opiekuna klienta o potrzebie podpisania aneksu do umowy -> pt 6 
+			\end{extlist}
+			\begin{enumerate}
+			\refitem{it:num} Klient wprowadza błędną ilość odpadów -> System wyświetla informację o błędnych danych 
+			\refitem{it:verified} System negatywnie weryfikuje poprawność deklaracji -> Wyświetla informację o błędnych danych 
+			\refitem{it:saved} System wyświetla informację o błędzie zapisu do bazy danych 
+			\end{enumerate}
+		\end{extensions}
+	\end{usecase}
 
-\begin{usecase}{Wyświetl szczegółowe informacje na temat deklaracji}
-	\textbf{Autor:} Beata Obrok \\
-	\textbf{Cel przypadku użycia:} Wyświetlenie szczegółów wybranej deklaracji \\
-	\textbf{Kontekst użycia:} chęć dostania szczegółowych informacji o deklaracji\\
-	\textbf{Zakres:} System obsługi klienta \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Klient\\
-	\textbf{Wyzwalacz:} wybranie deklaracji z listy deklaracji użytkownika \\
-	\textbf{Warunek początkowy:} klient jest zalogowany i ma wyświetloną listę deklaracji\\
-	\textbf{Główny scenariusz powodzenia:} \\
-		\begin{enumerate}
-			\item System wyświetla szczegółowe informacje dotyczące danej deklaracji
-		\end{enumerate}
-\end{usecase}
+	\begin{usecase}{Wyświetl listę deklaracji}
+		\textbf{Autor:} Beata Obrok \\
+		\textbf{Cel przypadku użycia:} Wylistowanie deklaracji złożonych przez klienta \\
+		\textbf{Kontekst użycia:} chęć przejżenia deklaracji\\
+		\textbf{Zakres:} System obsługi klienta \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Klient\\
+		\textbf{Wyzwalacz:} wybranie zakładki z listą deklaracji \\
+		\textbf{Warunek początkowy:} klient jest zalogowany \\
+		\textbf{Główny scenariusz powodzenia:} \\
+			\begin{enumerate}
+				\item System wyświetla deklaracje przypisane do nazwy użytkownika klienta
+			\end{enumerate}
+	\end{usecase}
 
-% TODO
-\begin{usecase}{Zleć odbiór odpadów}
-	\textbf{Autor:} Beata Obrok \\
-	\textbf{Cel przypadku użycia:} \\
-	\textbf{Kontekst użycia:} \\
-	\textbf{Zakres:} System obsługi klienta \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Klient\\
-	\textbf{Wyzwalacz:} \\
-	\textbf{Warunek początkowy:} \\
-	\textbf{Główny scenariusz powodzenia:} \\
-		\begin{enumerate}
-			\item
-		\end{enumerate}
-\end{usecase}
+	\begin{usecase}{Modyfikuj deklarację}
+		\textbf{Autor:} Beata Obrok \\
+		\textbf{Cel przypadku użycia:} Modyfikacja dodanego przez tego klienta deklaracji \\
+		\textbf{Kontekst użycia:} chęć modyfikacji istniejącej deklaracji\\
+		\textbf{Zakres:} System obsługi klienta \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Klient\\
+		\textbf{Wyzwalacz:} wybranie przycisku modyfikacji wybranej deklaracji \\
+		\textbf{Warunek początkowy:} klient jest zalogowany\\
+		\textbf{Minimalna gwarancja:} w przypadku błędu deklaracja pozostanie w stanie oryginalnym \\
+		\textbf{Główny scenariusz powodzenia:} \\
+			\begin{enumerate}
+				\item System wyświetla stronę modyfikacji deklaracji
+				\item System wyświetla listę odpadów z kategorii dotyczącej danej deklaracji
+				\item Klient wybiera odpady, które chce zadeklarować
+				\item Klient poprawnie modyfikuje ilości i/lub wagi wybranych odpadów
+				\item Klient wybiera opcję wysłania deklaracji
+				\item System pozytywnie weryfikuje poprawność deklaracji
+				\item System zapisuje deklarację w systemie
+				\item System wyświetla informację o poprawnym zapisaniu deklaracji w systemie
+			\end{enumerate}
+				3.1. Klient dodaje nowe odpady do deklaracji
+					\indent 4.1.1. Klient wpisuje ilości i/lub wagi wybranych odpadów -> pt 5
+				3.2. Klient wybiera opcję wyświetlania wszystkich odpadów \\
+					\indent 4.1.1. System wyświetla listę wszystkich odpadów z danej kategorii \\
+					\indent 4.1.2. Klient wybiera odpady, które chce zadeklarować \\
+					\indent 4.1.3. System wysyła informację do opiekuna klienta o potrzebie podpisania aneksu do umowy -> pt 5 \\
+				4.1. Klient wprowadza błędną ilość odpadów -> System wyświetla informację o błędnych danych \\
+				6.1. System negatywnie weryfikuje poprawność deklaracji -> Wyświetla informację o błędnych danych \\
+				8.1. System wyświetla informację o błędzie zapisu do bazy danych \\
+	\end{usecase}
 
-% TODO
-\begin{usecase}{Zamów surowce}
-	\textbf{Autor:} Beata Obrok \\
-	\textbf{Cel przypadku użycia:} \\
-	\textbf{Kontekst użycia:} \\
-	\textbf{Zakres:} System obsługi klienta \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Klient\\
-	\textbf{Wyzwalacz:} \\
-	\textbf{Warunek początkowy:} \\
-	\textbf{Główny scenariusz powodzenia:} \\
-		\begin{enumerate}
-			\item
-		\end{enumerate}
-\end{usecase}
+	\begin{usecase}{Wyświetl szczegółowe informacje na temat deklaracji}
+		\textbf{Autor:} Beata Obrok \\
+		\textbf{Cel przypadku użycia:} Wyświetlenie szczegółów wybranej deklaracji \\
+		\textbf{Kontekst użycia:} chęć dostania szczegółowych informacji o deklaracji\\
+		\textbf{Zakres:} System obsługi klienta \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Klient\\
+		\textbf{Wyzwalacz:} wybranie deklaracji z listy deklaracji użytkownika \\
+		\textbf{Warunek początkowy:} klient jest zalogowany i ma wyświetloną listę deklaracji\\
+		\textbf{Główny scenariusz powodzenia:} \\
+			\begin{enumerate}
+				\item System wyświetla szczegółowe informacje dotyczące danej deklaracji
+			\end{enumerate}
+	\end{usecase}
 
-% TODO
-\begin{usecase}{Dodaj klienta do bazy danych}
-	\textbf{Autor:} Beata Obrok \\
-	\textbf{Cel przypadku użycia:} \\
-	\textbf{Kontekst użycia:} \\
-	\textbf{Zakres:} System obsługi klienta \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Pracownik działu sprzedaży \\
-	\textbf{Wyzwalacz:} \\
-	\textbf{Warunek początkowy:} \\
-	\textbf{Główny scenariusz powodzenia:} \\
-		\begin{enumerate}
-			\item
-		\end{enumerate}
-\end{usecase}
+	% TODO
+	\begin{usecase}{Zleć odbiór odpadów}
+		\textbf{Autor:} Beata Obrok \\
+		\textbf{Cel przypadku użycia:} \\
+		\textbf{Kontekst użycia:} \\
+		\textbf{Zakres:} System obsługi klienta \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Klient\\
+		\textbf{Wyzwalacz:} \\
+		\textbf{Warunek początkowy:} \\
+		\textbf{Główny scenariusz powodzenia:} \\
+			\begin{enumerate}
+				\item
+			\end{enumerate}
+	\end{usecase}
 
-% TODO
-\begin{usecase}{Generuj aneks do umowy na podstawie deklaracji}
-	\textbf{Autor:} Beata Obrok \\
-	\textbf{Cel przypadku użycia:} \\
-	\textbf{Kontekst użycia:} \\
-	\textbf{Zakres:} System obsługi klienta \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Pracownik działu sprzedaży \\
-	\textbf{Wyzwalacz:} \\
-	\textbf{Warunek początkowy:} \\
-	\textbf{Główny scenariusz powodzenia:} \\
-		\begin{enumerate}
-			\item
-		\end{enumerate}
-\end{usecase}
+	% TODO
+	\begin{usecase}{Zamów surowce}
+		\textbf{Autor:} Beata Obrok \\
+		\textbf{Cel przypadku użycia:} \\
+		\textbf{Kontekst użycia:} \\
+		\textbf{Zakres:} System obsługi klienta \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Klient\\
+		\textbf{Wyzwalacz:} \\
+		\textbf{Warunek początkowy:} \\
+		\textbf{Główny scenariusz powodzenia:} \\
+			\begin{enumerate}
+				\item
+			\end{enumerate}
+	\end{usecase}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=.8\textwidth]{img/UC/skup.eps}
-\end{figure}
+	% TODO
+	\begin{usecase}{Dodaj klienta do bazy danych}
+		\textbf{Autor:} Beata Obrok \\
+		\textbf{Cel przypadku użycia:} \\
+		\textbf{Kontekst użycia:} \\
+		\textbf{Zakres:} System obsługi klienta \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Pracownik działu sprzedaży \\
+		\textbf{Wyzwalacz:} \\
+		\textbf{Warunek początkowy:} \\
+		\textbf{Główny scenariusz powodzenia:} \\
+			\begin{enumerate}
+				\item
+			\end{enumerate}
+	\end{usecase}
 
-\begin{usecase}{Generuj zlecenie odbioru na podstawie oferty sprzedaży}
-	\textbf{Autor:} Beata Obrok \\
-	\textbf{Cel przypadku użycia:} Wysłanie kierowcy do klienta w celu odbioru odpadów \\
-	\textbf{Kontekst użycia:} konieczność weryfikacji danych oferty oraz przydzielenia kierowcy do zlecenia \\
-	\textbf{Zakres:} System obsługi skupu \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Pracownik działu skupu\\
-	\textbf{Wyzwalacz:} wybór oferty i wybranie opcji generowania zlecenia \\
-	\textbf{Warunek początkowy:} pracownik ma uprawnienia do dodawania zleceń \\
-	\textbf{Minimalna gwarancja:} w przypadku niepoprawności danych oferty zlecenie nie zostanie wygenerowane \\
-	\textbf{Główny scenariusz powodzenia:} \\
-		\begin{enumerate}
-			\item Pracownik pozytywnie weryfikuje możliwość wykonania zlecenia
-			\item Pracownik zapisuje dane zamawiającego w systemie
-			\item Pracownik przydziela kierowcę do zlecenia
-			\item Pracownik zapisuje zlecenie w systemie
-		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-			1.1. Pracownik negatywnie weryfikuje możliwość wykonania zlecenia -> wysyła informację do klienta
-\end{usecase}
+	% TODO
+	\begin{usecase}{Generuj aneks do umowy na podstawie deklaracji}
+		\textbf{Autor:} Beata Obrok \\
+		\textbf{Cel przypadku użycia:} \\
+		\textbf{Kontekst użycia:} \\
+		\textbf{Zakres:} System obsługi klienta \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Pracownik działu sprzedaży \\
+		\textbf{Wyzwalacz:} \\
+		\textbf{Warunek początkowy:} \\
+		\textbf{Główny scenariusz powodzenia:} \\
+			\begin{enumerate}
+				\item
+			\end{enumerate}
+	\end{usecase}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{img/UC/ksiegowosc.eps}
-\end{figure}
+\subsubsection{Obsługa skupu}
 
-\begin{usecase}{Generuj fakturę sprzedaży produktów recyklingu}
-	\textbf{Autor:} Arkadiusz Socha\\
-	\textbf{Cel przypadku użycia:} Wygnerowanie faktury \\
-	\textbf{Kontekst użycia:} otrzymanie dokumentu dowodu sprzedaży produktów  \\
-	\textbf{Zakres:} system księgujący \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Księgowy \\
-	\textbf{Wyzwalacz:} sprzedaż produktów recyklingu \\
-	\textbf{Warunek początkowy:} księgowy posiada identyfikator zamówienia \\
-	\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wygenerować faktury, system poinformuje o tym aktora, nie generując błędnego dokumentu \\
-	\textbf{Główny scenariusz powodzenia:} 
-		\begin{enumerate}
-			\item Księgowy wybiera z listy zamówienie
-			\item System upewnie się, czy o to zamówienie chodzi
-			\item System generuje fakturę 
-		\end{enumerate}
-\end{usecase}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.8\textwidth]{img/UC/skup.eps}
+	\end{figure}
 
-\begin{usecase}{Generuj fakturę dotyczącą usługi przejęcia obowiązku recyklingu}
-	\textbf{Autor:} Arkadiusz Socha\\
-	\textbf{Cel przypadku użycia:} Wygnerowanie faktury \\
-	\textbf{Kontekst użycia:} otrzymanie dokumentu dowodu zakupu oświadczenia  \\
-	\textbf{Zakres:} system księgujący \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Księgowy \\
-	\textbf{Wyzwalacz:} kupno oświadczenia oddzysku \\
-	\textbf{Warunek początkowy:} księgowy posiada identyfikator danych dotyczących odpowiedniej oferty sprzedaży \\
-	\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wygenerować faktury, system poinformuje o tym aktora, nie generując błędnego dokumentu \\
-	\textbf{Główny scenariusz powodzenia:} 
-		\begin{enumerate}
-			\item Księgowy wybiera z listy ofertę sprzedaży
-			\item System upewnie się, czy o tą ofertę chodziło
-			\item System generuje fakturę 
-		\end{enumerate}
-\end{usecase}
+	\begin{usecase}{Generuj zlecenie odbioru na podstawie oferty sprzedaży}
+		\textbf{Autor:} Beata Obrok \\
+		\textbf{Cel przypadku użycia:} Wysłanie kierowcy do klienta w celu odbioru odpadów \\
+		\textbf{Kontekst użycia:} konieczność weryfikacji danych oferty oraz przydzielenia kierowcy do zlecenia \\
+		\textbf{Zakres:} System obsługi skupu \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Pracownik działu skupu\\
+		\textbf{Wyzwalacz:} wybór oferty i wybranie opcji generowania zlecenia \\
+		\textbf{Warunek początkowy:} pracownik ma uprawnienia do dodawania zleceń \\
+		\textbf{Minimalna gwarancja:} w przypadku niepoprawności danych oferty zlecenie nie zostanie wygenerowane \\
+		\textbf{Główny scenariusz powodzenia:} \\
+			\begin{enumerate}
+				\item Pracownik pozytywnie weryfikuje możliwość wykonania zlecenia
+				\item Pracownik zapisuje dane zamawiającego w systemie
+				\item Pracownik przydziela kierowcę do zlecenia
+				\item Pracownik zapisuje zlecenie w systemie
+			\end{enumerate}
+		\textbf{Rozszerzenia:} \\
+				1.1. Pracownik negatywnie weryfikuje możliwość wykonania zlecenia -> wysyła informację do klienta
+	\end{usecase}
 
-\begin{usecase}{Wprowadź dane faktury kupna oświadzczenia odzysku}
-	\textbf{Autor:} Arkadiusz Socha\\
-	\textbf{Cel przypadku użycia:} Wpisanie do systemu danych o fakturze \\
-	\textbf{Kontekst użycia:} posiadanie w bazie wszystkich informacji o operacjach firmy\\
-	\textbf{Zakres:} system księgujący \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Księgowy \\
-	\textbf{Wyzwalacz:} kupno oświadczenia oddzysku \\
-	\textbf{Warunek początkowy:} księgowy posiada dane o fakturze kupna oświadczenia o przetworzeniu odpadów \\
-	\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wproawdzić danych do bazy, nie zostanie ona zmodyfikowana \\
-	\textbf{Główny scenariusz powodzenia:} 
-		\begin{enumerate}
-			\item Księgowy wpisuje dane z faktury do wygenerowanego formularza
-			\item System sprawdza czy format poszczególnych danych jest prawidłowy
-			\item System wprowadza dane do systemu
-		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-	2.1 Jeżeli jakieś dane są niepoprawne, księgowy zostaje o tym poinformowany i musi wprowadzić je ponownie
-\end{usecase}
+\subsubsection{Obsługa księgowości}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{img/UC/ksiegowosc.eps}
+	\end{figure}
 
-\begin{usecase}{Generuj raport przychodów i rozchodów}
-	\textbf{Autor:} Arkadiusz Socha\\
-	\textbf{Cel przypadku użycia:} Wygnerowanie raportu o zyskach i stratach firmy \\
-	\textbf{Kontekst użycia:} otrzymanie raportu dla właściciela  \\
-	\textbf{Zakres:} system księgujący \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Właściciel \\
-	\textbf{Aktor uczestniczący:} Księgowy \\
-	\textbf{Wyzwalacz:} właściciel chce mieć informację o przychodach i rozchodach firmy w danym okresie czasowym \\
-	\textbf{Warunek początkowy:} podanie ram czasowych  \\
-	\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wygenerować raportu, system poinformuje o tym właściciela, nie generując błędnych informacji \\
-	\textbf{Główny scenariusz powodzenia:} 
-		\begin{enumerate}
-			\item Właściciel podaje ramy czasowe okresu, ktory go interesuje
-			\item System wybiera tylko te faktury, które zawierają się w podanym przedziale czasowym
-			\item System generuje raport
-		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-	1.1 Ramy czasowe są błędne - conajmniej jedna z wartości jest w przyszłości, system wygeneruje błąd i poprosi o ich ponowne wpisanie
-\end{usecase}
+	\begin{usecase}{Generuj fakturę sprzedaży produktów recyklingu}
+		\textbf{Autor:} Arkadiusz Socha\\
+		\textbf{Cel przypadku użycia:} Wygnerowanie faktury \\
+		\textbf{Kontekst użycia:} otrzymanie dokumentu dowodu sprzedaży produktów  \\
+		\textbf{Zakres:} system księgujący \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Księgowy \\
+		\textbf{Wyzwalacz:} sprzedaż produktów recyklingu \\
+		\textbf{Warunek początkowy:} księgowy posiada identyfikator zamówienia \\
+		\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wygenerować faktury, system poinformuje o tym aktora, nie generując błędnego dokumentu \\
+		\textbf{Główny scenariusz powodzenia:} 
+			\begin{enumerate}
+				\item Księgowy wybiera z listy zamówienie
+				\item System upewnie się, czy o to zamówienie chodzi
+				\item System generuje fakturę 
+			\end{enumerate}
+	\end{usecase}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=.8\textwidth]{img/UC/magazyn.eps}
-\end{figure}
+	\begin{usecase}{Generuj fakturę dotyczącą usługi przejęcia obowiązku recyklingu}
+		\textbf{Autor:} Arkadiusz Socha\\
+		\textbf{Cel przypadku użycia:} Wygnerowanie faktury \\
+		\textbf{Kontekst użycia:} otrzymanie dokumentu dowodu zakupu oświadczenia  \\
+		\textbf{Zakres:} system księgujący \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Księgowy \\
+		\textbf{Wyzwalacz:} kupno oświadczenia oddzysku \\
+		\textbf{Warunek początkowy:} księgowy posiada identyfikator danych dotyczących odpowiedniej oferty sprzedaży \\
+		\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wygenerować faktury, system poinformuje o tym aktora, nie generując błędnego dokumentu \\
+		\textbf{Główny scenariusz powodzenia:} 
+			\begin{enumerate}
+				\item Księgowy wybiera z listy ofertę sprzedaży
+				\item System upewnie się, czy o tą ofertę chodziło
+				\item System generuje fakturę 
+			\end{enumerate}
+	\end{usecase}
 
-\begin{usecase}{Przyjmij produkty do magazynu}
-	\textbf{Autor:} Arkadiusz Socha\\
-	\textbf{Cel przypadku użycia:} Dodanie produktów recyklingu do magazynu i aktualizacja stanu magazynu \\
-	\textbf{Kontekst użycia:} przechowanie produktów recyklingu w magazynie\\
-	\textbf{Zakres:} system magazynowy \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Magazynier \\
-	\textbf{Uczestnicy:} Kierowca \\
-	\textbf{Wyzwalacz:} dostarczenie przez kierowce produktów do magazynu \\
-	\textbf{Warunek początkowy:} kierowca ma produkty recyklingu, które należy zmagazynować oraz ich listę \\
-	\textbf{Minimalna gwarancja:} w przypadku, gdy produkty nie zostaną zmagazynowane, stan magazynu nie będzie zmieniany \\
-	\textbf{Główny scenariusz powodzenia:} \\
-		\begin{enumerate}
-			\item Kierowca przywozi produkty
-			\item Magazynier układa je w magazynie
-			\item Magazynier aktualizuje stan magazynu
-		\end{enumerate}
-\end{usecase}
+	\begin{usecase}{Wprowadź dane faktury kupna oświadzczenia odzysku}
+		\textbf{Autor:} Arkadiusz Socha\\
+		\textbf{Cel przypadku użycia:} Wpisanie do systemu danych o fakturze \\
+		\textbf{Kontekst użycia:} posiadanie w bazie wszystkich informacji o operacjach firmy\\
+		\textbf{Zakres:} system księgujący \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Księgowy \\
+		\textbf{Wyzwalacz:} kupno oświadczenia oddzysku \\
+		\textbf{Warunek początkowy:} księgowy posiada dane o fakturze kupna oświadczenia o przetworzeniu odpadów \\
+		\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wproawdzić danych do bazy, nie zostanie ona zmodyfikowana \\
+		\textbf{Główny scenariusz powodzenia:} 
+			\begin{enumerate}
+				\item Księgowy wpisuje dane z faktury do wygenerowanego formularza
+				\item System sprawdza czy format poszczególnych danych jest prawidłowy
+				\item System wprowadza dane do systemu
+			\end{enumerate}
+		\textbf{Rozszerzenia:} \\
+		2.1 Jeżeli jakieś dane są niepoprawne, księgowy zostaje o tym poinformowany i musi wprowadzić je ponownie
+	\end{usecase}
 
-\begin{usecase}{Wydaj zamówienie}
-	\textbf{Autor:} Arkadiusz Socha\\
-	\textbf{Cel przypadku użycia:} Wydanie kierowcy produktów, ujętych w zamówieniu \\
-	\textbf{Kontekst użycia:} potrzeba przetransporotowania produktów do kupca\\
-	\textbf{Zakres:} system magazynowy \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Magazynier \\
-	\textbf{Uczestnicy:} Kierowca \\
-	\textbf{Wyzwalacz:} przyjazd kierowcy do magazynu \\
-	\textbf{Warunek początkowy:} kierowca ma zamówienie \\
-	\textbf{Minimalna gwarancja:} w przypadku, gdy nie można skompletować zamówienia stan magazynu się nie zmieni \\
-	\textbf{Główny scenariusz powodzenia:} 
-		\begin{enumerate}
-			\item Kierowca przekazuje numer zamówienia magazynierowi
-			\item Magazynier wydaje produkty kierowcy
-			\item Magazynier uaktualnia stan magazynu
-		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-	1.1 W przypadku gdy magazynier nie otrzymał wcześniej informacji o zamówieniu, kompletuje je teraz, w razie niepowodzenia produkty nie zostają wydane\\
-\end{usecase}
+	\begin{usecase}{Generuj raport przychodów i rozchodów}
+		\textbf{Autor:} Arkadiusz Socha\\
+		\textbf{Cel przypadku użycia:} Wygnerowanie raportu o zyskach i stratach firmy \\
+		\textbf{Kontekst użycia:} otrzymanie raportu dla właściciela  \\
+		\textbf{Zakres:} system księgujący \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Właściciel \\
+		\textbf{Aktor uczestniczący:} Księgowy \\
+		\textbf{Wyzwalacz:} właściciel chce mieć informację o przychodach i rozchodach firmy w danym okresie czasowym \\
+		\textbf{Warunek początkowy:} podanie ram czasowych  \\
+		\textbf{Minimalna gwarancja:} w przypadku, gdy nie będzie można wygenerować raportu, system poinformuje o tym właściciela, nie generując błędnych informacji \\
+		\textbf{Główny scenariusz powodzenia:} 
+			\begin{enumerate}
+				\item Właściciel podaje ramy czasowe okresu, ktory go interesuje
+				\item System wybiera tylko te faktury, które zawierają się w podanym przedziale czasowym
+				\item System generuje raport
+			\end{enumerate}
+		\textbf{Rozszerzenia:} \\
+		1.1 Ramy czasowe są błędne - conajmniej jedna z wartości jest w przyszłości, system wygeneruje błąd i poprosi o ich ponowne wpisanie
+	\end{usecase}
 
-\begin{usecase}{Aktualizuj stan magazynu}
-	\textbf{Autor:} Arkadiusz Socha\\
-	\textbf{Cel przypadku użycia:} Aktualizacja danych o stanie magayznu \\
-	\textbf{Kontekst użycia:} utrzymywanie aktualnej informacji o ilości produktów w magazynie \\
-	\textbf{Zakres:} system magazynowy \\
-	\textbf{Poziom:} użytkowy \\
-	\textbf{Aktor główny:} Magazynier \\
-	\textbf{Wyzwalacz:} wydanie lub przyjęcie produktów \\
-	\textbf{Warunek początkowy:} zmiana stanu magazynu \\
-	\textbf{Minimalna gwarancja:} w przypadku, gdy nie można zaktualizować stanu magazynu, jego stan pozostanie niezmieniony \\
-	\textbf{Główny scenariusz powodzenia:} 
-		\begin{enumerate}
-			\item Magazynier wpisuje informację o wydanych/przyjętych produktach do wygenerowanego formularza
-			\item System sprawdza poprawność danych(np. czy magazynier nie wydał więcej niż było w magazynie)
-			\item System aktualizje dane
-		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-	2.1 W przypadku błędnych danych, system informuje o tym magazyniera i prosi o ich ponowne wpisanie\\
-\end{usecase}
+\subsubsection{Obsługa magazynu}
 
-\begin{usecase}{Kompletuj zamówienie}
-	\textbf{Autor:} Arkadiusz Socha\\
-	\textbf{Cel przypadku użycia:} Skompletowanie zamówienie w celu wydania go kierowcy \\
-	\textbf{Kontekst użycia:} chęć uporządkowania produktów do zamówienia w celu szybkiego ich przekazania kierowcy \\
-	\textbf{Zakres:} system magazynowy \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Magazynier \\
-	\textbf{Wyzwalacz:} dostanie informacji o zamówieniu \\
-	\textbf{Warunek początkowy:} odpowiednia ilość towarów w magazynie \\
-	\textbf{Minimalna gwarancja:} w przypadku, gdy nie ma odpowiedniej ilości towarów w magazynie, zostanie wysłana informacja zwrotna  \\
-	\textbf{Główny scenariusz powodzenia:} 
-		\begin{enumerate}
-			\item Magazynier otrzymuje listę towarów, które wchodzą w skład zamówienia
-			\item Magazynier sprawdza czy posiada ich odpowiednią ilość
-			\item Magazynier przygotowuje zamówienie
-		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-	2.2. Nie można skompletować zamówienia, zostaje wysłana informacja zwrotna o nieposiadanych towarach\\
-\end{usecase}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.8\textwidth]{img/UC/magazyn.eps}
+	\end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=.8\textwidth]{img/UC/kierowcy.eps}
-\end{figure}
+	\begin{usecase}{Przyjmij produkty do magazynu}
+		\textbf{Autor:} Arkadiusz Socha\\
+		\textbf{Cel przypadku użycia:} Dodanie produktów recyklingu do magazynu i aktualizacja stanu magazynu \\
+		\textbf{Kontekst użycia:} przechowanie produktów recyklingu w magazynie\\
+		\textbf{Zakres:} system magazynowy \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Magazynier \\
+		\textbf{Uczestnicy:} Kierowca \\
+		\textbf{Wyzwalacz:} dostarczenie przez kierowce produktów do magazynu \\
+		\textbf{Warunek początkowy:} kierowca ma produkty recyklingu, które należy zmagazynować oraz ich listę \\
+		\textbf{Minimalna gwarancja:} w przypadku, gdy produkty nie zostaną zmagazynowane, stan magazynu nie będzie zmieniany \\
+		\textbf{Główny scenariusz powodzenia:} \\
+			\begin{enumerate}
+				\item Kierowca przywozi produkty
+				\item Magazynier układa je w magazynie
+				\item Magazynier aktualizuje stan magazynu
+			\end{enumerate}
+	\end{usecase}
 
-%TODO
-\begin{usecase}{Pobierz dane zlecenia}
-	\textbf{Autor:} Beata Obrok\\
-	\textbf{Cel przypadku użycia:} \\
-	\textbf{Kontekst użycia:} \\
-	\textbf{Zakres:} Obsługa kierowców \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Kierowca \\
-	\textbf{Wyzwalacz:}  \\
-	\textbf{Warunek początkowy:}  \\
-	\textbf{Minimalna gwarancja:} \\
-	\textbf{Główny scenariusz powodzenia:} 
-		\begin{enumerate}
-			\item 
-		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-\end{usecase}
+	\begin{usecase}{Wydaj zamówienie}
+		\textbf{Autor:} Arkadiusz Socha\\
+		\textbf{Cel przypadku użycia:} Wydanie kierowcy produktów, ujętych w zamówieniu \\
+		\textbf{Kontekst użycia:} potrzeba przetransporotowania produktów do kupca\\
+		\textbf{Zakres:} system magazynowy \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Magazynier \\
+		\textbf{Uczestnicy:} Kierowca \\
+		\textbf{Wyzwalacz:} przyjazd kierowcy do magazynu \\
+		\textbf{Warunek początkowy:} kierowca ma zamówienie \\
+		\textbf{Minimalna gwarancja:} w przypadku, gdy nie można skompletować zamówienia stan magazynu się nie zmieni \\
+		\textbf{Główny scenariusz powodzenia:} 
+			\begin{enumerate}
+				\item Kierowca przekazuje numer zamówienia magazynierowi
+				\item Magazynier wydaje produkty kierowcy
+				\item Magazynier uaktualnia stan magazynu
+			\end{enumerate}
+		\textbf{Rozszerzenia:} \\
+		1.1 W przypadku gdy magazynier nie otrzymał wcześniej informacji o zamówieniu, kompletuje je teraz, w razie niepowodzenia produkty nie zostają wydane\\
+	\end{usecase}
 
-%TODO
-\begin{usecase}{Wprowadź potwierdzenie odbioru odpadów}
-	\textbf{Autor:} Beata Obrok\\
-	\textbf{Cel przypadku użycia:} \\
-	\textbf{Kontekst użycia:} \\
-	\textbf{Zakres:} Obsługa kierowców \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Kierowca \\
-	\textbf{Wyzwalacz:}  \\
-	\textbf{Warunek początkowy:}  \\
-	\textbf{Minimalna gwarancja:} \\
-	\textbf{Główny scenariusz powodzenia:} 
-		\begin{enumerate}
-			\item 
-		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-\end{usecase}
+	\begin{usecase}{Aktualizuj stan magazynu}
+		\textbf{Autor:} Arkadiusz Socha\\
+		\textbf{Cel przypadku użycia:} Aktualizacja danych o stanie magayznu \\
+		\textbf{Kontekst użycia:} utrzymywanie aktualnej informacji o ilości produktów w magazynie \\
+		\textbf{Zakres:} system magazynowy \\
+		\textbf{Poziom:} użytkowy \\
+		\textbf{Aktor główny:} Magazynier \\
+		\textbf{Wyzwalacz:} wydanie lub przyjęcie produktów \\
+		\textbf{Warunek początkowy:} zmiana stanu magazynu \\
+		\textbf{Minimalna gwarancja:} w przypadku, gdy nie można zaktualizować stanu magazynu, jego stan pozostanie niezmieniony \\
+		\textbf{Główny scenariusz powodzenia:} 
+			\begin{enumerate}
+				\item Magazynier wpisuje informację o wydanych/przyjętych produktach do wygenerowanego formularza
+				\item System sprawdza poprawność danych(np. czy magazynier nie wydał więcej niż było w magazynie)
+				\item System aktualizje dane
+			\end{enumerate}
+		\textbf{Rozszerzenia:} \\
+		2.1 W przypadku błędnych danych, system informuje o tym magazyniera i prosi o ich ponowne wpisanie\\
+	\end{usecase}
 
-%TODO
-\begin{usecase}{Wprowadź potwierdzenie odbioru zamówienia}
-	\textbf{Autor:} Beata Obrok\\
-	\textbf{Cel przypadku użycia:} \\
-	\textbf{Kontekst użycia:} \\
-	\textbf{Zakres:} Obsługa kierowców \\
-	\textbf{Poziom:} biznesowy \\
-	\textbf{Aktor główny:} Kierowca \\
-	\textbf{Wyzwalacz:}  \\
-	\textbf{Warunek początkowy:}  \\
-	\textbf{Minimalna gwarancja:} \\
-	\textbf{Główny scenariusz powodzenia:} 
-		\begin{enumerate}
-			\item 
-		\end{enumerate}
-	\textbf{Rozszerzenia:} \\
-\end{usecase}
+	\begin{usecase}{Kompletuj zamówienie}
+		\textbf{Autor:} Arkadiusz Socha\\
+		\textbf{Cel przypadku użycia:} Skompletowanie zamówienie w celu wydania go kierowcy \\
+		\textbf{Kontekst użycia:} chęć uporządkowania produktów do zamówienia w celu szybkiego ich przekazania kierowcy \\
+		\textbf{Zakres:} system magazynowy \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Magazynier \\
+		\textbf{Wyzwalacz:} dostanie informacji o zamówieniu \\
+		\textbf{Warunek początkowy:} odpowiednia ilość towarów w magazynie \\
+		\textbf{Minimalna gwarancja:} w przypadku, gdy nie ma odpowiedniej ilości towarów w magazynie, zostanie wysłana informacja zwrotna  \\
+		\textbf{Główny scenariusz powodzenia:} 
+			\begin{enumerate}
+				\item Magazynier otrzymuje listę towarów, które wchodzą w skład zamówienia
+				\item Magazynier sprawdza czy posiada ich odpowiednią ilość
+				\item Magazynier przygotowuje zamówienie
+			\end{enumerate}
+		\textbf{Rozszerzenia:} \\
+		2.2. Nie można skompletować zamówienia, zostaje wysłana informacja zwrotna o nieposiadanych towarach\\
+	\end{usecase}
+
+\subsubsection{Obsługa kierowców}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.8\textwidth]{img/UC/kierowcy.eps}
+	\end{figure}
+
+	%TODO
+	\begin{usecase}{Pobierz dane zlecenia}
+		\textbf{Autor:} Beata Obrok\\
+		\textbf{Cel przypadku użycia:} \\
+		\textbf{Kontekst użycia:} \\
+		\textbf{Zakres:} Obsługa kierowców \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Kierowca \\
+		\textbf{Wyzwalacz:}  \\
+		\textbf{Warunek początkowy:}  \\
+		\textbf{Minimalna gwarancja:} \\
+		\textbf{Główny scenariusz powodzenia:} 
+			\begin{enumerate}
+				\item 
+			\end{enumerate}
+		\textbf{Rozszerzenia:} \\
+	\end{usecase}
+
+	%TODO
+	\begin{usecase}{Wprowadź potwierdzenie odbioru odpadów}
+		\textbf{Autor:} Beata Obrok\\
+		\textbf{Cel przypadku użycia:} \\
+		\textbf{Kontekst użycia:} \\
+		\textbf{Zakres:} Obsługa kierowców \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Kierowca \\
+		\textbf{Wyzwalacz:}  \\
+		\textbf{Warunek początkowy:}  \\
+		\textbf{Minimalna gwarancja:} \\
+		\textbf{Główny scenariusz powodzenia:} 
+			\begin{enumerate}
+				\item 
+			\end{enumerate}
+		\textbf{Rozszerzenia:} \\
+	\end{usecase}
+
+	%TODO
+	\begin{usecase}{Wprowadź potwierdzenie odbioru zamówienia}
+		\textbf{Autor:} Beata Obrok\\
+		\textbf{Cel przypadku użycia:} \\
+		\textbf{Kontekst użycia:} \\
+		\textbf{Zakres:} Obsługa kierowców \\
+		\textbf{Poziom:} biznesowy \\
+		\textbf{Aktor główny:} Kierowca \\
+		\textbf{Wyzwalacz:}  \\
+		\textbf{Warunek początkowy:}  \\
+		\textbf{Minimalna gwarancja:} \\
+		\textbf{Główny scenariusz powodzenia:} 
+			\begin{enumerate}
+				\item 
+			\end{enumerate}
+		\textbf{Rozszerzenia:} \\
+	\end{usecase}
