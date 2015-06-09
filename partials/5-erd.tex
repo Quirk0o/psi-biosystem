@@ -1,10 +1,4 @@
 
-\begin{landscape}
-	\begin{figure}
-		\centering
-		\centerline{\includegraphics[width=28cm]{img/ERD.eps}}
-	\end{figure}
-\end{landscape}
 
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 
@@ -12,19 +6,21 @@
 	\subsection{Opis relacji w tabeli krzyżowej}
 	\begin{table}[H] 
 		\centering
-		\centerline{\begin{tabularx}{1.1\hsize}{@{}|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|@{}}
-			\hline
-			                    & Klienci & Klienci z umową & Adres & Historia transakcji & Pracownik & Oferty sprzedaży & Zamówienia & Deklaracje & Odpady & Produkty \\ \hline
-			Klienci             &         & X               & X     &                     &           & X                & X          & X          &        &          \\ \hline
-			Klienci z umową     & X       &                 &       & X                   &           & X                & X          & X          &        &          \\ \hline
-			Adres               & X       &                 &       &                     &           &                  &            &            &        &          \\ \hline
-			Historia transakcji &         & X               &       &                     &           & X                & X          & X          &        &          \\ \hline
-			Pracownik           &         &                 &       &                     &           & X                & X          & X          &        &          \\ \hline
-			Oferty sprzedaży    & X       & X               &       & X                   & X         &                  &            &            &        & X        \\ \hline
-			Zamówienia          & X       & X               &       & X                   & X         &                  &            &            & X      &          \\ \hline
-			Deklaracje          & X       & X               &       & X                   & X         &                  &            &            & X      &          \\ \hline
-			Odpady              &         &                 &       &                     &           &                  &            &            &        &          \\ \hline
-			Produkty            &         &                 &       &                     &           &                  &            &            &        &          \\ \hline
+		\centerline{\begin{tabularx}{1.1\hsize}{@{}|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y@{}}
+\hline
+                                                     & Klienci               & Klienci z umową       & Adres                  & Historia transakcji   & Pracownik              & Oferty sprzedaży      & Zamówienia            & Deklaracje            & Odpady                 & Produkty              & Zlecenie przetworzenia odpadów &Zakład przetwarzania odpadów\\ \hline
+Klienci                                              &                       & X                     & X                      & X                     &                        & X                     & X                     & X                     &                        &                       &                                                     &                                                   \\ \hline
+Klienci z umową                                      & X                     &                       & X                      & X                     &                        & X                     & X                     & X                     &                        &                       &                                                     &                                                   \\ \hline
+Adres                                                & X                     & X                     &                        &                       &                        &                       &                       &                       &                        &                       &                                                     & X                                                 \\ \hline
+Historia negocjacji                                  &                       & X                     &                        &                       &                        &                       & X                     & X                     & X                      &                       &                                                     &                                                   \\ \hline
+Pracownik                                            &                       &                       &                        &                       &                        &                       & X                     & X                     & X                      &                       & X                                                   &                                                   \\ \hline
+Oferty sprzedaży                                     & X                     & X                     &                        & X                     & X                      &                       &                       &                       & X                      &                       &                                                     &                                                   \\ \hline
+Zamówienia                                           & X                     & X                     &                        & X                     & X                      &                       &                       &                       &                        & X                     &                                                     &                                                   \\ \hline
+Deklaracje                                           & X                     & X                     &                        & X                     & X                      &                       &                       &                       & X                      &                       &                                                     &                                                   \\ \hline
+Odpady                                               &                       &                       &                        &                       &                        &                       & X                     & X                     &                        &                       & X                                                   &                                                   \\ \hline
+Produkty                                             &                       &                       &                        &                       &                        & X                     &                       &                       &                        &                       &	                                                     &                                                   \\ \hline
+Zlecenie przetwarzania odpadów &  &	& 	&	&	X &		 &		 &		 &X & 	                   & X                                                 \\ \hline
+Zakład przetwarzania odpadów   & 	 & 	& X		 & 		 & 		  & 		 & 		 & 		 & 		  & 	 &                                            \\ \hline
 		\end{tabularx}}
 	\end{table}
 \end{landscape}
@@ -140,3 +136,9 @@
 			\item Nazwa
 		\end{enumerate}
 	\end{enumerate}
+\begin{landscape}
+	\begin{figure}
+		\centering
+		\centerline{\includegraphics[width=28cm]{img/ERD.eps}}
+	\end{figure}
+\end{landscape}
