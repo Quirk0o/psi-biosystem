@@ -49,31 +49,32 @@
 	\end{usecase}
 
 	\begin{usecase}{Wyświetl listę deklaracji}
-		\textbf{Autor:} Beata Obrok \\
-		\textbf{Cel przypadku użycia:} Wylistowanie deklaracji złożonych przez klienta \\
-		\textbf{Kontekst użycia:} chęć przejżenia deklaracji\\
-		\textbf{Zakres:} System obsługi klienta \\
-		\textbf{Poziom:} biznesowy \\
-		\textbf{Aktor główny:} Klient\\
-		\textbf{Wyzwalacz:} wybranie zakładki z listą deklaracji \\
-		\textbf{Warunek początkowy:} klient jest zalogowany \\
-		\textbf{Główny scenariusz powodzenia:} \\
+		\author{Beata Obrok}
+		\goal{Wylistowanie deklaracji złożonych przez klienta}
+		\context{chęć przejżenia deklaracji}
+		\scope{System obsługi klienta}
+		\actor{Klient}
+		\trigger{wybranie zakładki z listą deklaracji}
+		\precondition{klient jest zalogowany}
+		\maketitle
+		\begin{scenario}
 			\begin{enumerate}
 				\item System wyświetla deklaracje przypisane do nazwy użytkownika klienta
 			\end{enumerate}
+		\end{scenario}
 	\end{usecase}
 
 	\begin{usecase}{Modyfikuj deklarację}
-		\textbf{Autor:} Beata Obrok \\
-		\textbf{Cel przypadku użycia:} Modyfikacja dodanego przez tego klienta deklaracji \\
-		\textbf{Kontekst użycia:} chęć modyfikacji istniejącej deklaracji\\
-		\textbf{Zakres:} System obsługi klienta \\
-		\textbf{Poziom:} biznesowy \\
-		\textbf{Aktor główny:} Klient\\
-		\textbf{Wyzwalacz:} wybranie przycisku modyfikacji wybranej deklaracji \\
-		\textbf{Warunek początkowy:} klient jest zalogowany\\
-		\textbf{Minimalna gwarancja:} w przypadku błędu deklaracja pozostanie w stanie oryginalnym \\
-		\textbf{Główny scenariusz powodzenia:} \\
+		\author{Beata Obrok}
+		\goal{Modyfikacja dodanej przez tego klienta deklaracji}
+		\context{chęć modyfikacji istniejącej deklaracji}
+		\scope{System obsługi klienta}
+		\actor{Klient}
+		\trigger{wybranie przycisku modyfikacji wybranej deklaracji}
+		\precondition{klient jest zalogowany}
+		\guarantee{w przypadku błędu deklaracja pozostanie w stanie oryginalnym}
+		\maketitle
+		\begin{scenario}
 			\begin{enumerate}
 				\item System wyświetla stronę modyfikacji deklaracji
 				\item System wyświetla listę odpadów z kategorii dotyczącej danej deklaracji
@@ -84,6 +85,7 @@
 				\item System zapisuje deklarację w systemie
 				\item System wyświetla informację o poprawnym zapisaniu deklaracji w systemie
 			\end{enumerate}
+		\end{scenario}
 				3.1. Klient dodaje nowe odpady do deklaracji
 					\indent 4.1.1. Klient wpisuje ilości i/lub wagi wybranych odpadów -> pt 5
 				3.2. Klient wybiera opcję wyświetlania wszystkich odpadów \\
@@ -110,67 +112,102 @@
 			\end{enumerate}
 	\end{usecase}
 
+	
+
 	\begin{usecase}{Zleć odbiór odpadów}
-		\textbf{Autor:} Beata Obrok \\
-		\textbf{Cel przypadku użycia:} \\
-		\textbf{Kontekst użycia:} \\
-		\textbf{Zakres:} System obsługi klienta \\
-		\textbf{Poziom:} biznesowy \\
-		\textbf{Aktor główny:} Klient\\
-		\textbf{Wyzwalacz:} \\
-		\textbf{Warunek początkowy:} \\
-		\textbf{Główny scenariusz powodzenia:} \\
+		\author{Dawid Suder}
+		\goal{Zlecenie odbioru odpadów od klienta}
+		\context{klient chce zlecić odbiór odpadów, które chce oddać}
+		\scope{System obsługi klienta}
+		\actor{Klient}
+		\trigger{kliknięcie na stronie opcji "Zlecenie odbioru odpadów"}
+		\precondition{Klient ma otwartą stronę internetową}
+		\maketitle
+		\begin{scenario}
 			\begin{enumerate}
-				\item
+				\item Klient zgłasza odpady (typ, ilość/waga) do odbioru
+				\item Klient wybiera opcję zapisania zlecenia
+				\extitem{it:verifyzoo} System pozytywnie weryfikuje poprawność danych
+				\extitem{it:savedzoo} Klient dostaje potwierdzenie przyjęcia zlecenia
 			\end{enumerate}
+		\end{scenario}
+		\begin{extensions}
+			\begin{enumerate}
+				\refitem{it:verifyzoo} System negatywnie weryfikuje dane i wyświetla informację o błędzie
+				\refitem{it:savedzoo} Klient dostaje informacje o błędzie w zleceniu
+			\end{enumerate}
+		\end{extensions}
 	\end{usecase}
 
-	% TODO
 	\begin{usecase}{Zamów surowce}
-		\textbf{Autor:} Beata Obrok \\
-		\textbf{Cel przypadku użycia:} \\
-		\textbf{Kontekst użycia:} \\
-		\textbf{Zakres:} System obsługi klienta \\
-		\textbf{Poziom:} biznesowy \\
-		\textbf{Aktor główny:} Klient\\
-		\textbf{Wyzwalacz:} \\
-		\textbf{Warunek początkowy:} \\
-		\textbf{Główny scenariusz powodzenia:} \\
+		\author{Dawid Suder}
+		\goal{Zamówienie surowców przez Klienta}
+		\context{Klient chce zamówić surowce w firmie} \\
+		\scope{System obsługi klienta}
+		\actor{Klient}
+		\trigger{kliknięcie na stronie opcji "Zamów Surowce"}
+		\precondition{Klient ma otwartą stronę internetową}
+		\maketitle
+		\begin{scenario}
 			\begin{enumerate}
-				\item
+				\item Klient wybiera surowce z listy możliwych surowców
+				\item Klient wprowadza ilość/wagę surowców, które wybrał
+				\item Klient wybiera opcję zapisania danego zamówienia
+				\extitem{it:savedzs} Klient dostaje informację o przyjęciu zamówienia
 			\end{enumerate}
+		\end{scenario}
+		\begin{extensions}
+			\begin{enumerate}
+				\refitem{it:savedzs} Klient dostaje informację o niepowodzeniu w przyjęciu zamówienia
+			\end{enumerate}
+		\end{extensions}
 	\end{usecase}
 
-	% TODO
 	\begin{usecase}{Dodaj klienta do bazy danych}
-		\textbf{Autor:} Beata Obrok \\
-		\textbf{Cel przypadku użycia:} \\
-		\textbf{Kontekst użycia:} \\
-		\textbf{Zakres:} System obsługi klienta \\
-		\textbf{Poziom:} biznesowy \\
-		\textbf{Aktor główny:} Pracownik działu sprzedaży \\
-		\textbf{Wyzwalacz:} \\
-		\textbf{Warunek początkowy:} \\
-		\textbf{Główny scenariusz powodzenia:} \\
+		\author{Dawid Suder}
+		\goal{Dodanie nowego klienta do istniejącej bazy danych}
+		\context{chęć dodania nowego klienta przez Pracownika do bazy danych}
+		\scope{System obsługi klienta}
+		\actor{Pracownik działu sprzedaży}
+		\trigger{Pracownik wybiera opcję dodania klienta z panelu pracowniczego}
+		\precondition{Pracownik jest zalogowany do systemu i posiada dane Klienta (Umowa, Aneks)}
+		\guarantee{Dane Klienta zostaną zapamiętane i będą oczekiwać na zapis do bazy}
+		\maketitle
+		\begin{scenario}
 			\begin{enumerate}
-				\item
+				\item Pracownik wprowadza dane z Umowy do formularza
+				\item Pracownik zapisuje Klienta do bazy
+				\item System sprawdza wprowadzone dane
+				\extitem{it:savedkdb} System wyświetla informację o pomyślnym zapisie
+				\item Klient automatycznie dostaje wygenerowany Login i Hasło na maila z formularza
 			\end{enumerate}
+		\end{scenario}
+		\begin{extensions}
+			\begin{enumerate}
+				\refitem{it:savedkdb} System wyświetla informację o błedzie w danych
+			\end{enumerate}
+		\end{extensions}
 	\end{usecase}
 
-	% TODO
 	\begin{usecase}{Generuj aneks do umowy na podstawie deklaracji}
-		\textbf{Autor:} Beata Obrok \\
-		\textbf{Cel przypadku użycia:} \\
-		\textbf{Kontekst użycia:} \\
-		\textbf{Zakres:} System obsługi klienta \\
-		\textbf{Poziom:} biznesowy \\
-		\textbf{Aktor główny:} Pracownik działu sprzedaży \\
-		\textbf{Wyzwalacz:} \\
-		\textbf{Warunek początkowy:} \\
-		\textbf{Główny scenariusz powodzenia:} \\
+		\author{Dawid Suder}
+		\goal{Wygenerowanie aneksu do wybranej umowy na podstawie deklaracji}
+		\context{chęć dostania aneksu do umowy}
+		\scope{System obsługi Klienta}
+		\actor{Pracownik działu sprzedaży}
+		\trigger{Pracownik klika w przycisk "Generuj aneks"}
+		\precondition{Pracownik jest zalogowany i ma wybraną umowę}
+		\maketitle
+		\begin{scenario}
 			\begin{enumerate}
-				\item
+				\extitem{it:gad} System generuje aneks na podstawie umowy
 			\end{enumerate}
+		\end{scenario}
+		\begin{extensions}
+			\begin{enumerate}
+			\refitem{it:gad} System wyświetla informacje o niepomyślnej generacji
+			\end{enumerate}
+		\end{extensions}
 	\end{usecase}
 
 \subsubsection{Obsługa skupu}
@@ -429,56 +466,67 @@
 		\includegraphics[width=.8\textwidth]{img/UC/kierowcy.eps}
 	\end{figure}
 
-	%TODO
 	\begin{usecase}{Pobierz dane zlecenia}
-		\textbf{Autor:} Beata Obrok\\
-		\textbf{Cel przypadku użycia:} \\
-		\textbf{Kontekst użycia:} \\
-		\textbf{Zakres:} Obsługa kierowców \\
-		\textbf{Poziom:} biznesowy \\
-		\textbf{Aktor główny:} Kierowca \\
-		\textbf{Wyzwalacz:}  \\
-		\textbf{Warunek początkowy:}  \\
-		\textbf{Minimalna gwarancja:} \\
-		\textbf{Główny scenariusz powodzenia:} 
+		\author{Dawid Suder}
+		\goal{Pobranie szczegółów wybranego zlecenia}
+		\context{Kierowca chce dostać szczegóły dotyczące zlecenia}
+		\scope{Obsługa kierowców}
+		\actor{Kierowca}
+		\trigger{Kierowca naciska przycisk Wyświetl Szczegóły w zleceniu}
+		\precondition{Kierowca jest zalogowany do Systemu}
+		\maketitle
+		\begin{scenario}
 			\begin{enumerate}
-				\item 
+				\extitem{it:datapdz} System wyświetla szczegóły zlecenia
 			\end{enumerate}
-		\textbf{Rozszerzenia:} \\
+		\end{scenario}
+		\begin{extensions}
+			\begin{enumerate}
+			\refitem{it:datapdz} System wyświetla informację o niemożliwości wyświetlenia szczegółów
+			\end{enumerate}
+		\end{extensions}
 	\end{usecase}
 
-	%TODO
 	\begin{usecase}{Wprowadź potwierdzenie odbioru odpadów}
-		\textbf{Autor:} Beata Obrok\\
-		\textbf{Cel przypadku użycia:} \\
-		\textbf{Kontekst użycia:} \\
-		\textbf{Zakres:} Obsługa kierowców \\
-		\textbf{Poziom:} biznesowy \\
-		\textbf{Aktor główny:} Kierowca \\
-		\textbf{Wyzwalacz:}  \\
-		\textbf{Warunek początkowy:}  \\
-		\textbf{Minimalna gwarancja:} \\
-		\textbf{Główny scenariusz powodzenia:} 
+		\author{Dawid Suder}
+		\goal{Potwierdzenie odbioru odpadów od Klienta}
+		\context{Kierowca chce potwierdzić odbiór}
+		\scope{Obsługa kierowców}
+		\actor{Kierowca}
+		\trigger{Kierowca wybiera odpowiednią opcję w panelu Kierowcy}
+		\precondition{Kierowca jest zalogowany}
+		\maketitle
+		\begin{scenario}
 			\begin{enumerate}
-				\item 
+				\extitem{it:pook} Kierowca potwierdza dane ze zlecenia
+				\item System wyświetla informację o pomyślnej zmianie stanu zlecenia
 			\end{enumerate}
-		\textbf{Rozszerzenia:} \\
+		\end{scenario}
+		\begin{extensions}
+			\begin{enumerate}
+			\refitem{it:pook} Kierowca poprawia zlecenie na rzeczywiste dane
+			\end{enumerate}
+		\end{extensions}
 	\end{usecase}
 
-	%TODO
 	\begin{usecase}{Wprowadź potwierdzenie odbioru zamówienia}
-		\textbf{Autor:} Beata Obrok\\
-		\textbf{Cel przypadku użycia:} \\
-		\textbf{Kontekst użycia:} \\
-		\textbf{Zakres:} Obsługa kierowców \\
-		\textbf{Poziom:} biznesowy \\
-		\textbf{Aktor główny:} Kierowca \\
-		\textbf{Wyzwalacz:}  \\
-		\textbf{Warunek początkowy:}  \\
-		\textbf{Minimalna gwarancja:} \\
-		\textbf{Główny scenariusz powodzenia:} 
+		\author{Dawid Suder}
+		\goal{Wprowadzenie potwierdzenia odbioru do systemu w celu zaznaczenia wykonania zamówienia}
+		\context{Kierowca chce zaznaczyć wykonanie odbioru zamówienia}
+		\scope{Obsługa kierowców}
+		\actor{Kierowca}
+		\trigger{Kierowca zaznacza opcję Potwierdzenia odbioru w panelu kierowcy dla danego zamówienia}
+		\precondition{Kierowca jest zalogowany w systemie}
+		\guarantee{Zamówienie pozostanie nie zmienione}
+		\maketitle
+		\begin{scenario}
 			\begin{enumerate}
-				\item 
+				\extitem{it:wpo} System wyświetla informację o zmianie statusu zamówienia
 			\end{enumerate}
-		\textbf{Rozszerzenia:} \\
+		\end{scenario}
+		\begin{extensions}
+			\begin{enumerate}
+				\refitem{it:wpo} System wyświetla informację o błędzie
+			\end{enumerate}
+		\end{extensions}
 	\end{usecase}
