@@ -13,7 +13,7 @@
    text-rendering="auto"
    stroke="rgb(0,0,0)"
    stroke-linecap="square"
-   width="626"
+   width="595"
    stroke-miterlimit="10"
    shape-rendering="auto"
    stroke-opacity="0"
@@ -21,7 +21,7 @@
    stroke-dasharray="none"
    font-weight="normal"
    stroke-width="1"
-   height="759"
+   height="538"
    font-family="'Dialog'"
    font-style="normal"
    stroke-linejoin="miter"
@@ -33,7 +33,7 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="magazyn.svg">
   <metadata
-     id="metadata533">
+     id="metadata373">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -54,11 +54,11 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview531"
+     id="namedview371"
      showgrid="false"
-     inkscape:zoom="0.31093544"
-     inkscape:cx="313"
-     inkscape:cy="379.5"
+     inkscape:zoom="0.43866171"
+     inkscape:cx="297.5"
+     inkscape:cy="269"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -73,133 +73,133 @@
          clipPathUnits="userSpaceOnUse">
         <path
            id="path9"
-           d="M-7 -7 L74 -7 L74 43 L-7 43 L-7 -7 Z" />
+           d="M-7 -7 L196 -7 L196 79 L-7 79 L-7 -7 Z" />
       </clipPath>
       <clipPath
          id="clipPath2"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path12"
-           d="M-7 -7 L164 -7 L164 74 L-7 74 L-7 -7 Z" />
+           d="M0 0 L185 0 L185 68 L0 68 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath3"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path15"
-           d="M0 0 L153 0 L153 63 L0 63 L0 0 Z" />
+           d="M-7 -7 L193 -7 L193 79 L-7 79 L-7 -7 Z" />
       </clipPath>
       <clipPath
          id="clipPath4"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path18"
-           d="M-7 -7 L164 -7 L164 66 L-7 66 L-7 -7 Z" />
+           d="M0 0 L182 0 L182 68 L0 68 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath5"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path21"
-           d="M0 0 L153 0 L153 55 L0 55 L0 0 Z" />
+           d="M-7 -7 L164 -7 L164 67 L-7 67 L-7 -7 Z" />
       </clipPath>
       <clipPath
          id="clipPath6"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path24"
-           d="M-7 -7 L196 -7 L196 79 L-7 79 L-7 -7 Z" />
+           d="M0 0 L153 0 L153 56 L0 56 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath7"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path27"
-           d="M0 0 L185 0 L185 68 L0 68 L0 0 Z" />
+           d="M-7 -7 L31 -7 L31 31 L-7 31 L-7 -7 Z" />
       </clipPath>
       <clipPath
          id="clipPath8"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path30"
-           d="M-7 -7 L193 -7 L193 79 L-7 79 L-7 -7 Z" />
+           d="M-7 -7 L230 -7 L230 23 L-7 23 L-7 -7 Z" />
       </clipPath>
       <clipPath
          id="clipPath9"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path33"
-           d="M0 0 L182 0 L182 68 L0 68 L0 0 Z" />
+           d="M-7 -7 L175 -7 L175 70 L-7 70 L-7 -7 Z" />
       </clipPath>
       <clipPath
          id="clipPath10"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path36"
-           d="M-7 -7 L164 -7 L164 67 L-7 67 L-7 -7 Z" />
+           d="M0 0 L164 0 L164 59 L0 59 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath11"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path39"
-           d="M0 0 L153 0 L153 56 L0 56 L0 0 Z" />
+           d="M-7 -7 L31 -7 L31 51 L-7 51 L-7 -7 Z" />
       </clipPath>
       <clipPath
          id="clipPath12"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path42"
-           d="M-7 -7 L31 -7 L31 31 L-7 31 L-7 -7 Z" />
+           d="M-7 -7 L181 -7 L181 66 L-7 66 L-7 -7 Z" />
       </clipPath>
       <clipPath
          id="clipPath13"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path45"
-           d="M-7 -7 L31 -7 L31 51 L-7 51 L-7 -7 Z" />
+           d="M0 0 L170 0 L170 55 L0 55 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath14"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path48"
-           d="M-7 -7 L230 -7 L230 23 L-7 23 L-7 -7 Z" />
+           d="M-7 -7 L51 -7 L51 31 L-7 31 L-7 -7 Z" />
       </clipPath>
       <clipPath
          id="clipPath15"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path51"
-           d="M-7 -7 L175 -7 L175 70 L-7 70 L-7 -7 Z" />
+           d="M0 0 L104 0 L104 246 L0 246 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath16"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path54"
-           d="M0 0 L164 0 L164 59 L0 59 L0 0 Z" />
+           d="M0 0 L104 0 L104 160 L0 160 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath17"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path57"
-           d="M-7 -7 L181 -7 L181 66 L-7 66 L-7 -7 Z" />
+           d="M0 0 L104 0 L104 144 L0 144 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath18"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path60"
-           d="M0 0 L170 0 L170 55 L0 55 L0 0 Z" />
+           d="M0 0 L104 0 L104 141 L0 141 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath19"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path63"
-           d="M0 0 L104 0 L104 156 L0 156 L0 0 Z" />
+           d="M0 0 L104 0 L104 147 L0 147 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath20"
@@ -213,958 +213,606 @@
          clipPathUnits="userSpaceOnUse">
         <path
            id="path69"
-           d="M0 0 L193 0 L193 214 L0 214 L0 0 Z" />
+           d="M0 0 L175 0 L175 206 L0 206 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath22"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path72"
-           d="M0 0 L104 0 L104 246 L0 246 L0 0 Z" />
+           d="M0 0 L104 0 L104 181 L0 181 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath23"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path75"
-           d="M0 0 L104 0 L104 160 L0 160 L0 0 Z" />
+           d="M0 0 L104 0 L104 169 L0 169 L0 0 Z" />
       </clipPath>
       <clipPath
          id="clipPath24"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path78"
-           d="M0 0 L104 0 L104 144 L0 144 L0 0 Z" />
+           d="M-145 -14 L290 -14 L290 28 L-145 28 L-145 -14 Z" />
       </clipPath>
       <clipPath
          id="clipPath25"
          clipPathUnits="userSpaceOnUse">
         <path
            id="path81"
-           d="M0 0 L104 0 L104 141 L0 141 L0 0 Z" />
-      </clipPath>
-      <clipPath
-         id="clipPath26"
-         clipPathUnits="userSpaceOnUse">
-        <path
-           id="path84"
-           d="M0 0 L104 0 L104 148 L0 148 L0 0 Z" />
-      </clipPath>
-      <clipPath
-         id="clipPath27"
-         clipPathUnits="userSpaceOnUse">
-        <path
-           id="path87"
-           d="M0 0 L104 0 L104 170 L0 170 L0 0 Z" />
-      </clipPath>
-      <clipPath
-         id="clipPath28"
-         clipPathUnits="userSpaceOnUse">
-        <path
-           id="path90"
-           d="M0 0 L104 0 L104 147 L0 147 L0 0 Z" />
-      </clipPath>
-      <clipPath
-         id="clipPath29"
-         clipPathUnits="userSpaceOnUse">
-        <path
-           id="path93"
-           d="M0 0 L175 0 L175 206 L0 206 L0 0 Z" />
-      </clipPath>
-      <clipPath
-         id="clipPath30"
-         clipPathUnits="userSpaceOnUse">
-        <path
-           id="path96"
-           d="M0 0 L104 0 L104 181 L0 181 L0 0 Z" />
-      </clipPath>
-      <clipPath
-         id="clipPath31"
-         clipPathUnits="userSpaceOnUse">
-        <path
-           id="path99"
-           d="M-145 -14 L290 -14 L290 28 L-145 28 L-145 -14 Z" />
-      </clipPath>
-      <clipPath
-         id="clipPath32"
-         clipPathUnits="userSpaceOnUse">
-        <path
-           id="path102"
            d="M-129 -14 L258 -14 L258 28 L-129 28 L-129 -14 Z" />
-      </clipPath>
-      <clipPath
-         id="clipPath33"
-         clipPathUnits="userSpaceOnUse">
-        <path
-           id="path105"
-           d="M-110 -14 L220 -14 L220 28 L-110 28 L-110 -14 Z" />
-      </clipPath>
-      <clipPath
-         id="clipPath34"
-         clipPathUnits="userSpaceOnUse">
-        <path
-           id="path108"
-           d="M-94 -14 L188 -14 L188 28 L-94 28 L-94 -14 Z" />
-      </clipPath>
-      <clipPath
-         id="clipPath35"
-         clipPathUnits="userSpaceOnUse">
-        <path
-           id="path111"
-           d="M-97 -42 L194 -42 L194 84 L-97 84 L-97 -42 Z" />
       </clipPath>
     </defs>
   </defs>
   <g
      style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g113">
+     id="g83">
     <rect
        style="stroke:none"
-       id="rect115"
+       id="rect85"
        y="0"
-       height="759"
-       width="626"
+       height="538"
+       width="595"
        x="0" />
   </g>
   <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g117"
-     transform="translate(47,2)"
+     style="font-size:11px;font-family:sans-serif;fill:#7acff5;fill-opacity:1;stroke:#7acff5;stroke-opacity:1;text-rendering:geometricPrecision"
+     id="g87"
+     transform="translate(2,243)"
      font-size="11">
-    <circle
+    <rect
        style="stroke:none"
-       id="circle119"
-       cy="16"
-       cx="31.5"
+       id="rect89"
+       height="68"
+       ry="15"
+       rx="15"
+       width="185"
        clip-path="url(#clipPath1)"
-       r="16" />
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#7acff5;fill-opacity:1;stroke:#7acff5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g121"
-     transform="translate(2,78)"
-     font-size="11">
-    <rect
-       style="stroke:none"
-       id="rect123"
-       height="63"
-       ry="15"
-       rx="15"
-       width="153"
-       clip-path="url(#clipPath2)"
        y="0"
        x="0" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g125"
+     id="g91"
      stroke-miterlimit="0"
-     transform="translate(2,78)"
+     transform="translate(2,243)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect127"
-       height="63"
-       ry="15"
-       rx="15"
-       width="153"
-       clip-path="url(#clipPath2)"
-       y="0"
-       x="0" />
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g129"
-     transform="translate(2,78)"
-     font-size="11">
-    <text
-       style="stroke:none"
-       id="text131"
-       clip-path="url(#clipPath3)"
-       y="28"
-       xml:space="preserve"
-       x="15">Wprowadzenie loginu i</text>
-    <text
-       style="stroke:none"
-       id="text133"
-       clip-path="url(#clipPath3)"
-       y="42"
-       xml:space="preserve"
-       x="62">hasła</text>
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#7acff5;fill-opacity:1;stroke:#7acff5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g135"
-     transform="translate(2,194)"
-     font-size="11">
-    <rect
-       style="stroke:none"
-       id="rect137"
-       height="55"
-       ry="15"
-       rx="15"
-       width="153"
-       clip-path="url(#clipPath4)"
-       y="0"
-       x="0" />
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g139"
-     stroke-miterlimit="0"
-     transform="translate(2,194)"
-     font-size="11">
-    <rect
-       style="fill:none"
-       id="rect141"
-       height="55"
-       ry="15"
-       rx="15"
-       width="153"
-       clip-path="url(#clipPath4)"
-       y="0"
-       x="0" />
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g143"
-     transform="translate(2,194)"
-     font-size="11">
-    <text
-       style="stroke:none"
-       id="text145"
-       clip-path="url(#clipPath5)"
-       y="31"
-       xml:space="preserve"
-       x="24">Weryfikacja danych</text>
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#7acff5;fill-opacity:1;stroke:#7acff5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g147"
-     transform="translate(33,464)"
-     font-size="11">
-    <rect
-       style="stroke:none"
-       id="rect149"
+       id="rect93"
        height="68"
        ry="15"
        rx="15"
        width="185"
-       clip-path="url(#clipPath6)"
-       y="0"
-       x="0" />
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g151"
-     stroke-miterlimit="0"
-     transform="translate(33,464)"
-     font-size="11">
-    <rect
-       style="fill:none"
-       id="rect153"
-       height="68"
-       ry="15"
-       rx="15"
-       width="185"
-       clip-path="url(#clipPath6)"
+       clip-path="url(#clipPath1)"
        y="0"
        x="0" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g155"
-     transform="translate(33,464)"
+     id="g95"
+     transform="translate(2,243)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text157"
-       clip-path="url(#clipPath7)"
+       id="text97"
+       clip-path="url(#clipPath2)"
        y="24"
        xml:space="preserve"
        x="42">Wpisanie danych o</text>
     <text
        style="stroke:none"
-       id="text159"
-       clip-path="url(#clipPath7)"
+       id="text99"
+       clip-path="url(#clipPath2)"
        y="38"
        xml:space="preserve"
        x="18">przyjmowanych produktach</text>
     <text
        style="stroke:none"
-       id="text161"
-       clip-path="url(#clipPath7)"
+       id="text101"
+       clip-path="url(#clipPath2)"
        y="52"
        xml:space="preserve"
        x="64">recyklingu</text>
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#7acff5;fill-opacity:1;stroke:#7acff5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g163"
-     transform="translate(278,464)"
+     id="g103"
+     transform="translate(247,243)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect165"
+       id="rect105"
        height="68"
        ry="15"
        rx="15"
        width="182"
-       clip-path="url(#clipPath8)"
+       clip-path="url(#clipPath3)"
        y="0"
        x="0" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g167"
+     id="g107"
      stroke-miterlimit="0"
-     transform="translate(278,464)"
+     transform="translate(247,243)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect169"
+       id="rect109"
        height="68"
        ry="15"
        rx="15"
        width="182"
-       clip-path="url(#clipPath8)"
+       clip-path="url(#clipPath3)"
        y="0"
        x="0" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g171"
-     transform="translate(278,464)"
+     id="g111"
+     transform="translate(247,243)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text173"
-       clip-path="url(#clipPath9)"
+       id="text113"
+       clip-path="url(#clipPath4)"
        y="31"
        xml:space="preserve"
        x="9">Przygotowanie zamówienia do</text>
     <text
        style="stroke:none"
-       id="text175"
-       clip-path="url(#clipPath9)"
+       id="text115"
+       clip-path="url(#clipPath4)"
        y="45"
        xml:space="preserve"
        x="62">transportu</text>
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#7acff5;fill-opacity:1;stroke:#7acff5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g177"
-     transform="translate(168,640)"
+     id="g117"
+     transform="translate(137,419)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect179"
+       id="rect119"
        height="56"
        ry="15"
        rx="15"
        width="153"
-       clip-path="url(#clipPath10)"
+       clip-path="url(#clipPath5)"
        y="0"
        x="0" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g181"
+     id="g121"
      stroke-miterlimit="0"
-     transform="translate(168,640)"
+     transform="translate(137,419)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect183"
+       id="rect123"
        height="56"
        ry="15"
        rx="15"
        width="153"
-       clip-path="url(#clipPath10)"
+       clip-path="url(#clipPath5)"
        y="0"
        x="0" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g185"
-     transform="translate(168,640)"
+     id="g125"
+     transform="translate(137,419)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text187"
-       clip-path="url(#clipPath11)"
+       id="text127"
+       clip-path="url(#clipPath6)"
        y="25"
        xml:space="preserve"
        x="27">Aktualizacja stanu</text>
     <text
        style="stroke:none"
-       id="text189"
-       clip-path="url(#clipPath11)"
+       id="text129"
+       clip-path="url(#clipPath6)"
        y="39"
        xml:space="preserve"
        x="49">magazynu</text>
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g191"
-     transform="translate(234,735)"
+     id="g131"
+     transform="translate(203,514)"
      font-size="11">
     <circle
        style="stroke:none"
-       id="circle193"
+       id="circle133"
        cy="10"
        cx="10"
-       clip-path="url(#clipPath12)"
+       clip-path="url(#clipPath7)"
        r="6.6666999" />
     <circle
        style="fill:none;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0"
-       id="circle195"
+       id="circle135"
        stroke-miterlimit="0"
        cy="10"
        cx="10"
        r="10"
-       clip-path="url(#clipPath12)" />
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#7acff5;fill-opacity:1;stroke:#7acff5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g197"
-     transform="translate(234,209)"
-     font-size="11">
-    <path
-       style="stroke:none"
-       inkscape:connector-curvature="0"
-       id="path199"
-       clip-path="url(#clipPath13)"
-       d="M 10,7.5 17,20 10,32.5 3,20 Z" />
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g201"
-     stroke-miterlimit="0"
-     transform="translate(234,209)"
-     font-size="11">
-    <path
-       style="fill:none"
-       inkscape:connector-curvature="0"
-       id="path203"
-       clip-path="url(#clipPath13)"
-       d="M 10,7.5 17,20 10,32.5 3,20 Z" />
+       clip-path="url(#clipPath7)" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g205"
-     transform="translate(131,308)"
+     id="g137"
+     transform="translate(100,87)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect207"
-       clip-path="url(#clipPath14)"
+       id="rect139"
+       clip-path="url(#clipPath8)"
        y="0"
        height="12"
        width="219"
        x="0" />
     <rect
        style="fill:none;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0"
-       id="rect209"
+       id="rect141"
        stroke-miterlimit="0"
        height="12"
        width="219"
-       clip-path="url(#clipPath14)"
+       clip-path="url(#clipPath8)"
        y="0"
        x="0" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g211"
-     transform="translate(131,589)"
+     id="g143"
+     transform="translate(100,368)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect213"
-       clip-path="url(#clipPath14)"
+       id="rect145"
+       clip-path="url(#clipPath8)"
        y="0"
        height="12"
        width="219"
        x="0" />
     <rect
        style="fill:none;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0"
-       id="rect215"
+       id="rect147"
        stroke-miterlimit="0"
        height="12"
        width="219"
-       clip-path="url(#clipPath14)"
+       clip-path="url(#clipPath8)"
        y="0"
        x="0" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#7acff5;fill-opacity:1;stroke:#7acff5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g217"
-     transform="translate(278,365)"
+     id="g149"
+     transform="translate(247,144)"
      font-size="11">
     <rect
        style="stroke:none"
-       id="rect219"
+       id="rect151"
        height="59"
        ry="15"
        rx="15"
        width="164"
-       clip-path="url(#clipPath15)"
+       clip-path="url(#clipPath9)"
        y="0"
        x="0" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g221"
+     id="g153"
      stroke-miterlimit="0"
-     transform="translate(278,365)"
+     transform="translate(247,144)"
      font-size="11">
     <rect
        style="fill:none"
-       id="rect223"
+       id="rect155"
        height="59"
        ry="15"
        rx="15"
        width="164"
-       clip-path="url(#clipPath15)"
+       clip-path="url(#clipPath9)"
        y="0"
        x="0" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g225"
-     transform="translate(278,365)"
+     id="g157"
+     transform="translate(247,144)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text227"
-       clip-path="url(#clipPath16)"
+       id="text159"
+       clip-path="url(#clipPath10)"
        y="26"
        xml:space="preserve"
        x="37">Pobranie danych</text>
     <text
        style="stroke:none"
-       id="text229"
-       clip-path="url(#clipPath16)"
+       id="text161"
+       clip-path="url(#clipPath10)"
        y="40"
        xml:space="preserve"
        x="49">zamówienia</text>
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#7acff5;fill-opacity:1;stroke:#7acff5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g231"
-     transform="translate(521,372)"
+     id="g163"
+     transform="translate(490,151)"
      font-size="11">
     <path
        style="stroke:none"
        inkscape:connector-curvature="0"
-       id="path233"
-       clip-path="url(#clipPath13)"
+       id="path165"
+       clip-path="url(#clipPath11)"
        d="M 10,7.5 17,20 10,32.5 3,20 Z" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g235"
+     id="g167"
      stroke-miterlimit="0"
-     transform="translate(521,372)"
+     transform="translate(490,151)"
      font-size="11">
     <path
        style="fill:none"
        inkscape:connector-curvature="0"
-       id="path237"
-       clip-path="url(#clipPath13)"
+       id="path169"
+       clip-path="url(#clipPath11)"
        d="M 10,7.5 17,20 10,32.5 3,20 Z" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#7acff5;fill-opacity:1;stroke:#7acff5;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g239"
-     transform="translate(452,249)"
+     id="g171"
+     transform="translate(421,28)"
      font-size="11">
     <path
        style="stroke:none"
        inkscape:connector-curvature="0"
-       id="path241"
-       clip-path="url(#clipPath17)"
+       id="path173"
+       clip-path="url(#clipPath12)"
        d="M 0,0 157,0 169,27.5 157,54 0,54 Z" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g243"
+     id="g175"
      stroke-miterlimit="0"
-     transform="translate(452,249)"
+     transform="translate(421,28)"
      font-size="11">
     <path
        style="fill:none"
        inkscape:connector-curvature="0"
-       id="path245"
-       clip-path="url(#clipPath17)"
+       id="path177"
+       clip-path="url(#clipPath12)"
        d="M 0,0 157,0 169,27.5 157,54 0,54 Z" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g247"
-     transform="translate(452,249)"
+     id="g179"
+     transform="translate(421,28)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text249"
-       clip-path="url(#clipPath18)"
+       id="text181"
+       clip-path="url(#clipPath13)"
        y="24"
        xml:space="preserve"
        x="6">Zaznaczenie niemożliwości</text>
     <text
        style="stroke:none"
-       id="text251"
-       clip-path="url(#clipPath18)"
+       id="text183"
+       clip-path="url(#clipPath13)"
        y="38"
        xml:space="preserve"
        x="17">wykonania zamówienia</text>
   </g>
   <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g253"
-     transform="translate(27,91)"
+     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
+     id="g185"
+     transform="translate(193,2)"
      font-size="11">
-    <line
-       style="fill:none"
-       id="line255"
-       y1="50"
-       x2="50"
-       clip-path="url(#clipPath19)"
-       x1="50"
-       y2="102" />
-    <line
-       style="fill:none"
-       id="line257"
-       y1="102"
-       x2="56"
-       clip-path="url(#clipPath19)"
-       x1="50"
-       y2="90" />
-    <line
-       style="fill:none"
-       id="line259"
-       y1="102"
-       x2="44"
-       clip-path="url(#clipPath19)"
-       x1="50"
-       y2="90" />
+    <circle
+       style="stroke:none"
+       id="circle187"
+       cy="10"
+       cx="20"
+       clip-path="url(#clipPath14)"
+       r="10" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g261"
-     transform="translate(105,179)"
+     id="g189"
+     transform="translate(87,50)"
      font-size="11">
     <line
        style="fill:none"
-       id="line263"
-       y1="50"
-       x2="132"
-       clip-path="url(#clipPath20)"
-       x1="50"
-       y2="50" />
-    <line
-       style="fill:none"
-       id="line265"
-       y1="50"
-       x2="120"
-       clip-path="url(#clipPath20)"
-       x1="132"
-       y2="44" />
-    <line
-       style="fill:none"
-       id="line267"
-       y1="50"
-       x2="120"
-       clip-path="url(#clipPath20)"
-       x1="132"
-       y2="56" />
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g269"
-     transform="translate(105,57)"
-     font-size="11">
-    <line
-       style="fill:none"
-       id="line271"
-       y1="160"
-       x2="139"
-       clip-path="url(#clipPath21)"
-       x1="139"
-       y2="50" />
-    <line
-       style="fill:none"
-       id="line273"
+       id="line191"
        y1="50"
        x2="50"
-       clip-path="url(#clipPath21)"
-       x1="139"
-       y2="50" />
-    <line
-       style="fill:none"
-       id="line275"
-       y1="50"
-       x2="62"
-       clip-path="url(#clipPath21)"
-       x1="50"
-       y2="56" />
-    <line
-       style="fill:none"
-       id="line277"
-       y1="50"
-       x2="62"
-       clip-path="url(#clipPath21)"
-       x1="50"
-       y2="44" />
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g279"
-     transform="translate(118,271)"
-     font-size="11">
-    <line
-       style="fill:none"
-       id="line281"
-       y1="50"
-       x2="50"
-       clip-path="url(#clipPath22)"
+       clip-path="url(#clipPath15)"
        x1="50"
        y2="192" />
     <line
        style="fill:none"
-       id="line283"
+       id="line193"
        y1="192"
        x2="56"
-       clip-path="url(#clipPath22)"
+       clip-path="url(#clipPath15)"
        x1="50"
        y2="180" />
     <line
        style="fill:none"
-       id="line285"
+       id="line195"
        y1="192"
        x2="44"
-       clip-path="url(#clipPath22)"
+       clip-path="url(#clipPath15)"
        x1="50"
        y2="180" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g287"
-     transform="translate(118,482)"
+     id="g197"
+     transform="translate(87,261)"
      font-size="11">
     <line
        style="fill:none"
-       id="line289"
+       id="line199"
        y1="50"
        x2="50"
-       clip-path="url(#clipPath23)"
+       clip-path="url(#clipPath16)"
        x1="50"
        y2="106" />
     <line
        style="fill:none"
-       id="line291"
+       id="line201"
        y1="106"
        x2="56"
-       clip-path="url(#clipPath23)"
+       clip-path="url(#clipPath16)"
        x1="50"
        y2="94" />
     <line
        style="fill:none"
-       id="line293"
+       id="line203"
        y1="106"
        x2="44"
-       clip-path="url(#clipPath23)"
+       clip-path="url(#clipPath16)"
        x1="50"
        y2="94" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g295"
-     transform="translate(262,482)"
+     id="g205"
+     transform="translate(231,261)"
      font-size="11">
     <line
        style="fill:none"
-       id="line297"
+       id="line207"
        y1="50"
        x2="50"
-       clip-path="url(#clipPath23)"
+       clip-path="url(#clipPath16)"
        x1="50"
        y2="106" />
     <line
        style="fill:none"
-       id="line299"
+       id="line209"
        y1="106"
        x2="56"
-       clip-path="url(#clipPath23)"
+       clip-path="url(#clipPath16)"
        x1="50"
        y2="94" />
     <line
        style="fill:none"
-       id="line301"
+       id="line211"
        y1="106"
        x2="44"
-       clip-path="url(#clipPath23)"
+       clip-path="url(#clipPath16)"
        x1="50"
        y2="94" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g303"
-     transform="translate(194,646)"
+     id="g213"
+     transform="translate(163,425)"
      font-size="11">
     <line
        style="fill:none"
-       id="line305"
+       id="line215"
        y1="50"
        x2="50"
-       clip-path="url(#clipPath24)"
+       clip-path="url(#clipPath17)"
        x1="50"
        y2="90" />
     <line
        style="fill:none"
-       id="line307"
+       id="line217"
        y1="90"
        x2="56"
-       clip-path="url(#clipPath24)"
+       clip-path="url(#clipPath17)"
        x1="50"
        y2="78" />
     <line
        style="fill:none"
-       id="line309"
+       id="line219"
        y1="90"
        x2="44"
-       clip-path="url(#clipPath24)"
+       clip-path="url(#clipPath17)"
        x1="50"
        y2="78" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g311"
-     transform="translate(194,552)"
+     id="g221"
+     transform="translate(163,331)"
      font-size="11">
     <line
        style="fill:none"
-       id="line313"
+       id="line223"
        y1="50"
        x2="50"
-       clip-path="url(#clipPath25)"
+       clip-path="url(#clipPath18)"
        x1="50"
        y2="87" />
     <line
        style="fill:none"
-       id="line315"
+       id="line225"
        y1="87"
        x2="56"
-       clip-path="url(#clipPath25)"
+       clip-path="url(#clipPath18)"
        x1="50"
        y2="75" />
     <line
        style="fill:none"
-       id="line317"
+       id="line227"
        y1="87"
        x2="44"
-       clip-path="url(#clipPath25)"
+       clip-path="url(#clipPath18)"
        x1="50"
        y2="75" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g319"
-     transform="translate(28,-17)"
+     id="g229"
+     transform="translate(231,50)"
      font-size="11">
     <line
        style="fill:none"
-       id="line321"
+       id="line231"
        y1="50"
        x2="50"
-       clip-path="url(#clipPath26)"
-       x1="50"
-       y2="94" />
-    <line
-       style="fill:none"
-       id="line323"
-       y1="94"
-       x2="56"
-       clip-path="url(#clipPath26)"
-       x1="50"
-       y2="82" />
-    <line
-       style="fill:none"
-       id="line325"
-       y1="94"
-       x2="44"
-       clip-path="url(#clipPath26)"
-       x1="50"
-       y2="82" />
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g327"
-     transform="translate(194,191)"
-     font-size="11">
-    <line
-       style="fill:none"
-       id="line329"
-       y1="50"
-       x2="50"
-       clip-path="url(#clipPath27)"
-       x1="50"
-       y2="116" />
-    <line
-       style="fill:none"
-       id="line331"
-       y1="116"
-       x2="56"
-       clip-path="url(#clipPath27)"
-       x1="50"
-       y2="104" />
-    <line
-       style="fill:none"
-       id="line333"
-       y1="116"
-       x2="44"
-       clip-path="url(#clipPath27)"
-       x1="50"
-       y2="104" />
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g335"
-     transform="translate(262,271)"
-     font-size="11">
-    <line
-       style="fill:none"
-       id="line337"
-       y1="50"
-       x2="50"
-       clip-path="url(#clipPath28)"
+       clip-path="url(#clipPath19)"
        x1="50"
        y2="93" />
     <line
        style="fill:none"
-       id="line339"
+       id="line233"
        y1="93"
        x2="56"
-       clip-path="url(#clipPath28)"
+       clip-path="url(#clipPath19)"
        x1="50"
        y2="81" />
     <line
        style="fill:none"
-       id="line341"
+       id="line235"
        y1="93"
        x2="44"
-       clip-path="url(#clipPath28)"
+       clip-path="url(#clipPath19)"
        x1="50"
        y2="81" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g343"
-     transform="translate(392,342)"
+     id="g237"
+     transform="translate(361,121)"
      font-size="11">
     <line
        style="fill:none"
-       id="line345"
+       id="line239"
        y1="50"
        x2="132"
        clip-path="url(#clipPath20)"
@@ -1172,7 +820,7 @@
        y2="50" />
     <line
        style="fill:none"
-       id="line347"
+       id="line241"
        y1="50"
        x2="120"
        clip-path="url(#clipPath20)"
@@ -1180,7 +828,7 @@
        y2="44" />
     <line
        style="fill:none"
-       id="line349"
+       id="line243"
        y1="50"
        x2="120"
        clip-path="url(#clipPath20)"
@@ -1189,122 +837,126 @@
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g351"
-     transform="translate(410,354)"
+     id="g245"
+     transform="translate(379,133)"
      font-size="11">
     <line
        style="fill:none"
-       id="line353"
+       id="line247"
        y1="50"
        x2="121"
-       clip-path="url(#clipPath29)"
+       clip-path="url(#clipPath21)"
        x1="121"
        y2="152" />
     <line
        style="fill:none"
-       id="line355"
+       id="line249"
        y1="152"
        x2="50"
-       clip-path="url(#clipPath29)"
+       clip-path="url(#clipPath21)"
        x1="121"
        y2="152" />
     <line
        style="fill:none"
-       id="line357"
+       id="line251"
        y1="152"
        x2="62"
-       clip-path="url(#clipPath29)"
+       clip-path="url(#clipPath21)"
        x1="50"
        y2="158" />
     <line
        style="fill:none"
-       id="line359"
+       id="line253"
        y1="152"
        x2="62"
-       clip-path="url(#clipPath29)"
+       clip-path="url(#clipPath21)"
        x1="50"
        y2="146" />
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g361"
-     transform="translate(481,253)"
+     id="g255"
+     transform="translate(450,32)"
      font-size="11">
     <line
        style="fill:none"
-       id="line363"
+       id="line257"
        y1="127"
        x2="50"
-       clip-path="url(#clipPath30)"
+       clip-path="url(#clipPath22)"
        x1="50"
        y2="50" />
     <line
        style="fill:none"
-       id="line365"
+       id="line259"
        y1="50"
        x2="44"
-       clip-path="url(#clipPath30)"
+       clip-path="url(#clipPath22)"
        x1="50"
        y2="62" />
     <line
        style="fill:none"
-       id="line367"
+       id="line261"
        y1="50"
        x2="56"
-       clip-path="url(#clipPath30)"
+       clip-path="url(#clipPath22)"
        x1="50"
        y2="62" />
   </g>
   <g
+     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;text-rendering:geometricPrecision"
+     id="g263"
+     transform="translate(163,-29)"
+     font-size="11">
+    <line
+       style="fill:none"
+       id="line265"
+       y1="50"
+       x2="50"
+       clip-path="url(#clipPath23)"
+       x1="50"
+       y2="115" />
+    <line
+       style="fill:none"
+       id="line267"
+       y1="115"
+       x2="56"
+       clip-path="url(#clipPath23)"
+       x1="50"
+       y2="103" />
+    <line
+       style="fill:none"
+       id="line269"
+       y1="115"
+       x2="44"
+       clip-path="url(#clipPath23)"
+       x1="50"
+       y2="103" />
+  </g>
+  <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g369"
-     transform="translate(469,333)"
+     id="g271"
+     transform="translate(438,112)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text371"
-       clip-path="url(#clipPath31)"
+       id="text273"
+       clip-path="url(#clipPath24)"
        y="11"
        xml:space="preserve"
        x="9">[produkty niedostępne]</text>
   </g>
   <g
      style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g373"
-     transform="translate(475,476)"
+     id="g275"
+     transform="translate(444,255)"
      font-size="11">
     <text
        style="stroke:none"
-       id="text375"
-       clip-path="url(#clipPath32)"
+       id="text277"
+       clip-path="url(#clipPath25)"
        y="11"
        xml:space="preserve"
        x="9">[produkty dostępne]</text>
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g377"
-     transform="translate(177,263)"
-     font-size="11">
-    <text
-       style="stroke:none"
-       id="text379"
-       clip-path="url(#clipPath33)"
-       y="11"
-       xml:space="preserve"
-       x="9">[poprawne dane]</text>
-  </g>
-  <g
-     style="font-size:11px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;text-rendering:geometricPrecision"
-     id="g381"
-     transform="translate(193,152)"
-     font-size="11">
-    <text
-       style="stroke:none"
-       id="text383"
-       clip-path="url(#clipPath34)"
-       y="11"
-       xml:space="preserve"
-       x="9">[błędne dane]</text>
   </g>
 </svg>
