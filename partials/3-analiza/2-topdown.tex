@@ -21,6 +21,32 @@
 		\caption{Obsługa klienta}
 	\end{figure}
 
+	\textbf{Opis} \\
+	\underline{1.1 Rozliczenie z klientem}\\
+	Wygenerowanie faktury dla klienta \\
+	\textbf{Strumień wejściowy} Faktury, żądanie \\
+	\textbf{Strumień wyjściowy} Faktury \\
+
+	\underline{1.2 Dodawanie klienta}\\
+	Dodawanie klienta do bazy danych \\
+	\textbf{Strumień wejściowy} Dane klienta \\
+	\textbf{Strumień wyjściowy} Formularz z danymi klienta \\
+
+	\underline{1.3 Dodawanie deklaracji}\\
+	Dodawanie deklaracji do bazy danych \\
+	\textbf{Strumień wejściowy} Deklaracje klienta \\
+	\textbf{Strumień wyjściowy} Deklaracje klienta \\
+
+	\underline{1.4 Zapisz ofertę sprzedaży}\\
+	Zapisanie oferty sprzedaży do bazy danych \\
+	\textbf{Strumień wejściowy} Oferty \\
+	\textbf{Strumień wyjściowy} Oferty \\
+
+	\underline{1.5 Zapisz zamówienie}\\
+	Zapisanie zamówienia do bazy danych \\
+	\textbf{Strumień wejściowy} Zamówienia \\
+	\textbf{Strumień wyjściowy} Zamówienia \\
+
 	\begin{figure}[H]
 		\centering
 		\centerline{\includegraphics[width=1.1\textwidth]{img/DFD/2-level-skup.eps}}
@@ -43,6 +69,27 @@
 		\centerline{\includegraphics[width=1.1\textwidth]{img/DFD/2-level-ksiegowosc.eps}}
 		\caption{Obsługa księgowości}
 	\end{figure}
+
+	\textbf{Opis} \\
+	\underline{3.1 Utworzenie faktury}\\
+	Fakturzysta na podstawie danych klientów wystawia faktury \\
+	\textbf{Strumień wejściowy} Dane klientów, Faktury \\
+	\textbf{Strumień wyjściowy} Faktury, Dane kientów \\
+	
+	\underline{3.2 Odczytanie faktur}\\
+	Odczytanie danych o fakturach przez księgowego w celu rozliczenia z US lub stworzenia raportu
+	\textbf{Strumień wejściowy} Faktury\\
+	\textbf{Strumień wyjściowy} Dane przekrojowe \\
+
+	\underline{3.3 Rozliczenie z US}\\
+	Główny księgowy rozlicza się z US.
+	\textbf{Strumień wejściowy} Dane finansowe, żądanie\\
+	\textbf{Strumień wyjściowy} Dane finansowe \\
+
+	\underline{3.4 Tworzenie raportu}\\
+	Stworzenie raportu dla właściciela przez głównego księgowego.
+	\textbf{Strumień wejściowy} Żądanie statystyki\\
+	\textbf{Strumień wyjściowy} Raporty \\
 
 	\begin{figure}[H]
 		\centering
