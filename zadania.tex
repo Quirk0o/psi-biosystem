@@ -1,0 +1,164 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Example: Project Report
+%
+% Source: http://www.howtotex.com
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%% Preamble
+\documentclass[paper=a4, fontsize=12pt]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+
+% For encoding
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+
+\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+
+% Images and figures
+\usepackage[pdftex]{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{pdfpages} % For including PDFs
+\usepackage{pdflscape} % For displaying pages horizontally
+
+\usepackage{url}
+\usepackage[margin=2.5cm]{geometry}
+
+% For better tables
+\usepackage{tabularx}
+
+\usepackage{enumitem}
+
+%%% Custom sectioning
+%\usepackage{sectsty}
+%\allsectionsfont{\normalfont\scshape}
+
+
+%%% Custom headers/footers (fancyhdr package)
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}											% No page header
+\fancyfoot[L]{}											% Empty 
+\fancyfoot[C]{}											% Empty
+\fancyfoot[R]{\thepage}									% Pagenumbering
+\renewcommand{\headrulewidth}{0pt}			% Remove header underlines
+\renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
+\setlength{\headheight}{13.6pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+
+
+%%% Equation and float numberingb
+\numberwithin{equation}{section}		% Equationnumbering: section.eq#
+\numberwithin{figure}{section}			% Figurenumbering: section.fig#
+\numberwithin{table}{section}				% Tablenumbering: section.tab#
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		%\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\normalfont \normalsize \textsc{Akademia Górniczo Hutnicza} \\ [25pt]
+		Wydział Informatyki, Elektroniki i Telekomunikacji
+		\horrule{0.5pt} \\[1cm]
+		\includegraphics[width=.35\textwidth]{img/agh_znk_wbr_cmyk.eps} \\[1.5cm]
+		\huge System usprawniający deklarację i zbiórkę odpadów
+		\horrule{0.5pt} \\[0cm]
+}
+\author{
+		\normalfont \normalsize
+        Mateusz Kwiecień\\[-3pt]	\normalsize
+        Beata Obrok\\[-3pt]			\normalsize
+        Arkadiusz Socha\\[-3pt]		\normalsize
+        Dawid Suder\\[-3pt]			\normalsize
+}
+\date{}
+
+
+%%% Begin document
+\begin{document}
+% \maketitle
+% \tableofcontents
+\clearpage
+
+\paragraph{Beata Obrok} \ \\
+	\begin{itemize}
+		\item Organizacja pracy zespołu
+		\item Przygotowanie środowiska i wzorów plików
+		\item Kontrola czasu pracy członków zespołu 
+		\item Poprawa i unifikacja diagramów
+			\begin{itemize}
+				\item Diagramy Przepływu Danych
+				\item Diagramy Aktywności
+			\end{itemize}
+		\item Gromadzenie informacji w firmie
+		\item Opis struktury organizacyjnej
+		\item Diagram - Struktura grupy kapitałowej
+		\item Diagram - Struktura organizacyjna spółki
+		\item Zwięzła nazwa problemu
+		\item Dokumenty wprowadzane i wyprowadzane z systemu (wzory oraz opisy)
+		\item Diagramy Use Case
+			\begin{itemize}
+				\item Obsługa klienta
+				\item Obsługa skupu
+				\item Księgowość
+				\item Magazyn
+				\item Obsługa kierowców
+			\end{itemize}
+		\item Scenariusze Use Case dla Obsługi Klienta
+		\item Diagram kontekstowy
+		\item Diagram Przepływu Danych - Poziom 1
+		\item Diagram Aktywności - Obsługa klienta
+		\item Projekt interfejsu użytkownika
+	\end{itemize}
+
+\paragraph{Arkadiusz Socha} \ \\
+	\begin{itemize}
+		\item Obszary aktywności
+		\item Opis stanowisk pracy
+		\item Dane przechowywane w systemie
+		\item Scenariusze Use Case: 
+			\begin{itemize}
+				\item Księgowość
+				\item Obsługa magazynu
+			\end{itemize}
+		\item Diagramy Przepływu Danych
+			\begin{itemize}
+				\item Poziom 1 - wstępny schemta
+				\item Obsługa magazynu
+			\end{itemize}
+		\item Roboczy słownik danych
+		\item Relacje w tabeli krzyżowej
+		\item Diagram ERD
+		\item Diagramy aktywności
+			\begin{itemize}
+				\item Ogólny diagram STD
+				\item Obsługa księgowości
+				\item Obsługa magazynu
+			\end{itemize}
+		\item Równoważenie modeli
+		\item Architektura systemu
+	\end{itemize}
+
+\paragraph{Dawid Suder} \ \\
+
+\paragraph{Mateusz Kwiecień} \ \\
+	\begin{itemize}
+		\item Dziedzina problemu
+		\item Cele przedsięwzięcia projektowego
+		\item Wymagania niefunkcjonalne(z podziałem na grupy wymagań)
+		\item Wymagania funkcjonalne dla dodatkowych funkcji systemu(funkcje administracyjne, wspólne i wewnętrzne)
+		\item Diagramy Przepływu Danych
+			\begin{itemize} 
+				\item Obsługa klienta 
+				\item Księgowość
+			\end{itemize}
+		\item Spis encji
+	\end{itemize}
+
+\end{document}
