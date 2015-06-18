@@ -1,0 +1,8 @@
+Na wszystkich komputerach w firmie jest używany System MS Windows, dlatego nie jest potrzebne wsparcie dla wielu platform.
+W naszym projekcie będziemy używać Systemu zarzšdzania bazą danych MySQL, gdyż jest łatwy w obsłudze, zapewnia duże bezpieczeństwo i jest łatwy w zarządzaniu.
+Gdy chodzi o język użyty do stworzenia aplikacji desktopowej, wybór padł na Javę, gdyż jest to język obecnie bardzo popularny,
+obiektowy, co pozwala skupić się na projektowaniu, a nie na samym kodzie, a dodatkowo ma wiele bibliotek ułatwiających tworzenie GUI np. Swing i komunikacji z serwerem przez protokół Http.
+Serwer będzie postawiony używając NodeJS, gdyż jest to prosty sposób na stworzenie serwera komunikującego się poprzez Http ze stroną internetową i Aplikacją desktopową, zapewnia również prosty moduł implementujący protokół MySQL (node-mysql).
+
+Wszystkie moduły zaprezentowane na poziomie 1 diagramu DFD są niezależne, a przepływ informacji odbywa się poprzez bazę danych.
+Dobrym pomysłem byłoby najpierw zaimplementowanie bazy danych, a następnie przejść do robienia modułów, gdyż zapewniłoby nam to spójność danych.
