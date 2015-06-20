@@ -1,4 +1,14 @@
-
+Odwzorowanie magazynów danych z diagramów DFD(3.2.1) w bazie danych:
+\begin{itemize}
+	\item 3.2.1.D1 Klienci - w tabelach "Klienci" i "Klienci z umową"
+	\item 3.2.1.D2 Deklaracje - w tabeli "Deklaracje"
+	\item 3.2.1.D3 Faktury - są czerpane z tabeli "Transakcje", nie ma sensu trzymać ich w bazie
+	\item 3.2.1.D4 Oferty sprzedaży - w tabeli "Oferty sprzedaży"
+	\item 3.2.1.D5 Zamówienia - w tabeli "Zamówienia"
+	\item 3.2.1.D6 Magazyn - w tabeli "Produkt"
+	\item 3.2.1.D7 Oświadczenia oddzysku - są czerpane z "Zleceń przetworzenia"
+	\item 3.2.1.D8 Zlecenie odbioru - są czerpane z "Ofert sprzedaży", bo wtedy Biosystem S.A jest zobowiązany od odebrania odpadów od klientów
+\end{itemize}
 
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 
